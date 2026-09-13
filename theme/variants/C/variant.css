@@ -1,95 +1,196 @@
 /*
  * Kierunek C: „Redakcyjny”.
- * Serwis analityczny: serif w nagłówkach, cienkie linie, ciepła biel, autor i data na widoku.
+ * Serwis analityczny: serif w nagłówkach, cienkie linie, ciepła biel (#f0ebe3), brąz i zieleń, autor i data na widoku.
  * Plik kopiowany przez scripts/build-theme-zip.sh do assets/css/variant.css.
  */
 :root {
-	--gdp-radius: 2px;
+	--gdp-radius: 4px;
+	--gdp-radius-s: 2px;
+	--gdp-radius-l: 4px;
 	--gdp-border-width: 1px;
+	--gdp-shadow-1: none;
+	--gdp-shadow-2: none;
+	--gdp-shadow-3: 0 1px 0 var(--wp--preset--color--line);
+	--gdp-hero-bg: var(--wp--preset--color--surface);
+	--gdp-hero-muted: var(--wp--preset--color--secondary);
+	--gdp-table-head-bg: var(--wp--preset--color--secondary);
+	--gdp-table-head-text: var(--wp--preset--color--base);
+	--gdp-cta-bg: var(--wp--preset--color--secondary);
+	--gdp-footer-bg: var(--wp--preset--color--surface);
 }
 
-/* Hero: nagłówek redakcyjny z cienką linią górną i dolną */
+/* Serif w nagłówkach (Georgia) – także w edytorze */
+h1, h2, h3, h4,
+.wp-block-heading,
+.wp-block-post-title,
+.gdp-trust-bar .gdp-wartosc {
+	font-family: var(--wp--preset--font-family--heading);
+}
+
+/* Hero: ciepłe tło, nagłówek redakcyjny z cienką linią górną i dolną */
 .gdp-hero {
 	border-top: 3px solid var(--wp--preset--color--contrast);
-	border-bottom: 1px solid var(--wp--preset--color--line);
+	border-bottom: 2px solid var(--wp--preset--color--line);
 }
 
 .gdp-hero h1 {
 	font-weight: 400;
 	letter-spacing: -0.01em;
+	line-height: 1.12;
 }
 
-.gdp-hero .gdp-formularz {
+.gdp-hero .gdp-hero-form {
 	border: 1px solid var(--wp--preset--color--line);
-	background: var(--wp--preset--color--surface);
+	background: var(--wp--preset--color--base);
 }
 
-/* Pasek zaufania: styl „danych z raportu” */
-.gdp-zaufanie .wp-block-column {
-	border-top: 1px solid var(--wp--preset--color--contrast);
-	padding-top: var(--wp--preset--spacing--20);
+.gdp-hero .gdp-lista-korzysci li::before {
+	width: 0.5rem;
+	height: 0.5rem;
+	top: 0.7em;
+	border-radius: 50%;
 }
 
-.gdp-zaufanie .gdp-wartosc {
-	font-family: var(--wp--preset--font-family--heading);
-	font-size: var(--wp--preset--font-size--xl);
+.gdp-product-hero {
+	border-bottom: 2px solid var(--wp--preset--color--line);
+}
+
+.gdp-product-hero h1 {
 	font-weight: 400;
 }
 
-/* Tabele: klasyczna tabela redakcyjna, tylko poziome cienkie linie */
-.gdp-table-scroll table {
-	border: 0;
-	border-top: 2px solid var(--wp--preset--color--contrast);
-	border-bottom: 1px solid var(--wp--preset--color--contrast);
+/* Pasek zaufania: styl „danych z raportu” */
+.gdp-trust-bar {
+	background: var(--wp--preset--color--base);
+	border-top: 0;
+	border-bottom: 1px solid var(--wp--preset--color--line);
 }
 
-.gdp-table-scroll th,
-.gdp-table-scroll td {
+.gdp-trust-bar .wp-block-column {
 	border-left: 0;
-	border-right: 0;
+	border-top: 1px solid var(--wp--preset--color--contrast);
+	padding-left: 0;
+	padding-top: var(--wp--preset--spacing--20);
 }
 
-.gdp-table-scroll thead th {
-	background: transparent;
-	border-bottom: 1px solid var(--wp--preset--color--contrast);
-	font-family: var(--wp--preset--font-family--body);
-	font-size: var(--wp--preset--font-size--xs);
-	font-weight: 600;
+.gdp-trust-bar .gdp-wartosc {
+	font-size: var(--wp--preset--font-size--l);
+	font-weight: 400;
 }
 
-.gdp-table-scroll tbody tr:last-child td {
-	border-bottom: 0;
-}
-
-/* Karty i kroki: bez cieni, cienka ramka, numer kroku jako serif */
-.gdp-karta {
+/* Tabele: klasyczna tabela redakcyjna, poziome cienkie linie, brązowy nagłówek */
+.gdp-price-table .wp-block-table,
+.gdp-example .wp-block-table {
 	border: 1px solid var(--wp--preset--color--line);
 	box-shadow: none;
 }
 
-.gdp-krok__numer {
+.wp-block-table table {
+	border-top: 2px solid var(--wp--preset--color--contrast);
+}
+
+.wp-block-table thead th {
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: var(--wp--preset--font-size--s);
+	font-family: var(--wp--preset--font-family--heading);
+	font-weight: 400;
+	font-style: italic;
+	border-radius: 0 !important;
+}
+
+.wp-block-table td {
+	border-bottom: 1px solid var(--wp--preset--color--line);
+}
+
+.wp-block-table tbody tr:last-child td {
+	border-bottom: 1px solid var(--wp--preset--color--contrast);
+}
+
+/* Karty i kroki: bez cieni, cienka ramka, numer kroku jako serif w okręgu */
+.gdp-card {
+	border-radius: var(--gdp-radius);
+	box-shadow: none;
+	border: 1px solid var(--wp--preset--color--line);
+}
+
+.gdp-card:hover {
+	transform: none;
+	box-shadow: none;
+	border-color: var(--wp--preset--color--secondary);
+}
+
+.gdp-step {
+	background: transparent;
+	border: 0;
+	border-top: 1px solid var(--wp--preset--color--contrast);
+	border-radius: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.gdp-krok__numer,
+.gdp-step-number,
+.gdp-mechanizm ol > li::before {
 	background: transparent;
 	color: var(--wp--preset--color--primary);
 	border: 1px solid var(--wp--preset--color--primary);
 	font-family: var(--wp--preset--font-family--heading);
-	font-size: var(--wp--preset--font-size--l);
+	font-weight: 400;
+}
+
+/* FAQ: cienkie linie, znak +/- bez tła */
+.wp-block-details {
+	border-radius: 2px;
+}
+
+.wp-block-details summary::after {
+	background: transparent;
+	font-family: var(--wp--preset--font-family--heading);
 }
 
 /* Lista komentarzy rynkowych: data i autor jak w serwisie prasowym */
+.gdp-komentarze .wp-block-post {
+	border-top: 2px solid var(--wp--preset--color--contrast);
+	border-radius: 0;
+	box-shadow: none;
+}
+
 .gdp-komentarze .wp-block-post-title {
-	font-family: var(--wp--preset--font-family--heading);
 	font-weight: 400;
+	font-size: var(--wp--preset--font-size--l);
 }
 
 .gdp-komentarze .wp-block-post-date,
 .gdp-komentarze .wp-block-post-author-name {
-	text-transform: uppercase;
 	letter-spacing: 0.06em;
-	font-size: var(--wp--preset--font-size--xs);
+}
+
+/* CTA końcowe: brąz, biały tekst, zielony przycisk */
+.gdp-cta-final h2 {
+	font-weight: 400;
+}
+
+.gdp-cta-kalkulator .wp-block-columns {
+	border-left: 1px solid var(--wp--preset--color--line);
+	border-top: 2px solid var(--wp--preset--color--contrast);
+	box-shadow: none;
 }
 
 /* Przyciski: dyskretne, lekko zaokrąglone */
-.wp-block-button__link {
-	border-radius: var(--gdp-radius);
-	font-weight: 500;
+.wp-block-button__link,
+.wp-element-button,
+[data-id="button"] .ct-button {
+	border-radius: var(--gdp-radius-s);
+	font-weight: 600;
+}
+
+.wp-block-button__link:hover {
+	transform: none;
+	box-shadow: none;
+}
+
+/* Stopka: ciepła biel z cienką linią górną */
+.ct-footer {
+	border-top: 2px solid var(--wp--preset--color--contrast);
 }

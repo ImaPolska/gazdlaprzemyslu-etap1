@@ -416,13 +416,13 @@ def theme_mods(variant_key: str, v: dict) -> dict:
         "site_background": {"background_type": "color", "backgroundColor": {"default": {"color": pal("base")}}},
         # --- Typografia globalna: wyłącznie fonty systemowe (zero Google Fonts) ---
         "rootTypography": typography(body_font, "17px", "1.6"),
-        "h1Typography": typography(heading_font, "44px", "1.1", {"letter-spacing": v["headingLetterSpacing"]}),
-        "h2Typography": typography(heading_font, "34px", "1.2", {"letter-spacing": v["headingLetterSpacing"]}),
-        "h3Typography": typography(heading_font, "24px", "1.25"),
+        "h1Typography": typography(heading_font, "clamp(2.5rem, 5vw, 4rem)", "1.1", {"letter-spacing": v["headingLetterSpacing"]}),
+        "h2Typography": typography(heading_font, "clamp(2rem, 3.5vw, 3rem)", "1.15", {"letter-spacing": v["headingLetterSpacing"]}),
+        "h3Typography": typography(heading_font, "clamp(1.5rem, 2.5vw, 2.25rem)", "1.2"),
         "h4Typography": typography(heading_font, "20px", "1.3"),
         "h5Typography": typography(heading_font, "18px", "1.3"),
         "h6Typography": typography(heading_font, "16px", "1.3"),
-        "buttons": typography(body_font, "16px", "1.3", {"variation": "n6"}),
+        "buttons": typography(body_font, "16px", "1.2", {"variation": "n7"}),
         # --- Układ ---
         "maxSiteWidth": 1200,
         "contentAreaSpacing": {"desktop": "0px", "tablet": "0px", "mobile": "0px"},

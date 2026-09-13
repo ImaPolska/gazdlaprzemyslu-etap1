@@ -1,67 +1,154 @@
 /*
  * Kierunek A: „Przemysłowy”.
- * Surowy, inżynierski układ: ostre linie, dużo białego, liczby w kroju mono.
+ * Surowy, inżynierski układ: ostre linie, dużo białego, liczby w kroju mono, ceglasty akcent.
  * Plik kopiowany przez scripts/build-theme-zip.sh do assets/css/variant.css.
+ * Kolory: wyłącznie zmienne --wp--preset-* z theme.json (primary #bf4600, contrast #212121, surface #f5f5f5).
  */
 :root {
 	--gdp-radius: 0px;
+	--gdp-radius-s: 0px;
+	--gdp-radius-l: 0px;
 	--gdp-border-width: 1px;
+	--gdp-shadow-1: none;
+	--gdp-shadow-2: 0 2px 0 var(--wp--preset--color--contrast);
+	--gdp-shadow-3: 8px 8px 0 var(--wp--preset--color--contrast);
+	--gdp-hero-bg: linear-gradient(135deg, var(--wp--preset--color--surface) 0%, var(--wp--preset--color--base) 100%);
+	--gdp-table-head-bg: var(--wp--preset--color--surface);
+	--gdp-table-head-text: var(--wp--preset--color--contrast);
+	--gdp-cta-bg: var(--wp--preset--color--contrast);
 }
 
-/* Hero: dwie kolumny na białym tle, formularz jako atrapa z ostrą ramką */
+/* Hero: jasny gradient, gruba ceglasta linia dolna, formularz z ostrą ramką i „twardym” cieniem */
 .gdp-hero {
-	border-bottom: 2px solid var(--wp--preset--color--contrast);
+	border-bottom: 4px solid var(--wp--preset--color--primary);
 }
 
-.gdp-hero .gdp-formularz {
+.gdp-hero h1 {
+	font-weight: 800;
+	text-transform: none;
+}
+
+.gdp-hero .gdp-hero-form {
 	border: 2px solid var(--wp--preset--color--contrast);
 }
 
-/* Pasek zaufania: liczby duże, mono, z linią oddzielającą */
-.gdp-zaufanie .gdp-wartosc {
-	font-family: var(--wp--preset--font-family--mono);
-	font-size: var(--wp--preset--font-size--xl);
-	letter-spacing: -0.02em;
-}
-
-.gdp-zaufanie .wp-block-column {
-	border-left: 2px solid var(--wp--preset--color--line);
-	padding-left: var(--wp--preset--spacing--30);
-}
-
-/* Tabele: ostre linie, mono w liczbach, nagłówek na tle surface */
-.gdp-table-scroll table {
-	border: var(--gdp-border-width) solid var(--wp--preset--color--contrast);
-}
-
-.gdp-table-scroll thead th {
-	background: var(--wp--preset--color--surface);
-	border-bottom: 2px solid var(--wp--preset--color--contrast);
-	text-transform: uppercase;
-	letter-spacing: 0.04em;
-	font-size: var(--wp--preset--font-size--xs);
-}
-
-.gdp-table-scroll td.num {
-	font-family: var(--wp--preset--font-family--mono);
-}
-
-/* Karty i kroki: numer kroku jako kwadrat */
-.gdp-krok__numer {
-	background: var(--wp--preset--color--contrast);
-	color: var(--wp--preset--color--base);
-	font-family: var(--wp--preset--font-family--mono);
+.gdp-hero .gdp-lista-korzysci li::before {
 	border-radius: 0;
 }
 
-.gdp-karta {
-	border-top: 3px solid var(--wp--preset--color--primary);
+/* Hero produktu: pasek techniczny zamiast gradientu */
+.gdp-product-hero {
+	background: var(--wp--preset--color--base);
+	border-top: 1px solid var(--wp--preset--color--line);
+	border-bottom: 4px solid var(--wp--preset--color--primary);
+}
+
+/* Pasek zaufania: liczby duże, mono, z pionową linią */
+.gdp-trust-bar {
+	background: var(--wp--preset--color--contrast);
+	border: 0;
+	color: var(--wp--preset--color--base);
+}
+
+.gdp-trust-bar .wp-block-column {
+	border-left: 2px solid var(--wp--preset--color--primary);
+}
+
+.gdp-trust-bar .gdp-wartosc {
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: var(--wp--preset--font-size--l);
+	letter-spacing: -0.02em;
+	color: var(--wp--preset--color--base);
+}
+
+.gdp-trust-bar .has-xs-font-size {
+	color: var(--wp--preset--color--line);
+}
+
+/* Tabele: ostre linie, mono w liczbach, nagłówek wersalikami na tle surface z grubą linią */
+.wp-block-table table {
+	border: 1px solid var(--wp--preset--color--contrast);
+}
+
+.wp-block-table thead th {
+	border-bottom: 2px solid var(--wp--preset--color--contrast);
+}
+
+.wp-block-table td {
+	border-right: 1px solid var(--wp--preset--color--line);
+}
+
+.wp-block-table td:last-child {
+	border-right: 0;
+}
+
+.gdp-price-table .wp-block-table td:not(:first-child),
+.gdp-table-scroll td.num {
+	font-family: var(--wp--preset--font-family--mono);
+	font-variant-numeric: tabular-nums;
+}
+
+.gdp-price-table .wp-block-table {
+	border: 0;
+	box-shadow: none;
+}
+
+/* Karty i kroki: górna ceglasta belka, numer kroku jako czarny kwadrat */
+.gdp-card {
+	border-top: 4px solid var(--wp--preset--color--primary);
+}
+
+.gdp-card:hover {
+	transform: none;
+	box-shadow: 4px 4px 0 var(--wp--preset--color--contrast);
+}
+
+.gdp-step {
+	border: 0;
+	border-left: 2px solid var(--wp--preset--color--line);
+	background: transparent;
+	padding-top: 0;
+}
+
+.gdp-krok__numer,
+.gdp-step-number {
+	background: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--base);
+	border-radius: 0;
+}
+
+.gdp-mechanizm ol > li::before {
+	border-radius: 0;
+}
+
+/* FAQ: lista techniczna, bez zaokrągleń, znak +/- w kwadracie */
+.wp-block-details summary::after {
+	border-radius: 0;
+	background: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--base);
+}
+
+/* CTA: czarny pas, ceglasty przycisk */
+.gdp-cta-kalkulator .wp-block-columns {
+	border-left-width: 8px;
 }
 
 /* Przyciski: bez zaokrągleń, wersalikowe litery */
-.wp-block-button__link {
+.wp-block-button__link,
+.wp-element-button,
+[data-id="button"] .ct-button {
 	border-radius: 0;
 	text-transform: uppercase;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.06em;
 	font-size: var(--wp--preset--font-size--xs);
+}
+
+.wp-block-button__link:hover {
+	transform: none;
+	box-shadow: 3px 3px 0 var(--wp--preset--color--contrast);
+}
+
+/* Stopka: jasnoszara z czarną linią */
+.ct-footer {
+	border-top: 3px solid var(--wp--preset--color--contrast);
 }

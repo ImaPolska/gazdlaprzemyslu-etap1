@@ -1,109 +1,225 @@
 /*
  * Kierunek B: „Energetyczny”.
- * Ciemny nagłówek i hero (granat), jeden mocny akcent (turkus), zaokrąglone karty.
+ * Ciemny nagłówek i hero (granat #0d1b2a), jeden mocny akcent (turkus), zaokrąglone karty, miękkie cienie.
  * Plik kopiowany przez scripts/build-theme-zip.sh do assets/css/variant.css.
+ * Uwaga: w tym kierunku token „surface” jest granatem, dlatego jasne sekcje alternujące używają --gdp-jasne-tlo.
  */
 :root {
 	--gdp-radius: 12px;
+	--gdp-radius-s: 8px;
+	--gdp-radius-l: 16px;
 	--gdp-border-width: 1px;
 	--gdp-ciemne-tlo: var(--wp--preset--color--surface);
+	--gdp-ciemne-tlo-2: #1a1a2e;
 	--gdp-ciemna-karta: #16283d;
 	--gdp-ciemny-tekst: var(--wp--preset--color--base);
 	--gdp-ciemny-tekst-2: #c5d0dc;
+	--gdp-jasne-tlo: #eef3f8;
+	--gdp-jasna-linia: #d6e0ea;
+	--gdp-shadow-1: 0 4px 16px rgba(13, 27, 42, 0.06);
+	--gdp-shadow-2: 0 8px 28px rgba(13, 27, 42, 0.10);
+	--gdp-shadow-3: 0 24px 60px rgba(0, 0, 0, 0.40);
+	--gdp-hero-bg: linear-gradient(135deg, var(--gdp-ciemne-tlo) 0%, var(--gdp-ciemne-tlo-2) 100%);
+	--gdp-hero-text: var(--gdp-ciemny-tekst);
+	--gdp-hero-muted: var(--gdp-ciemny-tekst-2);
+	--gdp-surface-bg: var(--gdp-jasne-tlo);
+	--gdp-table-head-bg: var(--gdp-ciemne-tlo);
+	--gdp-table-head-text: var(--gdp-ciemny-tekst);
+	--gdp-cta-bg: linear-gradient(135deg, var(--gdp-ciemne-tlo) 0%, var(--gdp-ciemne-tlo-2) 100%);
+	--gdp-cta-text: var(--gdp-ciemny-tekst);
+	--gdp-footer-bg: var(--gdp-ciemne-tlo);
 }
 
-/* Hero: pełna szerokość na ciemnym granacie, formularz w jasnej karcie */
-.gdp-hero {
-	background: var(--gdp-ciemne-tlo);
-	color: var(--gdp-ciemny-tekst);
-	padding-top: var(--wp--preset--spacing--70);
-	padding-bottom: var(--wp--preset--spacing--70);
+/* Linia w jasnych sekcjach: token „line” (#1e3a5f) jest za ciemny na jasnym tle */
+.entry-content,
+.gdp-card,
+.gdp-step,
+.wp-block-details,
+.gdp-formularz,
+.gdp-form-card,
+.gdp-trust-bar,
+.gdp-cta-kalkulator .wp-block-columns,
+.gdp-komentarze .wp-block-post,
+.wp-block-table td {
+	--wp--preset--color--line: var(--gdp-jasna-linia);
 }
 
+/* Hero: pełna szerokość na ciemnym granacie, formularz jako półprzezroczysta ciemna karta */
 .gdp-hero h1,
-.gdp-hero h2,
-.gdp-hero h3 {
+.gdp-hero h2 {
 	color: var(--gdp-ciemny-tekst);
 }
 
-.gdp-hero p {
+.gdp-hero p,
+.gdp-hero li {
 	color: var(--gdp-ciemny-tekst-2);
+}
+
+.gdp-hero .gdp-etykieta {
+	color: var(--wp--preset--color--primary);
 }
 
 .gdp-hero a:not(.wp-block-button__link) {
 	color: var(--wp--preset--color--primary);
 }
 
-.gdp-hero .gdp-formularz {
-	background: var(--wp--preset--color--base);
-	color: var(--wp--preset--color--contrast);
-	border: 0;
-	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+.gdp-hero .gdp-hero-form {
+	background: rgba(255, 255, 255, 0.07);
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	color: var(--gdp-ciemny-tekst);
+	backdrop-filter: blur(8px);
 }
 
-.gdp-hero .gdp-formularz p,
-.gdp-hero .gdp-formularz h2,
-.gdp-hero .gdp-formularz h3 {
-	color: var(--wp--preset--color--contrast);
-}
-
-/* Pasek zaufania: ciemne karty pod hero */
-.gdp-zaufanie {
-	background: var(--gdp-ciemne-tlo);
+.gdp-hero .gdp-hero-form h2,
+.gdp-hero .gdp-hero-form h3 {
 	color: var(--gdp-ciemny-tekst);
 }
 
-.gdp-zaufanie .wp-block-column {
-	background: var(--gdp-ciemna-karta);
-	border-radius: var(--gdp-radius);
-	padding: var(--wp--preset--spacing--30);
-}
-
-.gdp-zaufanie .wp-block-column p {
+.gdp-hero .gdp-hero-form p {
 	color: var(--gdp-ciemny-tekst-2);
 }
 
-.gdp-zaufanie .gdp-wartosc {
+.gdp-hero .gdp-hero-form .gdp-field {
+	background: rgba(255, 255, 255, 0.10);
+	border-color: rgba(255, 255, 255, 0.20);
+	color: rgba(255, 255, 255, 0.75);
+	box-shadow: none;
+}
+
+.gdp-hero .gdp-hero-form .gdp-field--file {
+	background: rgba(255, 255, 255, 0.06);
+	border-color: rgba(255, 255, 255, 0.35);
+	color: var(--gdp-ciemny-tekst);
+}
+
+.gdp-hero .gdp-hero-form .gdp-prawne {
+	border-top-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Hero produktu: ten sam granat, turkusowa linia dolna */
+.gdp-product-hero {
+	border-bottom: 3px solid var(--wp--preset--color--primary);
+}
+
+.gdp-product-hero .has-m-font-size {
+	color: var(--gdp-ciemny-tekst-2);
+}
+
+/* Pasek zaufania: ciemne karty pod hero (ciągłość z hero) */
+.gdp-trust-bar {
+	background: var(--gdp-ciemne-tlo-2);
+	border: 0;
+	color: var(--gdp-ciemny-tekst);
+}
+
+.gdp-trust-bar .wp-block-column {
+	background: var(--gdp-ciemna-karta);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-radius: var(--gdp-radius);
+	padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--40);
+}
+
+.gdp-trust-bar .wp-block-column p {
+	color: var(--gdp-ciemny-tekst-2);
+}
+
+.gdp-trust-bar .gdp-wartosc {
 	color: var(--wp--preset--color--primary);
-	font-size: var(--wp--preset--font-size--xl);
 }
 
-/* Sekcje na tle surface na jasnej stronie: zamiast granatu użyj bardzo jasnego błękitu */
-.gdp-sekcja--surface:not(.gdp-hero):not(.gdp-zaufanie) {
-	background: #eef3f8;
+/* Sekcje alternujące na jasnej stronie: bardzo jasny błękit zamiast granatu */
+.gdp-sekcja--surface:not(.gdp-hero):not(.gdp-trust-bar),
+.gdp-surface {
+	background: var(--gdp-jasne-tlo) !important;
 }
 
-/* Tabele jako zaokrąglone karty */
-.gdp-table-scroll table {
+.gdp-surface .wp-block-table tbody tr:hover td,
+.gdp-field--file,
+.gdp-slot .gdp-wynik,
+.wp-block-details summary::after,
+.wp-block-details summary:hover,
+.gdp-mechanizm ol + p {
+	background: var(--gdp-jasne-tlo);
+}
+
+.gdp-placeholder {
+	background: var(--gdp-jasne-tlo);
+	border-color: var(--gdp-jasna-linia);
+}
+
+/* Tabele jako zaokrąglone karty z granatowym nagłówkiem */
+.gdp-price-table .wp-block-table,
+.gdp-example .wp-block-table {
 	border: 0;
 	border-radius: var(--gdp-radius);
 	overflow: hidden;
-	box-shadow: 0 1px 0 var(--wp--preset--color--line), 0 8px 24px rgba(13, 27, 42, 0.06);
+	box-shadow: 0 1px 0 var(--gdp-jasna-linia), 0 8px 24px rgba(13, 27, 42, 0.06);
 }
 
-.gdp-table-scroll thead th {
-	background: var(--gdp-ciemne-tlo);
-	color: var(--gdp-ciemny-tekst);
-	border: 0;
+.wp-block-table tbody tr:nth-child(even) td {
+	background: #f7fafc;
 }
 
-.gdp-table-scroll tbody tr:nth-child(even) td {
-	background: #f4f8fb;
+/* Karty i kroki: mocniej zaokrąglone, numer w turkusowym kole z ciemną cyfrą (kontrast 7.4:1) */
+.gdp-card {
+	border-radius: var(--gdp-radius-l);
+	border-color: var(--gdp-jasna-linia);
 }
 
-/* Karty i kroki: zaokrąglone, numer w kole */
-.gdp-karta {
-	border-radius: var(--gdp-radius);
-	box-shadow: 0 8px 24px rgba(13, 27, 42, 0.06);
+.gdp-step {
+	border-radius: var(--gdp-radius-l);
 }
 
-.gdp-krok__numer {
-	border-radius: 50%;
+.gdp-krok__numer,
+.gdp-step-number,
+.gdp-mechanizm ol > li::before {
 	background: var(--wp--preset--color--primary);
-	color: var(--wp--preset--color--surface);
+	color: var(--gdp-ciemne-tlo);
+}
+
+.gdp-hero .gdp-lista-korzysci li::before {
+	border-radius: 50%;
+}
+
+/* Komentarze rynkowe: karty bez górnej belki, z cieniem */
+.gdp-komentarze .wp-block-post {
+	border-top: 1px solid var(--gdp-jasna-linia);
+}
+
+/* CTA końcowe: granatowy gradient, turkusowy przycisk z ciemnym tekstem */
+.gdp-cta-final .wp-block-button__link {
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 }
 
 /* Przyciski: pigułki */
-.wp-block-button__link {
+.wp-block-button__link,
+.wp-element-button,
+[data-id="button"] .ct-button {
 	border-radius: 999px;
+}
+
+/* Stopka: granat z jasnym tekstem */
+.ct-footer {
+	border-top: 0;
+	color: var(--gdp-ciemny-tekst-2);
+}
+
+.ct-footer .wp-block-heading,
+.ct-footer .widget-title {
+	color: var(--gdp-ciemny-tekst);
+}
+
+.ct-footer .wp-block-list a,
+.ct-footer .gdp-prawne,
+.ct-footer .gdp-zastrzezenie p,
+.ct-footer [data-row="bottom"] {
+	color: var(--gdp-ciemny-tekst-2);
+}
+
+.ct-footer .wp-block-list a:hover {
+	color: var(--wp--preset--color--primary);
+}
+
+.ct-footer [data-row="bottom"] {
+	border-top-color: rgba(255, 255, 255, 0.10);
 }

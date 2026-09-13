@@ -14,3 +14,5 @@
 - Tokeny projektowe `config/tokens.json`, generator `scripts/build-theme-json.py`.
 - Motyw potomny `gdp-child` (style.css, functions.php, theme.json).
 - Decyzje dnia 1: D-01…D-04 w `docs/decisions.md`.
+
+- P1.1 (2026-09-13): warstwa wizualna – klasy CSS w blokach (gdp-hero, gdp-hero-form, gdp-trust-bar, gdp-segments/gdp-card, gdp-steps/gdp-step, gdp-price-table, gdp-faq, gdp-cta-final, gdp-surface, gdp-product-hero, gdp-section, gdp-risks, gdp-example), rozbudowany style.css, przepisane warianty A/B/C, płynna typografia (clamp) w theme.json; przebudowa WXR i ZIP.

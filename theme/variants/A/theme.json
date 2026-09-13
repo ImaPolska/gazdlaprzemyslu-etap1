@@ -118,29 +118,20 @@
         {
           "slug": "l",
           "name": "L",
-          "size": "1.5rem",
-          "fluid": {
-            "min": "1.25rem",
-            "max": "1.75rem"
-          }
+          "size": "clamp(1.5rem, 2.5vw, 2.25rem)",
+          "fluid": false
         },
         {
           "slug": "xl",
           "name": "XL",
-          "size": "2.25rem",
-          "fluid": {
-            "min": "1.75rem",
-            "max": "2.75rem"
-          }
+          "size": "clamp(2rem, 3.5vw, 3rem)",
+          "fluid": false
         },
         {
           "slug": "xxl",
           "name": "XXL",
-          "size": "3.25rem",
-          "fluid": {
-            "min": "2.25rem",
-            "max": "4rem"
-          }
+          "size": "clamp(2.5rem, 5vw, 4rem)",
+          "fluid": false
         }
       ]
     },

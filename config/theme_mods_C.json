@@ -119,7 +119,7 @@
   "h1Typography": {
     "family": "Georgia",
     "variation": "n7",
-    "size": "44px",
+    "size": "clamp(2.5rem, 5vw, 4rem)",
     "line-height": "1.1",
     "letter-spacing": "0",
     "text-transform": "none",
@@ -128,8 +128,8 @@
   "h2Typography": {
     "family": "Georgia",
     "variation": "n7",
-    "size": "34px",
-    "line-height": "1.2",
+    "size": "clamp(2rem, 3.5vw, 3rem)",
+    "line-height": "1.15",
     "letter-spacing": "0",
     "text-transform": "none",
     "text-decoration": "none"
@@ -137,8 +137,8 @@
   "h3Typography": {
     "family": "Georgia",
     "variation": "n7",
-    "size": "24px",
-    "line-height": "1.25",
+    "size": "clamp(1.5rem, 2.5vw, 2.25rem)",
+    "line-height": "1.2",
     "letter-spacing": "0em",
     "text-transform": "none",
     "text-decoration": "none"
@@ -172,9 +172,9 @@
   },
   "buttons": {
     "family": "System Default",
-    "variation": "n6",
+    "variation": "n7",
     "size": "16px",
-    "line-height": "1.3",
+    "line-height": "1.2",
     "letter-spacing": "0em",
     "text-transform": "none",
     "text-decoration": "none"

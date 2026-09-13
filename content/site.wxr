@@ -56,8 +56,8 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/?p=9001</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"CTA: wgraj fakturę"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-cta gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"760px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-cta gdp-sekcja--surface">
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"CTA: wgraj fakturę"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-cta gdp-cta-final","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-cta gdp-cta-final">
 <!-- wp:heading {"textAlign":"center","metadata":{"name":"Nagłówek CTA","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
 <h2 class="wp-block-heading has-text-align-center">Prześlij ostatnią fakturę za gaz</h2>
 <!-- /wp:heading -->
@@ -99,8 +99,8 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/?p=9002</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: upload faktury"},"templateLock":"contentOnly","className":"gdp-formularz gdp-slot gdp-slot--m1","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left"}} -->
-<div class="wp-block-group gdp-formularz gdp-slot gdp-slot--m1">
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: upload faktury"},"templateLock":"contentOnly","className":"gdp-formularz gdp-hero-form gdp-slot gdp-slot--m1","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left"}} -->
+<div class="wp-block-group gdp-formularz gdp-hero-form gdp-slot gdp-slot--m1">
 <!-- wp:heading {"level":2,"fontSize":"l"} -->
 <h2 class="wp-block-heading has-l-font-size">Oferta z Twojej faktury w 24 godziny</h2>
 <!-- /wp:heading -->
@@ -109,20 +109,20 @@
 <p class="has-xs-font-size">Wystarczy jedna faktura za gaz. Odczytamy z niej taryfę, zużycie i operatora.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole gdp-pole--plik"} -->
-<p class="gdp-pole gdp-pole--plik">Faktura za gaz (PDF, JPG lub PNG). Przeciągnij plik tutaj albo wybierz z dysku.</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-pole--plik gdp-field gdp-field--file"} -->
+<p class="gdp-pole gdp-pole--plik gdp-field gdp-field--file">Faktura za gaz (PDF, JPG lub PNG). Przeciągnij plik tutaj albo wybierz z dysku.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">E-mail służbowy</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">E-mail służbowy</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">Telefon</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">Telefon</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">NIP firmy</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">NIP firmy</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
@@ -166,8 +166,8 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/?p=9003</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: tabela cen"},"templateLock":"contentOnly","className":"gdp-slot gdp-slot--m5","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group gdp-slot gdp-slot--m5">
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: tabela cen"},"templateLock":"contentOnly","className":"gdp-slot gdp-slot--m5 gdp-price-table","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group gdp-slot gdp-slot--m5 gdp-price-table">
 <!-- wp:paragraph {"fontSize":"xs","className":"gdp-meta","metadata":{"name":"Data aktualizacji","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
 <p class="gdp-meta has-xs-font-size">Data aktualizacji pasm: [[data]]</p>
 <!-- /wp:paragraph -->
@@ -207,8 +207,8 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/?p=9004</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: kalkulator wypowiedzenia"},"templateLock":"contentOnly","className":"gdp-formularz gdp-slot gdp-slot--m2","layout":{"type":"constrained","contentSize":"760px"}} -->
-<div class="wp-block-group gdp-formularz gdp-slot gdp-slot--m2">
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: kalkulator wypowiedzenia"},"templateLock":"contentOnly","className":"gdp-formularz gdp-form-card gdp-slot gdp-slot--m2","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group gdp-formularz gdp-form-card gdp-slot gdp-slot--m2">
 <!-- wp:heading {"level":2,"fontSize":"l"} -->
 <h2 class="wp-block-heading has-l-font-size">Do kiedy możesz wypowiedzieć obecną umowę</h2>
 <!-- /wp:heading -->
@@ -217,16 +217,16 @@
 <p class="has-xs-font-size">Wpisz trzy dane z umowy. Kalkulator wskaże ostatni dzień na skuteczne wypowiedzenie i datę, od której PBM może rozpocząć dostawy.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">Data końca obecnej umowy (dd.mm.rrrr)</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">Data końca obecnej umowy (dd.mm.rrrr)</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">Okres wypowiedzenia z umowy (w miesiącach)</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">Okres wypowiedzenia z umowy (w miesiącach)</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">Klauzula prolongacyjna (automatyczne przedłużenie): tak / nie / nie wiem</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">Klauzula prolongacyjna (automatyczne przedłużenie): tak / nie / nie wiem</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
@@ -287,8 +287,8 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/?p=9005</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: analiza umowy"},"templateLock":"contentOnly","className":"gdp-formularz gdp-slot gdp-slot--m3","layout":{"type":"constrained","contentSize":"760px"}} -->
-<div class="wp-block-group gdp-formularz gdp-slot gdp-slot--m3">
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: analiza umowy"},"templateLock":"contentOnly","className":"gdp-formularz gdp-form-card gdp-slot gdp-slot--m3","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group gdp-formularz gdp-form-card gdp-slot gdp-slot--m3">
 <!-- wp:heading {"level":2,"fontSize":"l"} -->
 <h2 class="wp-block-heading has-l-font-size">Sprawdź okno wyjścia z obecnej umowy</h2>
 <!-- /wp:heading -->
@@ -301,8 +301,8 @@
 <p class="gdp-pole gdp-pole--plik">Umowa sprzedaży gazu (PDF). Przeciągnij plik tutaj albo wybierz z dysku.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">E-mail służbowy</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">E-mail służbowy</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"m"} -->
@@ -373,8 +373,8 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/?p=9006</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: formularz doradcy"},"templateLock":"contentOnly","className":"gdp-formularz gdp-slot gdp-slot--m6","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left"}} -->
-<div class="wp-block-group gdp-formularz gdp-slot gdp-slot--m6">
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: formularz doradcy"},"templateLock":"contentOnly","className":"gdp-formularz gdp-form-card gdp-slot gdp-slot--m6","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left"}} -->
+<div class="wp-block-group gdp-formularz gdp-form-card gdp-slot gdp-slot--m6">
 <!-- wp:heading {"level":2,"fontSize":"l"} -->
 <h2 class="wp-block-heading has-l-font-size">Zgłoś się jako doradca</h2>
 <!-- /wp:heading -->
@@ -383,24 +383,24 @@
 <p class="has-xs-font-size">Opiekun kanału partnerskiego oddzwoni w ciągu [[ ]] dni roboczych i przedstawi model współpracy.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">Imię i nazwisko</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">Imię i nazwisko</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">Firma doradcza lub agencja</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">Firma doradcza lub agencja</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">E-mail służbowy</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">E-mail służbowy</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">Telefon</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">Telefon</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"gdp-pole"} -->
-<p class="gdp-pole">Liczba klientów biznesowych z umowami na gaz (orientacyjnie)</p>
+<!-- wp:paragraph {"className":"gdp-pole gdp-field"} -->
+<p class="gdp-pole gdp-field">Liczba klientów biznesowych z umowami na gaz (orientacyjnie)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
@@ -440,16 +440,16 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/?p=9007</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Wzorzec: segmenty"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-segmenty","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-segmenty">
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Wzorzec: segmenty"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-segmenty gdp-segments","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-segmenty gdp-segments">
 <!-- wp:heading {"metadata":{"name":"Nagłówek segmentów","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
 <h2 class="wp-block-heading">Wybierz swoją sytuację</h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns -->
 <div class="wp-block-columns">
-<!-- wp:column {"className":"gdp-karta"} -->
-<div class="wp-block-column gdp-karta">
+<!-- wp:column {"className":"gdp-karta gdp-card"} -->
+<div class="wp-block-column gdp-karta gdp-card">
 <!-- wp:heading {"level":3,"metadata":{"name":"Segment 1: tytuł","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
 <h3 class="wp-block-heading">Zużycie do [[X]] GWh rocznie</h3>
 <!-- /wp:heading -->
@@ -466,8 +466,8 @@
 </div>
 <!-- /wp:column -->
 
-<!-- wp:column {"className":"gdp-karta"} -->
-<div class="wp-block-column gdp-karta">
+<!-- wp:column {"className":"gdp-karta gdp-card"} -->
+<div class="wp-block-column gdp-karta gdp-card">
 <!-- wp:heading {"level":3,"metadata":{"name":"Segment 2: tytuł","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
 <h3 class="wp-block-heading">Zużycie powyżej [[X]] GWh rocznie</h3>
 <!-- /wp:heading -->
@@ -484,8 +484,8 @@
 </div>
 <!-- /wp:column -->
 
-<!-- wp:column {"className":"gdp-karta"} -->
-<div class="wp-block-column gdp-karta">
+<!-- wp:column {"className":"gdp-karta gdp-card"} -->
+<div class="wp-block-column gdp-karta gdp-card">
 <!-- wp:heading {"level":3,"metadata":{"name":"Segment 3: tytuł","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
 <h3 class="wp-block-heading">Jesteś doradcą energetycznym</h3>
 <!-- /wp:heading -->
@@ -529,8 +529,8 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/?p=9008</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Pasek zaufania"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--zwarta gdp-zaufanie","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--zwarta gdp-zaufanie">
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Pasek zaufania"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--zwarta gdp-zaufanie gdp-trust-bar","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--zwarta gdp-zaufanie gdp-trust-bar">
 <!-- wp:columns -->
 <div class="wp-block-columns">
 <!-- wp:column -->
@@ -635,8 +635,8 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/?p=9010</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"FAQ: produkt"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-faq","layout":{"type":"constrained","contentSize":"760px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-faq">
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"FAQ: produkt"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-faq gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-faq gdp-sekcja--surface gdp-surface">
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Pytania o ofertę PBM</h2>
 <!-- /wp:heading -->
@@ -761,8 +761,8 @@
 
 <!-- wp:block {"ref":9007} /-->
 
-<!-- wp:group {"metadata":{"name":"Jak to działa"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-kroki gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-kroki gdp-sekcja--surface">
+<!-- wp:group {"metadata":{"name":"Jak to działa"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-kroki gdp-steps gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-kroki gdp-steps gdp-sekcja--surface gdp-surface">
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Jak to działa</h2>
 <!-- /wp:heading -->
@@ -773,10 +773,10 @@
 
 <!-- wp:columns -->
 <div class="wp-block-columns">
-<!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:paragraph {"className":"gdp-krok__numer"} -->
-<p class="gdp-krok__numer">1</p>
+<!-- wp:column {"className":"gdp-step"} -->
+<div class="wp-block-column gdp-step">
+<!-- wp:paragraph {"className":"gdp-krok__numer gdp-step-number"} -->
+<p class="gdp-krok__numer gdp-step-number">1</p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Wgrywasz fakturę</h3>
@@ -787,10 +787,10 @@
 </div>
 <!-- /wp:column -->
 
-<!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:paragraph {"className":"gdp-krok__numer"} -->
-<p class="gdp-krok__numer">2</p>
+<!-- wp:column {"className":"gdp-step"} -->
+<div class="wp-block-column gdp-step">
+<!-- wp:paragraph {"className":"gdp-krok__numer gdp-step-number"} -->
+<p class="gdp-krok__numer gdp-step-number">2</p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Dostajesz ofertę w 24 godziny</h3>
@@ -801,10 +801,10 @@
 </div>
 <!-- /wp:column -->
 
-<!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:paragraph {"className":"gdp-krok__numer"} -->
-<p class="gdp-krok__numer">3</p>
+<!-- wp:column {"className":"gdp-step"} -->
+<div class="wp-block-column gdp-step">
+<!-- wp:paragraph {"className":"gdp-krok__numer gdp-step-number"} -->
+<p class="gdp-krok__numer gdp-step-number">3</p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Podpisujesz umowę i pełnomocnictwo</h3>
@@ -815,10 +815,10 @@
 </div>
 <!-- /wp:column -->
 
-<!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:paragraph {"className":"gdp-krok__numer"} -->
-<p class="gdp-krok__numer">4</p>
+<!-- wp:column {"className":"gdp-step"} -->
+<div class="wp-block-column gdp-step">
+<!-- wp:paragraph {"className":"gdp-krok__numer gdp-step-number"} -->
+<p class="gdp-krok__numer gdp-step-number">4</p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Zgłaszamy zmianę do operatora</h3>
@@ -833,8 +833,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Skrót tabeli cen"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-ceny","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-ceny">
+<!-- wp:group {"metadata":{"name":"Skrót tabeli cen"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-ceny gdp-price-table","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-ceny gdp-price-table">
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Ile kosztuje gaz dla firmy</h2>
 <!-- /wp:heading -->
@@ -851,8 +851,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Komentarz rynkowy: 3 najnowsze"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--surface">
+<!-- wp:group {"metadata":{"name":"Komentarz rynkowy: 3 najnowsze"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-komentarze-sekcja gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-komentarze-sekcja gdp-sekcja--surface gdp-surface">
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Komentarz rynkowy</h2>
 <!-- /wp:heading -->
@@ -921,8 +921,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"FAQ: strona główna"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-faq","layout":{"type":"constrained","contentSize":"760px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-faq">
+<!-- wp:group {"metadata":{"name":"FAQ: strona główna"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-faq gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-faq gdp-sekcja--surface gdp-surface">
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Pytania, które zadaje większość firm</h2>
 <!-- /wp:heading -->
@@ -1136,8 +1136,8 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/?p=103</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero produktu"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-hero","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-hero">
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero produktu"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-hero gdp-product-hero","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-hero gdp-product-hero">
 <!-- wp:paragraph {"fontSize":"xs","className":"gdp-etykieta"} -->
 <p class="gdp-etykieta has-xs-font-size"><a href="/oferta/">Oferta</a> · Produkt</p>
 <!-- /wp:paragraph -->
@@ -1164,8 +1164,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Definicja i dla kogo"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--surface">
+<!-- wp:group {"metadata":{"name":"Definicja i dla kogo"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section gdp-dla-kogo gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section gdp-dla-kogo gdp-sekcja--surface gdp-surface">
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Dla kogo jest cena stała</h2>
 <!-- /wp:heading -->
@@ -1176,8 +1176,8 @@
 
 <!-- wp:columns -->
 <div class="wp-block-columns">
-<!-- wp:column {"className":"gdp-karta"} -->
-<div class="wp-block-column gdp-karta">
+<!-- wp:column {"className":"gdp-karta gdp-card"} -->
+<div class="wp-block-column gdp-karta gdp-card">
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Cena stała ma sens, gdy</h3>
 <!-- /wp:heading -->
@@ -1200,8 +1200,8 @@
 </div>
 <!-- /wp:column -->
 
-<!-- wp:column {"className":"gdp-karta"} -->
-<div class="wp-block-column gdp-karta">
+<!-- wp:column {"className":"gdp-karta gdp-card"} -->
+<div class="wp-block-column gdp-karta gdp-card">
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Rozważ inny model, gdy</h3>
 <!-- /wp:heading -->
@@ -1225,8 +1225,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Mechanizm"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja","layout":{"type":"constrained","contentSize":"760px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja">
+<!-- wp:group {"metadata":{"name":"Mechanizm"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section gdp-mechanizm","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section gdp-mechanizm">
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Jak działa cena stała</h2>
 <!-- /wp:heading -->
@@ -1257,8 +1257,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Ryzyka i ograniczenia"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"760px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--surface">
+<!-- wp:group {"metadata":{"name":"Ryzyka i ograniczenia"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section gdp-risks gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section gdp-risks gdp-sekcja--surface gdp-surface">
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Ryzyka i ograniczenia</h2>
 <!-- /wp:heading -->
@@ -1267,8 +1267,8 @@
 <p>Cena stała chroni przed wzrostem notowań, ale nie pozwala skorzystać z ich spadku. Poniżej ryzyka, które dotyczą Ciebie, i to, co robimy, żeby je ograniczyć.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:table {"hasFixedLayout":false} -->
-<figure class="wp-block-table"><table><thead><tr><th>Ryzyko</th><th>Kogo dotyczy</th><th>Jak je ograniczamy</th></tr></thead><tbody><tr><td>Spadek cen rynkowych po podpisaniu umowy</td><td>Odbiorca</td><td>Krótsze okresy umowy lub model transzowy zamiast jednej ceny na kilka lat.</td></tr><tr><td>Zużycie poza tolerancją wolumenu</td><td>Odbiorca</td><td>Wolumen ustalamy z faktur za 12 miesięcy i korygujemy przed podpisaniem umowy.</td></tr><tr><td>Zmiana składników regulowanych (dystrybucja, akcyza)</td><td>Odbiorca</td><td>Nie wpływamy na nie; wskazujemy je osobno na fakturze i w ofercie.</td></tr><tr><td>Wcześniejsze rozwiązanie umowy</td><td>Odbiorca</td><td>Umowa określa zasady rozliczenia [[do weryfikacji prawnej: art. 4j ust. 3b Prawa energetycznego dla MŚP]]. Nie sugerujemy rozwiązania umowy przed czasem.</td></tr><tr><td>Sprzedaż rezerwowa po błędnym wypowiedzeniu poprzedniej umowy</td><td>Odbiorca</td><td>Kolejność: umowa z PBM → pełnomocnictwo → wypowiedzenie i zgłoszenie do OSD. Dokument weryfikuje człowiek.</td></tr></tbody></table></figure>
+<!-- wp:table {"hasFixedLayout":false,"className":"gdp-tabela"} -->
+<figure class="wp-block-table gdp-tabela"><table><thead><tr><th>Ryzyko</th><th>Kogo dotyczy</th><th>Jak je ograniczamy</th></tr></thead><tbody><tr><td>Spadek cen rynkowych po podpisaniu umowy</td><td>Odbiorca</td><td>Krótsze okresy umowy lub model transzowy zamiast jednej ceny na kilka lat.</td></tr><tr><td>Zużycie poza tolerancją wolumenu</td><td>Odbiorca</td><td>Wolumen ustalamy z faktur za 12 miesięcy i korygujemy przed podpisaniem umowy.</td></tr><tr><td>Zmiana składników regulowanych (dystrybucja, akcyza)</td><td>Odbiorca</td><td>Nie wpływamy na nie; wskazujemy je osobno na fakturze i w ofercie.</td></tr><tr><td>Wcześniejsze rozwiązanie umowy</td><td>Odbiorca</td><td>Umowa określa zasady rozliczenia [[do weryfikacji prawnej: art. 4j ust. 3b Prawa energetycznego dla MŚP]]. Nie sugerujemy rozwiązania umowy przed czasem.</td></tr><tr><td>Sprzedaż rezerwowa po błędnym wypowiedzeniu poprzedniej umowy</td><td>Odbiorca</td><td>Kolejność: umowa z PBM → pełnomocnictwo → wypowiedzenie i zgłoszenie do OSD. Dokument weryfikuje człowiek.</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
@@ -1277,8 +1277,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Przykład liczbowy"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja","layout":{"type":"constrained","contentSize":"760px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja">
+<!-- wp:group {"metadata":{"name":"Przykład liczbowy"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section gdp-example","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section gdp-example">
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Przykład liczbowy</h2>
 <!-- /wp:heading -->
@@ -1301,16 +1301,16 @@
 </ul>
 <!-- /wp:list -->
 
-<!-- wp:table {"hasFixedLayout":false} -->
-<figure class="wp-block-table"><table><thead><tr><th>Pozycja</th><th>Cena stała</th><th>Cena indeksowana TGE</th></tr></thead><tbody><tr><td>Cena za paliwo gazowe</td><td>[[ ]]</td><td>[[ ]]</td></tr><tr><td>Roczny koszt paliwa gazowego</td><td>[[ ]]</td><td>[[ ]]</td></tr><tr><td>Rozpiętość kosztu przy zmianie notowań o [[ ]]</td><td>0</td><td>[[ ]]</td></tr></tbody></table></figure>
+<!-- wp:table {"hasFixedLayout":false,"className":"gdp-tabela"} -->
+<figure class="wp-block-table gdp-tabela"><table><thead><tr><th>Pozycja</th><th>Cena stała</th><th>Cena indeksowana TGE</th></tr></thead><tbody><tr><td>Cena za paliwo gazowe</td><td>[[ ]]</td><td>[[ ]]</td></tr><tr><td>Roczny koszt paliwa gazowego</td><td>[[ ]]</td><td>[[ ]]</td></tr><tr><td>Rozpiętość kosztu przy zmianie notowań o [[ ]]</td><td>0</td><td>[[ ]]</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:block {"ref":9009} /-->
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"FAQ: cena stała"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-faq gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"760px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-faq gdp-sekcja--surface">
+<!-- wp:group {"metadata":{"name":"FAQ: cena stała"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-faq gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-faq gdp-sekcja--surface gdp-surface">
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Pytania o cenę stałą</h2>
 <!-- /wp:heading -->
