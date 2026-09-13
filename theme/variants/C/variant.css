@@ -1,0 +1,95 @@
+/*
+ * Kierunek C: „Redakcyjny”.
+ * Serwis analityczny: serif w nagłówkach, cienkie linie, ciepła biel, autor i data na widoku.
+ * Plik kopiowany przez scripts/build-theme-zip.sh do assets/css/variant.css.
+ */
+:root {
+	--gdp-radius: 2px;
+	--gdp-border-width: 1px;
+}
+
+/* Hero: nagłówek redakcyjny z cienką linią górną i dolną */
+.gdp-hero {
+	border-top: 3px solid var(--wp--preset--color--contrast);
+	border-bottom: 1px solid var(--wp--preset--color--line);
+}
+
+.gdp-hero h1 {
+	font-weight: 400;
+	letter-spacing: -0.01em;
+}
+
+.gdp-hero .gdp-formularz {
+	border: 1px solid var(--wp--preset--color--line);
+	background: var(--wp--preset--color--surface);
+}
+
+/* Pasek zaufania: styl „danych z raportu” */
+.gdp-zaufanie .wp-block-column {
+	border-top: 1px solid var(--wp--preset--color--contrast);
+	padding-top: var(--wp--preset--spacing--20);
+}
+
+.gdp-zaufanie .gdp-wartosc {
+	font-family: var(--wp--preset--font-family--heading);
+	font-size: var(--wp--preset--font-size--xl);
+	font-weight: 400;
+}
+
+/* Tabele: klasyczna tabela redakcyjna, tylko poziome cienkie linie */
+.gdp-table-scroll table {
+	border: 0;
+	border-top: 2px solid var(--wp--preset--color--contrast);
+	border-bottom: 1px solid var(--wp--preset--color--contrast);
+}
+
+.gdp-table-scroll th,
+.gdp-table-scroll td {
+	border-left: 0;
+	border-right: 0;
+}
+
+.gdp-table-scroll thead th {
+	background: transparent;
+	border-bottom: 1px solid var(--wp--preset--color--contrast);
+	font-family: var(--wp--preset--font-family--body);
+	font-size: var(--wp--preset--font-size--xs);
+	font-weight: 600;
+}
+
+.gdp-table-scroll tbody tr:last-child td {
+	border-bottom: 0;
+}
+
+/* Karty i kroki: bez cieni, cienka ramka, numer kroku jako serif */
+.gdp-karta {
+	border: 1px solid var(--wp--preset--color--line);
+	box-shadow: none;
+}
+
+.gdp-krok__numer {
+	background: transparent;
+	color: var(--wp--preset--color--primary);
+	border: 1px solid var(--wp--preset--color--primary);
+	font-family: var(--wp--preset--font-family--heading);
+	font-size: var(--wp--preset--font-size--l);
+}
+
+/* Lista komentarzy rynkowych: data i autor jak w serwisie prasowym */
+.gdp-komentarze .wp-block-post-title {
+	font-family: var(--wp--preset--font-family--heading);
+	font-weight: 400;
+}
+
+.gdp-komentarze .wp-block-post-date,
+.gdp-komentarze .wp-block-post-author-name {
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	font-size: var(--wp--preset--font-size--xs);
+}
+
+/* Przyciski: dyskretne, lekko zaokrąglone */
+.wp-block-button__link {
+	border-radius: var(--gdp-radius);
+	font-weight: 500;
+}

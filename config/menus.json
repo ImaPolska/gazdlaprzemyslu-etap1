@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "opis": "Struktura menu (sekcja 6.2 i 6.3 instrukcji). Źródło dla scripts/build-wxr.py (nav_menu + nav_menu_item w WXR) oraz dla scripts/playground-setup.php (przypisanie do lokalizacji Blocksy).",
+    "lokalizacje_blocksy": {"menu_1": "glowne", "menu_mobile": "glowne", "footer": "prawne"},
+    "uwaga": "Linki są typu custom (URL względny), bo część stron powstaje dopiero w P1.2. Po P1.2 skrypt może zamienić je na odwołania do stron (object=page)."
+  },
+  "menus": [
+    {
+      "slug": "glowne",
+      "name": "Menu główne",
+      "items": [
+        {"title": "Oferta", "url": "/oferta/", "children": [
+          {"title": "Cena stała", "url": "/oferta/cena-stala/"},
+          {"title": "Cena indeksowana TGE", "url": "/oferta/cena-indeksowana-tge/"},
+          {"title": "Model transzowy", "url": "/oferta/model-transzowy/"},
+          {"title": "Umowa kompleksowa dla MŚP", "url": "/oferta/umowa-kompleksowa-msp/"},
+          {"title": "Biometan (wkrótce)", "url": "/oferta/biometan/"}
+        ]},
+        {"title": "Ceny orientacyjne", "url": "/ceny-orientacyjne/"},
+        {"title": "Narzędzia", "url": "/kalkulator-wypowiedzenia/", "children": [
+          {"title": "Wgraj fakturę", "url": "/wgraj-fakture/"},
+          {"title": "Kalkulator terminu wypowiedzenia", "url": "/kalkulator-wypowiedzenia/"},
+          {"title": "Analiza umowy", "url": "/analiza-umowy/"},
+          {"title": "Dla agentów AI", "url": "/dla-agentow-ai/"}
+        ]},
+        {"title": "Wiedza", "url": "/wiedza/"},
+        {"title": "Dla doradców", "url": "/dla-doradcow/"},
+        {"title": "O nas", "url": "/o-nas/"},
+        {"title": "Kontakt", "url": "/kontakt/"}
+      ]
+    },
+    {
+      "slug": "prawne",
+      "name": "Menu prawne (stopka)",
+      "items": [
+        {"title": "Polityka prywatności", "url": "/polityka-prywatnosci/"},
+        {"title": "Regulamin serwisu", "url": "/regulamin/"},
+        {"title": "Informacja o plikach cookie", "url": "/polityka-prywatnosci/#cookie", "uwaga": "[[slot CMP — etap 3]]"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<!-- wp:group {"metadata":{"name":"Slot: kalkulator wypowiedzenia"},"templateLock":"contentOnly","className":"gdp-formularz gdp-slot gdp-slot--m2","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group gdp-formularz gdp-slot gdp-slot--m2">
+<!-- wp:heading {"level":2,"fontSize":"l"} -->
+<h2 class="wp-block-heading has-l-font-size">Do kiedy możesz wypowiedzieć obecną umowę</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"xs"} -->
+<p class="has-xs-font-size">Wpisz trzy dane z umowy. Kalkulator wskaże ostatni dzień na skuteczne wypowiedzenie i datę, od której PBM może rozpocząć dostawy.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Data końca obecnej umowy (dd.mm.rrrr)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Okres wypowiedzenia z umowy (w miesiącach)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Klauzula prolongacyjna (automatyczne przedłużenie): tak / nie / nie wiem</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/kontakt/">Oblicz termin</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+
+<!-- wp:group {"className":"gdp-karta gdp-wynik","layout":{"type":"constrained"}} -->
+<div class="wp-block-group gdp-karta gdp-wynik">
+<!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Wynik</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Ostatni dzień na skuteczne wypowiedzenie: [[wynik po uruchomieniu modułu M2]]</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Najwcześniejsza data rozpoczęcia dostaw przez PBM: [[wynik po uruchomieniu modułu M2]]</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"xs"} -->
+<p class="has-xs-font-size">Chcesz przypomnienie przed tym terminem? Zostaw e-mail: [[pole e-mail, moduł M2]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-prawne"} -->
+<p class="gdp-prawne has-xs-font-size">Kalkulator nie zastępuje analizy umowy i nie jest podstawą do jej rozwiązania. Nie wypowiadaj umowy przed czasem. Skutki błędnego wypowiedzenia (sprzedaż rezerwowa, kary umowne) ponosi odbiorca, dlatego PBM stosuje kolejność: umowa z PBM → pełnomocnictwo → wypowiedzenie i zgłoszenie zmiany sprzedawcy do OSD. Dokument wypowiedzenia przed wysyłką weryfikuje człowiek.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-prawne"} -->
+<p class="gdp-prawne has-xs-font-size">[[treść zgody dostarczy zleceniodawca]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->

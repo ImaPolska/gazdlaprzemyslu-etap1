@@ -1,0 +1,2648 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  Gaz dla Przemysłu – etap 1 – treść prototypu.
+  Plik generowany: python3 scripts/build-wxr.py (nie edytuj ręcznie; źródło w content/).
+-->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+	<title>Gaz dla Przemysłu</title>
+	<link>https://playground.wordpress.net</link>
+	<description>PBM Sp. z o.o., Grupa IMA Polska</description>
+	<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+	<language>pl-PL</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://playground.wordpress.net</wp:base_site_url>
+	<wp:base_blog_url>https://playground.wordpress.net</wp:base_blog_url>
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login><![CDATA[admin]]></wp:author_login>
+		<wp:author_email><![CDATA[admin@example.invalid]]></wp:author_email>
+		<wp:author_display_name><![CDATA[Zespół analiz PBM]]></wp:author_display_name>
+		<wp:author_first_name><![CDATA[]]></wp:author_first_name>
+		<wp:author_last_name><![CDATA[]]></wp:author_last_name>
+	</wp:author>
+	<wp:category>
+		<wp:term_id>21</wp:term_id>
+		<wp:category_nicename><![CDATA[komentarz-rynkowy]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Komentarz rynkowy]]></wp:cat_name>
+		<wp:category_description><![CDATA[Co dzieje się z ceną gazu na TGE i co to znaczy dla Twojej umowy. Autor i data przy każdym wpisie.]]></wp:category_description>
+	</wp:category>
+	<wp:term>
+		<wp:term_id>31</wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[glowne]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Menu główne]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>32</wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[prawne]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Menu prawne (stopka)]]></wp:term_name>
+	</wp:term>
+	<generator>gazdlaprzemyslu/scripts/build-wxr.py</generator>
+	<item>
+		<title><![CDATA[CTA: wgraj fakturę]]></title>
+		<link>https://playground.wordpress.net/?p=9001</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=9001</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"CTA: wgraj fakturę"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-cta gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-cta gdp-sekcja--surface">
+<!-- wp:heading {"textAlign":"center","metadata":{"name":"Nagłówek CTA","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<h2 class="wp-block-heading has-text-align-center">Prześlij ostatnią fakturę za gaz</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","metadata":{"name":"Podtytuł CTA","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="has-text-align-center">Odczytamy z niej taryfę, wolumen i termin umowy. Ofertę dostaniesz w 24 godziny w dni robocze, bez zobowiązań.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/wgraj-fakture/">Wgraj fakturę</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9001</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[cta-wgraj-fakture]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Slot: upload faktury]]></title>
+		<link>https://playground.wordpress.net/?p=9002</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=9002</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: upload faktury"},"templateLock":"contentOnly","className":"gdp-formularz gdp-slot gdp-slot--m1","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left"}} -->
+<div class="wp-block-group gdp-formularz gdp-slot gdp-slot--m1">
+<!-- wp:heading {"level":2,"fontSize":"l"} -->
+<h2 class="wp-block-heading has-l-font-size">Oferta z Twojej faktury w 24 godziny</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"xs"} -->
+<p class="has-xs-font-size">Wystarczy jedna faktura za gaz. Odczytamy z niej taryfę, zużycie i operatora.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole gdp-pole--plik"} -->
+<p class="gdp-pole gdp-pole--plik">Faktura za gaz (PDF, JPG lub PNG). Przeciągnij plik tutaj albo wybierz z dysku.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">E-mail służbowy</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Telefon</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">NIP firmy</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button {"width":100} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="/kontakt/">Wyślij fakturę i odbierz ofertę</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-mikrodowod"} -->
+<p class="gdp-mikrodowod has-xs-font-size">Odpowiadamy w 24 godziny w dni robocze. Fakturę usuwamy po przygotowaniu oferty, jeśli nie podpiszesz umowy: [[okres retencji]].</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-prawne"} -->
+<p class="gdp-prawne has-xs-font-size">[[treść zgody dostarczy zleceniodawca]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9002</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[slot-upload-faktury]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Slot: tabela cen]]></title>
+		<link>https://playground.wordpress.net/?p=9003</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=9003</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: tabela cen"},"templateLock":"contentOnly","className":"gdp-slot gdp-slot--m5","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group gdp-slot gdp-slot--m5">
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-meta","metadata":{"name":"Data aktualizacji","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-meta has-xs-font-size">Data aktualizacji pasm: [[data]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table {"hasFixedLayout":false} -->
+<figure class="wp-block-table"><table><thead><tr><th>Segment odbiorcy</th><th>Zużycie roczne</th><th>Pasmo ceny za paliwo gazowe [[jednostka]]</th><th>Model umowy</th></tr></thead><tbody><tr><td>Małe i średnie firmy</td><td>do [[X]] GWh</td><td>[[od]] – [[do]]</td><td>Umowa kompleksowa, cena stała</td></tr><tr><td>Przemysł</td><td>[[X]] – [[Y]] GWh</td><td>[[od]] – [[do]]</td><td>Cena stała lub indeksowana TGE</td></tr><tr><td>Duży przemysł</td><td>powyżej [[Y]] GWh</td><td>oferta indywidualna</td><td>Model transzowy</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph {"fontSize":"xs"} -->
+<p class="has-xs-font-size">Pasma dotyczą wyłącznie ceny paliwa gazowego. Dystrybucja, akcyza i opłaty regulowane są doliczane według taryfy Twojego operatora.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:block {"ref":9009} /-->
+</div>
+<!-- /wp:group -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9003</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[slot-tabela-cen]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Slot: kalkulator wypowiedzenia]]></title>
+		<link>https://playground.wordpress.net/?p=9004</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=9004</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: kalkulator wypowiedzenia"},"templateLock":"contentOnly","className":"gdp-formularz gdp-slot gdp-slot--m2","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group gdp-formularz gdp-slot gdp-slot--m2">
+<!-- wp:heading {"level":2,"fontSize":"l"} -->
+<h2 class="wp-block-heading has-l-font-size">Do kiedy możesz wypowiedzieć obecną umowę</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"xs"} -->
+<p class="has-xs-font-size">Wpisz trzy dane z umowy. Kalkulator wskaże ostatni dzień na skuteczne wypowiedzenie i datę, od której PBM może rozpocząć dostawy.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Data końca obecnej umowy (dd.mm.rrrr)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Okres wypowiedzenia z umowy (w miesiącach)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Klauzula prolongacyjna (automatyczne przedłużenie): tak / nie / nie wiem</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/kontakt/">Oblicz termin</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+
+<!-- wp:group {"className":"gdp-karta gdp-wynik","layout":{"type":"constrained"}} -->
+<div class="wp-block-group gdp-karta gdp-wynik">
+<!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Wynik</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Ostatni dzień na skuteczne wypowiedzenie: [[wynik po uruchomieniu modułu M2]]</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Najwcześniejsza data rozpoczęcia dostaw przez PBM: [[wynik po uruchomieniu modułu M2]]</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"xs"} -->
+<p class="has-xs-font-size">Chcesz przypomnienie przed tym terminem? Zostaw e-mail: [[pole e-mail, moduł M2]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-prawne"} -->
+<p class="gdp-prawne has-xs-font-size">Kalkulator nie zastępuje analizy umowy i nie jest podstawą do jej rozwiązania. Nie wypowiadaj umowy przed czasem. Skutki błędnego wypowiedzenia (sprzedaż rezerwowa, kary umowne) ponosi odbiorca, dlatego PBM stosuje kolejność: umowa z PBM → pełnomocnictwo → wypowiedzenie i zgłoszenie zmiany sprzedawcy do OSD. Dokument wypowiedzenia przed wysyłką weryfikuje człowiek.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-prawne"} -->
+<p class="gdp-prawne has-xs-font-size">[[treść zgody dostarczy zleceniodawca]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9004</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[slot-kalkulator-wypowiedzenia]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Slot: analiza umowy]]></title>
+		<link>https://playground.wordpress.net/?p=9005</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=9005</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: analiza umowy"},"templateLock":"contentOnly","className":"gdp-formularz gdp-slot gdp-slot--m3","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group gdp-formularz gdp-slot gdp-slot--m3">
+<!-- wp:heading {"level":2,"fontSize":"l"} -->
+<h2 class="wp-block-heading has-l-font-size">Sprawdź okno wyjścia z obecnej umowy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"xs"} -->
+<p class="has-xs-font-size">Prześlij umowę ze sprzedawcą gazu. Odczytamy z niej sześć elementów i przygotujemy podsumowanie, które sprawdzi analityk PBM.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole gdp-pole--plik"} -->
+<p class="gdp-pole gdp-pole--plik">Umowa sprzedaży gazu (PDF). Przeciągnij plik tutaj albo wybierz z dysku.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">E-mail służbowy</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Co odczytamy z umowy</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list">
+<!-- wp:list-item -->
+<li>Datę zawarcia i okres obowiązywania.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Okres wypowiedzenia i wymaganą formę (pisemna, elektroniczna).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Klauzulę prolongacyjną i termin sprzeciwu wobec przedłużenia.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Kary i opłaty za wcześniejsze rozwiązanie umowy.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Mechanizm ceny: stała, indeksowana, składniki zmienne.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Wolumen umowny i tolerancję odchyleń (take-or-pay).</li>
+<!-- /wp:list-item -->
+</ol>
+<!-- /wp:list -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/kontakt/">Prześlij umowę do analizy</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-prawne"} -->
+<p class="gdp-prawne has-xs-font-size">Analiza nie jest poradą prawną i nie sugeruje rozwiązania umowy przed czasem. Każde podsumowanie i każdy projekt wypowiedzenia weryfikuje człowiek przed wysyłką. Skutki błędnego wypowiedzenia ponosi odbiorca, dlatego PBM stosuje kolejność: umowa z PBM → pełnomocnictwo → wypowiedzenie i zgłoszenie zmiany sprzedawcy do OSD.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-prawne"} -->
+<p class="gdp-prawne has-xs-font-size">[[treść zgody dostarczy zleceniodawca]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9005</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[slot-analiza-umowy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Slot: formularz doradcy]]></title>
+		<link>https://playground.wordpress.net/?p=9006</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=9006</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: formularz doradcy"},"templateLock":"contentOnly","className":"gdp-formularz gdp-slot gdp-slot--m6","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left"}} -->
+<div class="wp-block-group gdp-formularz gdp-slot gdp-slot--m6">
+<!-- wp:heading {"level":2,"fontSize":"l"} -->
+<h2 class="wp-block-heading has-l-font-size">Zgłoś się jako doradca</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"xs"} -->
+<p class="has-xs-font-size">Opiekun kanału partnerskiego oddzwoni w ciągu [[ ]] dni roboczych i przedstawi model współpracy.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Imię i nazwisko</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Firma doradcza lub agencja</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">E-mail służbowy</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Telefon</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Liczba klientów biznesowych z umowami na gaz (orientacyjnie)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button {"width":100} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="/kontakt/">Zgłoś się</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-prawne"} -->
+<p class="gdp-prawne has-xs-font-size">[[treść zgody dostarczy zleceniodawca]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9006</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[slot-formularz-doradcy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Wzorzec: segmenty]]></title>
+		<link>https://playground.wordpress.net/?p=9007</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=9007</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Wzorzec: segmenty"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-segmenty","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-segmenty">
+<!-- wp:heading {"metadata":{"name":"Nagłówek segmentów","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<h2 class="wp-block-heading">Wybierz swoją sytuację</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta">
+<!-- wp:heading {"level":3,"metadata":{"name":"Segment 1: tytuł","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<h3 class="wp-block-heading">Zużycie do [[X]] GWh rocznie</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"metadata":{"name":"Segment 1: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Jedna umowa na sprzedaż i dystrybucję, cena stała na cały okres. Ofertę przygotujemy z Twojej faktury w 24 godziny.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/wgraj-fakture/">Wgraj fakturę</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta">
+<!-- wp:heading {"level":3,"metadata":{"name":"Segment 2: tytuł","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<h3 class="wp-block-heading">Zużycie powyżej [[X]] GWh rocznie</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"metadata":{"name":"Segment 2: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Cena stała, indeksowana do TGE lub zakupy w transzach. Opiekun przygotuje ofertę dopasowaną do profilu Twoich punktów poboru.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/dla-kogo/przemysl/">Porozmawiaj z opiekunem</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta">
+<!-- wp:heading {"level":3,"metadata":{"name":"Segment 3: tytuł","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<h3 class="wp-block-heading">Jesteś doradcą energetycznym</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"metadata":{"name":"Segment 3: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Model współpracy dla doradców i agencji obsługujących firmy: [[model współpracy]]. Zgłoś się, oddzwonimy.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/dla-doradcow/">Zgłoś się</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9007</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[wzorzec-segmenty]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Pasek zaufania]]></title>
+		<link>https://playground.wordpress.net/?p=9008</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=9008</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Pasek zaufania"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--zwarta gdp-zaufanie","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--zwarta gdp-zaufanie">
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph {"className":"gdp-wartosc","metadata":{"name":"Zaufanie 1: wartość","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-wartosc">Grupa IMA Polska</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"xs","metadata":{"name":"Zaufanie 1: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="has-xs-font-size">PBM Sp. z o.o. jest spółką Grupy z własnymi aktywami w energetyce.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph {"className":"gdp-wartosc","metadata":{"name":"Zaufanie 2: wartość","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-wartosc">Koncesja OPG nr [[ ]]</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"xs","metadata":{"name":"Zaufanie 2: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="has-xs-font-size">Koncesja na obrót paliwami gazowymi wydana przez Prezesa URE.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph {"className":"gdp-wartosc","metadata":{"name":"Zaufanie 3: wartość","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-wartosc">[[ ]] GWh</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"xs","metadata":{"name":"Zaufanie 3: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="has-xs-font-size">Wolumen gazu dostarczony odbiorcom biznesowym w [[rok]].</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph {"className":"gdp-wartosc","metadata":{"name":"Zaufanie 4: wartość","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-wartosc">[[ ]] aktywa Grupy</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"xs","metadata":{"name":"Zaufanie 4: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="has-xs-font-size">[[opis aktywów: źródła, magazyny, sieć — dostarczy zleceniodawca]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9008</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[pasek-zaufania]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Zastrzeżenie cen]]></title>
+		<link>https://playground.wordpress.net/?p=9009</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=9009</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Zastrzeżenie cen"},"templateLock":"contentOnly","className":"gdp-zastrzezenie","layout":{"type":"constrained"}} -->
+<div class="wp-block-group gdp-zastrzezenie">
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-prawne"} -->
+<p class="gdp-prawne has-xs-font-size">Prezentowane pasma cen mają charakter orientacyjny i nie stanowią oferty w rozumieniu art. 66 Kodeksu cywilnego. Warunki określa indywidualna oferta i umowa.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9009</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[zastrzezenie-cen]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[FAQ: produkt]]></title>
+		<link>https://playground.wordpress.net/?p=9010</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=9010</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"FAQ: produkt"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-faq","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-faq">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Pytania o ofertę PBM</h2>
+<!-- /wp:heading -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czym różnią się modele zakupu gazu w ofercie PBM</summary>
+<!-- wp:paragraph {"metadata":{"name":"FAQ 1: odpowiedź","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Cena stała przenosi ryzyko rynkowe na PBM, cena indeksowana do TGE zostawia je po Twojej stronie, model transzowy dzieli je na etapy zakupu. Umowa kompleksowa dla MŚP łączy sprzedaż i dystrybucję w jednym dokumencie.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Ile trwa przygotowanie oferty</summary>
+<!-- wp:paragraph {"metadata":{"name":"FAQ 2: odpowiedź","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Ofertę z przesłanej faktury przygotowujemy w 24 godziny w dni robocze. Dla dużych odbiorców z wieloma punktami poboru termin ustala opiekun: [[termin]].</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy muszę wypowiedzieć obecną umowę, żeby dostać ofertę</summary>
+<!-- wp:paragraph {"metadata":{"name":"FAQ 3: odpowiedź","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Nie. Ofertę dostaniesz bez żadnych zobowiązań. Wypowiedzenie następuje dopiero po podpisaniu umowy z PBM i udzieleniu pełnomocnictwa, a dokument przed wysyłką weryfikuje człowiek.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy potrzebuję osobnej umowy z operatorem dystrybucyjnym</summary>
+<!-- wp:paragraph {"metadata":{"name":"FAQ 4: odpowiedź","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Jeżeli PBM nie ma zawartej generalnej umowy dystrybucyjnej z Twoim operatorem, podpiszesz osobno umowę dystrybucyjną; pomożemy w tym.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Skąd biorą się pasma cen na stronie</summary>
+<!-- wp:paragraph {"metadata":{"name":"FAQ 5: odpowiedź","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Pasma wynikają z bieżących notowań na TGE i kosztu obsługi danego segmentu. Prezentowane pasma cen mają charakter orientacyjny i nie stanowią oferty w rozumieniu art. 66 Kodeksu cywilnego. Warunki określa indywidualna oferta i umowa.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Kto odpowiada za skutki błędnego wypowiedzenia umowy</summary>
+<!-- wp:paragraph {"metadata":{"name":"FAQ 6: odpowiedź","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Skutki błędnego wypowiedzenia, w tym sprzedaż rezerwową i kary umowne, ponosi odbiorca. Dlatego PBM stosuje kolejność: umowa z PBM → pełnomocnictwo → wypowiedzenie i zgłoszenie zmiany sprzedawcy do OSD.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+</div>
+<!-- /wp:group -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9010</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[faq-produkt]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Gaz dla firm: oferta z Twojej faktury w 24 godziny]]></title>
+		<link>https://playground.wordpress.net/?p=101</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=101</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero: obietnica i upload faktury"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-hero","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-hero">
+<!-- wp:columns {"verticalAlignment":"center"} -->
+<div class="wp-block-columns are-vertically-aligned-center">
+<!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%">
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-etykieta"} -->
+<p class="gdp-etykieta has-xs-font-size">Sprzedaż gazu ziemnego dla firm · PBM Sp. z o.o., Grupa IMA Polska</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Gaz dla Twojej firmy: oferta z jednej faktury w 24 godziny</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Sprzedajemy gaz ziemny zakładom przemysłowym i małym firmom. Prześlij ostatnią fakturę, a my odczytamy z niej taryfę, zużycie i termin umowy. Dostaniesz ofertę z ceną stałą lub indeksowaną do TGE i wskazanie, do kiedy możesz wypowiedzieć obecną umowę.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"className":"gdp-lista-korzysci"} -->
+<ul class="wp-block-list gdp-lista-korzysci">
+<!-- wp:list-item -->
+<li>Cztery modele umowy: cena stała, indeksowana TGE, transze, umowa kompleksowa dla MŚP.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Zmiana sprzedawcy w bezpiecznej kolejności: najpierw umowa z PBM, potem pełnomocnictwo, na końcu wypowiedzenie.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Koncesja OPG nr [[ ]] wydana przez Prezesa URE.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-mikrodowod"} -->
+<p class="gdp-mikrodowod has-xs-font-size">Dla firm o zużyciu powyżej [[X]] GWh rocznie ofertę przygotowuje opiekun. <a href="/dla-kogo/przemysl/">Porozmawiaj z opiekunem</a>.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%">
+<!-- wp:block {"ref":9002} /-->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:block {"ref":9008} /-->
+
+<!-- wp:block {"ref":9007} /-->
+
+<!-- wp:group {"metadata":{"name":"Jak to działa"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-kroki gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-kroki gdp-sekcja--surface">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Jak to działa</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Cztery kroki od faktury do pierwszej dostawy. Ty podejmujesz decyzję w kroku trzecim, resztę prowadzimy my.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph {"className":"gdp-krok__numer"} -->
+<p class="gdp-krok__numer">1</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Wgrywasz fakturę</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Jedna faktura za gaz wystarczy. Odczytamy z niej taryfę, zużycie, operatora i termin obecnej umowy.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph {"className":"gdp-krok__numer"} -->
+<p class="gdp-krok__numer">2</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Dostajesz ofertę w 24 godziny</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Oferta zawiera cenę, model umowy i termin, do którego możesz wypowiedzieć obecną umowę. Bez zobowiązań.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph {"className":"gdp-krok__numer"} -->
+<p class="gdp-krok__numer">3</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Podpisujesz umowę i pełnomocnictwo</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Najpierw umowa z PBM, potem pełnomocnictwo. Dopiero wtedy przygotujemy wypowiedzenie, które przed wysyłką sprawdza człowiek.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph {"className":"gdp-krok__numer"} -->
+<p class="gdp-krok__numer">4</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Zgłaszamy zmianę do operatora</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Zgłaszamy zmianę sprzedawcy do OSD w terminie z Prawa energetycznego (art. 4j, [[do weryfikacji prawnej]]). Dostawy zaczynają się bez przerwy w zasilaniu.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Skrót tabeli cen"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-ceny","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-ceny">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Ile kosztuje gaz dla firmy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Publikujemy orientacyjne pasma cen paliwa gazowego dla trzech segmentów zużycia. Twoja cena zależy od profilu poboru, okresu umowy i modelu rozliczeń, dlatego ostateczną wartość dostaniesz w ofercie.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:block {"ref":9003} /-->
+
+<!-- wp:paragraph -->
+<p><a href="/ceny-orientacyjne/">Zobacz pełną tabelę i dekompozycję ceny</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Komentarz rynkowy: 3 najnowsze"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--surface">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Komentarz rynkowy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Co dzieje się z ceną gazu na TGE i co to znaczy dla Twojej umowy. Krótko, z datą i autorem.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:query {"queryId":1,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false,"taxQuery":{"category":[21]}},"className":"gdp-komentarze"} -->
+<div class="wp-block-query gdp-komentarze">
+<!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:post-title {"isLink":true,"level":3,"fontSize":"m"} /-->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"},"fontSize":"xs"} -->
+<div class="wp-block-group has-xs-font-size">
+<!-- wp:post-date /-->
+<!-- wp:post-author-name {"prefix":"Autor: "} /-->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:post-excerpt {"excerptLength":25} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph -->
+<p>Pierwszy komentarz rynkowy pojawi się wkrótce.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results -->
+</div>
+<!-- /wp:query -->
+
+<!-- wp:paragraph -->
+<p><a href="/komentarz-rynkowy/">Wszystkie komentarze rynkowe</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA: kalkulator wypowiedzenia"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-cta-kalkulator","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-cta-kalkulator">
+<!-- wp:columns {"verticalAlignment":"center"} -->
+<div class="wp-block-columns are-vertically-aligned-center">
+<!-- wp:column {"verticalAlignment":"center","width":"66.66%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Do kiedy możesz wypowiedzieć obecną umowę</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Okres wypowiedzenia i klauzula prolongacyjna decydują o tym, czy zmienisz sprzedawcę w tym roku, czy dopiero w kolejnym. Kalkulator wskaże ostatni dzień na skuteczne wypowiedzenie. Nie wypowiadaj umowy przed czasem: skutki błędnego wypowiedzenia ponosi odbiorca.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%">
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/kalkulator-wypowiedzenia/">Oblicz termin wypowiedzenia</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"FAQ: strona główna"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-faq","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-faq">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Pytania, które zadaje większość firm</h2>
+<!-- /wp:heading -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy PBM sprzedaje gaz małym firmom, czy tylko przemysłowi</summary>
+<!-- wp:paragraph -->
+<p>Obu grupom. Firmy o zużyciu do [[X]] GWh rocznie otrzymują umowę kompleksową z ceną stałą, większe zakłady wybierają między ceną stałą, indeksowaną do TGE i modelem transzowym.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Co odczytacie z mojej faktury</summary>
+<!-- wp:paragraph -->
+<p>Grupę taryfową, moc umowną, roczne zużycie, operatora systemu dystrybucyjnego, numer punktu poboru oraz obecnego sprzedawcę. Te dane wystarczą do przygotowania oferty.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy zmiana sprzedawcy oznacza przerwę w dostawie gazu</summary>
+<!-- wp:paragraph -->
+<p>Nie. Gaz płynie tą samą sieciową infrastrukturą operatora. Zmienia się wyłącznie podmiot, który wystawia fakturę za paliwo gazowe.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy mam wypowiedzieć obecną umowę przed rozmową z PBM</summary>
+<!-- wp:paragraph -->
+<p>Nie. Skutki błędnego wypowiedzenia (sprzedaż rezerwowa, kary umowne) ponosi odbiorca. PBM stosuje kolejność: umowa z PBM → pełnomocnictwo → wypowiedzenie i zgłoszenie zmiany sprzedawcy do OSD. Dokument wypowiedzenia przed wysyłką weryfikuje człowiek.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy potrzebuję osobnej umowy z operatorem dystrybucyjnym</summary>
+<!-- wp:paragraph -->
+<p>Jeżeli PBM nie ma zawartej generalnej umowy dystrybucyjnej z Twoim operatorem, podpiszesz osobno umowę dystrybucyjną; pomożemy w tym.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy ceny na stronie są ofertą</summary>
+<!-- wp:paragraph -->
+<p>Nie. Prezentowane pasma cen mają charakter orientacyjny i nie stanowią oferty w rozumieniu art. 66 Kodeksu cywilnego. Warunki określa indywidualna oferta i umowa.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:block {"ref":9001,"content":{"Nagłówek CTA":{"content":"Zacznij od jednej faktury"},"Podtytuł CTA":{"content":"Prześlij ostatnią fakturę za gaz. W 24 godziny dostaniesz ofertę i termin, do którego możesz wypowiedzieć obecną umowę."}}} /-->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[start]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Oferta gazu dla firm]]></title>
+		<link>https://playground.wordpress.net/?p=102</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=102</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero: oferta"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-hero","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-hero">
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Oferta gazu ziemnego dla firm</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Cztery modele umowy i biometan w przygotowaniu. Wybór zależy od tego, ile gazu zużywasz, jak przewidywalne jest zużycie i czy chcesz przyjąć część ryzyka cenowego. Prześlij fakturę, a dopasujemy model za Ciebie.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/wgraj-fakture/">Wgraj fakturę</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Karty produktów"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--surface">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Modele umowy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/oferta/cena-stala/">Cena stała</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Jedna cena za MWh na cały okres umowy. Stały budżet, ryzyko rynkowe po stronie PBM.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/oferta/cena-indeksowana-tge/">Cena indeksowana TGE</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Cena podąża za publicznym indeksem TGE plus stała marża. Dla firm, które zarządzają ryzykiem samodzielnie.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/oferta/model-transzowy/">Model transzowy</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Zakup wolumenu w kilku transzach w różnych terminach. Uśrednia cenę, wymaga decyzji w czasie.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/oferta/umowa-kompleksowa-msp/">Umowa kompleksowa dla MŚP</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Sprzedaż i dystrybucja w jednej umowie i na jednej fakturze. Jeżeli PBM nie ma zawartej generalnej umowy dystrybucyjnej z Twoim operatorem, podpiszesz osobno umowę dystrybucyjną; pomożemy w tym.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/oferta/biometan/">Biometan (wkrótce)</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Biometan z aktywów Grupy IMA Polska. Bez deklaracji terminów, wolumenów i cen do czasu zakończenia certyfikacji.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:paragraph -->
+<p>[[strona /oferta/ w pełnej wersji: P1.2]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Tabela porównawcza"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Który model do jakiej firmy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table {"hasFixedLayout":false} -->
+<figure class="wp-block-table"><table><thead><tr><th>Cecha</th><th>Cena stała</th><th>Cena indeksowana TGE</th><th>Model transzowy</th><th>Umowa kompleksowa dla MŚP</th></tr></thead><tbody><tr><td>Stałość budżetu</td><td>Pełna</td><td>Brak</td><td>Częściowa</td><td>Pełna</td></tr><tr><td>Kto ponosi ryzyko ceny rynkowej</td><td>PBM</td><td>Odbiorca</td><td>Dzielone</td><td>PBM</td></tr><tr><td>Wymagane zaangażowanie odbiorcy</td><td>Niskie</td><td>Wysokie</td><td>Średnie</td><td>Niskie</td></tr><tr><td>Typowy profil</td><td>Stałe zużycie</td><td>Duży odbiorca z zespołem zakupów</td><td>Duży odbiorca, decyzje w transzach</td><td>MŚP do [[X]] GWh rocznie</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:block {"ref":9010} /-->
+
+<!-- wp:block {"ref":9001} /-->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[oferta]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Cena stała gazu ziemnego]]></title>
+		<link>https://playground.wordpress.net/?p=103</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=103</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero produktu"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-hero","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-hero">
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-etykieta"} -->
+<p class="gdp-etykieta has-xs-font-size"><a href="/oferta/">Oferta</a> · Produkt</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Cena stała gazu ziemnego</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Cena stała to jedna cena za paliwo gazowe na cały okres umowy, niezależnie od notowań na TGE. Płacisz tyle samo za każdą MWh w pierwszym i ostatnim miesiącu. Ryzyko wzrostu ceny rynkowej bierze na siebie PBM, Ty zyskujesz stały budżet.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/wgraj-fakture/">Wgraj fakturę</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-mikrodowod"} -->
+<p class="gdp-mikrodowod has-xs-font-size">Oferta z ceną stałą w 24 godziny od przesłania faktury. Bez zobowiązań.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Definicja i dla kogo"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--surface">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Dla kogo jest cena stała</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Cena stała sprawdza się tam, gdzie koszt gazu musi być przewidywalny w planie finansowym, a firma nie chce śledzić rynku. Poniżej dwie listy, które pomogą Ci ocenić, czy to Twoja sytuacja.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Cena stała ma sens, gdy</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Twoje zużycie jest podobne z roku na rok i możesz je oszacować z faktur.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Budżet energii jest zatwierdzany z góry i odchylenia są problemem.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Nie masz osoby, która na bieżąco śledzi notowania TGE.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Gaz jest kosztem, nie narzędziem zarządzania marżą.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Rozważ inny model, gdy</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Zużycie zmienia się sezonowo o więcej, niż przewiduje tolerancja w umowie.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Możesz przyjąć część ryzyka cenowego w zamian za niższą cenę bazową (<a href="/oferta/cena-indeksowana-tge/">cena indeksowana TGE</a>).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Chcesz rozłożyć zakup na kilka momentów (<a href="/oferta/model-transzowy/">model transzowy</a>).</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Mechanizm"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Jak działa cena stała</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list">
+<!-- wp:list-item -->
+<li>Z faktury odczytujemy Twoje roczne zużycie i profil poboru w podziale na miesiące.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Na podstawie bieżących notowań kontraktów terminowych na TGE i kosztu obsługi wyznaczamy jedną cenę za MWh na cały okres umowy: [[typowe okresy umowy]].</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Po podpisaniu umowy PBM zabezpiecza wolumen na rynku. Od tej chwili zmiany notowań nie wpływają na Twoją cenę.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Faktura miesięczna zawiera cenę paliwa gazowego (stałą) oraz składniki regulowane: dystrybucję według taryfy operatora, akcyzę i opłaty ustawowe. Te składniki nie zależą od PBM.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Umowa określa tolerancję odchyleń zużycia od wolumenu umownego: [[tolerancja]]. Powyżej i poniżej tolerancji stosuje się rozliczenie opisane w umowie.</li>
+<!-- /wp:list-item -->
+</ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Co jest stałe: cena za paliwo gazowe. Co nie jest stałe: dystrybucja, akcyza, opłaty regulowane i podatki, bo ustala je operator lub ustawodawca.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Ryzyka i ograniczenia"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--surface">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Ryzyka i ograniczenia</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Cena stała chroni przed wzrostem notowań, ale nie pozwala skorzystać z ich spadku. Poniżej ryzyka, które dotyczą Ciebie, i to, co robimy, żeby je ograniczyć.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table {"hasFixedLayout":false} -->
+<figure class="wp-block-table"><table><thead><tr><th>Ryzyko</th><th>Kogo dotyczy</th><th>Jak je ograniczamy</th></tr></thead><tbody><tr><td>Spadek cen rynkowych po podpisaniu umowy</td><td>Odbiorca</td><td>Krótsze okresy umowy lub model transzowy zamiast jednej ceny na kilka lat.</td></tr><tr><td>Zużycie poza tolerancją wolumenu</td><td>Odbiorca</td><td>Wolumen ustalamy z faktur za 12 miesięcy i korygujemy przed podpisaniem umowy.</td></tr><tr><td>Zmiana składników regulowanych (dystrybucja, akcyza)</td><td>Odbiorca</td><td>Nie wpływamy na nie; wskazujemy je osobno na fakturze i w ofercie.</td></tr><tr><td>Wcześniejsze rozwiązanie umowy</td><td>Odbiorca</td><td>Umowa określa zasady rozliczenia [[do weryfikacji prawnej: art. 4j ust. 3b Prawa energetycznego dla MŚP]]. Nie sugerujemy rozwiązania umowy przed czasem.</td></tr><tr><td>Sprzedaż rezerwowa po błędnym wypowiedzeniu poprzedniej umowy</td><td>Odbiorca</td><td>Kolejność: umowa z PBM → pełnomocnictwo → wypowiedzenie i zgłoszenie do OSD. Dokument weryfikuje człowiek.</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>Jeżeli PBM nie ma zawartej generalnej umowy dystrybucyjnej z Twoim operatorem, podpiszesz osobno umowę dystrybucyjną; pomożemy w tym.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Przykład liczbowy"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Przykład liczbowy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>[[przykład kalkulacji — dane dostarczy zleceniodawca]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Roczne zużycie: [[ ]] MWh.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Okres umowy: [[ ]] miesięcy.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Profil poboru: [[ ]].</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:table {"hasFixedLayout":false} -->
+<figure class="wp-block-table"><table><thead><tr><th>Pozycja</th><th>Cena stała</th><th>Cena indeksowana TGE</th></tr></thead><tbody><tr><td>Cena za paliwo gazowe</td><td>[[ ]]</td><td>[[ ]]</td></tr><tr><td>Roczny koszt paliwa gazowego</td><td>[[ ]]</td><td>[[ ]]</td></tr><tr><td>Rozpiętość kosztu przy zmianie notowań o [[ ]]</td><td>0</td><td>[[ ]]</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:block {"ref":9009} /-->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"FAQ: cena stała"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-faq gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-faq gdp-sekcja--surface">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Pytania o cenę stałą</h2>
+<!-- /wp:heading -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy cena stała obejmuje całą fakturę</summary>
+<!-- wp:paragraph -->
+<p>Nie. Stała jest cena za paliwo gazowe. Dystrybucja, akcyza i opłaty regulowane wynikają z taryfy operatora i przepisów, więc mogą się zmienić w trakcie umowy.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Na jak długo można zamrozić cenę</summary>
+<!-- wp:paragraph -->
+<p>Typowe okresy umowy z ceną stałą: [[typowe okresy umowy]]. Dłuższy okres oznacza dłuższą ochronę przed wzrostem, ale też dłuższe związanie ceną przy spadku notowań.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Co się stanie, gdy zużyję więcej lub mniej gazu, niż zakłada umowa</summary>
+<!-- wp:paragraph -->
+<p>Umowa określa tolerancję odchyleń: [[tolerancja]]. W jej granicach płacisz cenę stałą za rzeczywiste zużycie. Poza nią stosuje się rozliczenie opisane w umowie, które przedstawimy w ofercie przed podpisaniem.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy mogę przejść na cenę stałą przed końcem obecnej umowy</summary>
+<!-- wp:paragraph -->
+<p>Możesz podpisać umowę z PBM wcześniej, z datą rozpoczęcia dostaw po zakończeniu obecnej umowy. Nie sugerujemy rozwiązania obecnej umowy przed czasem: skutki błędnego wypowiedzenia ponosi odbiorca. Termin sprawdzisz w <a href="/kalkulator-wypowiedzenia/">kalkulatorze wypowiedzenia</a>.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy potrzebuję osobnej umowy z operatorem dystrybucyjnym</summary>
+<!-- wp:paragraph -->
+<p>Jeżeli PBM nie ma zawartej generalnej umowy dystrybucyjnej z Twoim operatorem, podpiszesz osobno umowę dystrybucyjną; pomożemy w tym. Dla MŚP dostępna jest <a href="/oferta/umowa-kompleksowa-msp/">umowa kompleksowa</a>.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czym różni się cena stała od modelu transzowego</summary>
+<!-- wp:paragraph -->
+<p>W cenie stałej cały wolumen kupujesz w jednym momencie po jednej cenie. W <a href="/oferta/model-transzowy/">modelu transzowym</a> dzielisz zakup na części i ustalasz cenę dla każdej z nich osobno, co uśrednia wynik, ale wymaga decyzji w czasie.</p>
+<!-- /wp:paragraph -->
+</details>
+<!-- /wp:details -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:block {"ref":9001,"content":{"Nagłówek CTA":{"content":"Sprawdź swoją cenę stałą"},"Podtytuł CTA":{"content":"Prześlij ostatnią fakturę za gaz. W 24 godziny dostaniesz ofertę z ceną stałą i termin, do którego możesz wypowiedzieć obecną umowę."}}} /-->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[cena-stala]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>102</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Wiedza]]></title>
+		<link>https://playground.wordpress.net/?p=104</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=104</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Wstęp bazy wiedzy"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja">
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Wiedza</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Artykuły o zmianie sprzedawcy gazu, umowach i wypowiedzeniach, cenach i rynku, biometanie i raportowaniu oraz sprzedaży rezerwowej. Pięć artykułów roboczych i pełny hub kategorii: [[P1.2]].</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>104</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[wiedza]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Komentarz rynkowy 1: [[tytuł]]]]></title>
+		<link>https://playground.wordpress.net/?p=201</link>
+		<pubDate>Sun, 06 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=201</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek komentarza"},"templateLock":"contentOnly","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group">
+<!-- wp:paragraph {"fontSize":"m","className":"gdp-wstep"} -->
+<p class="gdp-wstep has-m-font-size">[[komentarz: odpowiedź w jednym akapicie, do 60 słów]]</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-meta"} -->
+<p class="gdp-meta has-xs-font-size">Autor: [[ ]] · Ostatnia aktualizacja: [[data]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Treść komentarza"},"templateLock":"contentOnly","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Co się zmieniło</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>[[komentarz]]</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Co to znaczy dla Twojej umowy</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>[[komentarz]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Źródła"},"templateLock":"contentOnly","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group">
+<!-- wp:heading {"anchor":"zrodla"} -->
+<h2 class="wp-block-heading" id="zrodla">Źródła</h2>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Towarowa Giełda Energii — <a href="https://tge.pl/">tge.pl</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Urząd Regulacji Energetyki — <a href="https://www.ure.gov.pl/">ure.gov.pl</a></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:block {"ref":9009} /-->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[[[komentarz: skrót do 25 słów]]]]></excerpt:encoded>
+		<wp:post_id>201</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-06 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-06 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-06 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-06 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[komentarz-rynkowy-1]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="komentarz-rynkowy"><![CDATA[Komentarz rynkowy]]></category>
+	</item>
+	<item>
+		<title><![CDATA[Komentarz rynkowy 2: [[tytuł]]]]></title>
+		<link>https://playground.wordpress.net/?p=202</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=202</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek komentarza"},"templateLock":"contentOnly","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group">
+<!-- wp:paragraph {"fontSize":"m","className":"gdp-wstep"} -->
+<p class="gdp-wstep has-m-font-size">[[komentarz: odpowiedź w jednym akapicie, do 60 słów]]</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"xs","className":"gdp-meta"} -->
+<p class="gdp-meta has-xs-font-size">Autor: [[ ]] · Ostatnia aktualizacja: [[data]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Treść komentarza"},"templateLock":"contentOnly","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Co się zmieniło</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>[[komentarz]]</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Co to znaczy dla Twojej umowy</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>[[komentarz]]</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Źródła"},"templateLock":"contentOnly","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group">
+<!-- wp:heading {"anchor":"zrodla"} -->
+<h2 class="wp-block-heading" id="zrodla">Źródła</h2>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Towarowa Giełda Energii — <a href="https://tge.pl/">tge.pl</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Urząd Regulacji Energetyki — <a href="https://www.ure.gov.pl/">ure.gov.pl</a></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:block {"ref":9009} /-->
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[[[komentarz: skrót do 25 słów]]]]></excerpt:encoded>
+		<wp:post_id>202</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[komentarz-rynkowy-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="komentarz-rynkowy"><![CDATA[Komentarz rynkowy]]></category>
+	</item>
+	<item>
+		<title><![CDATA[Oferta]]></title>
+		<link>https://playground.wordpress.net/?p=301</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=301</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>301</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-301]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[301]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/oferta/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Cena stała]]></title>
+		<link>https://playground.wordpress.net/?p=302</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=302</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>302</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-302]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[301]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[302]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/oferta/cena-stala/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Cena indeksowana TGE]]></title>
+		<link>https://playground.wordpress.net/?p=303</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=303</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>303</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-303]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[301]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[303]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/oferta/cena-indeksowana-tge/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Model transzowy]]></title>
+		<link>https://playground.wordpress.net/?p=304</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=304</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>304</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-304]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[301]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[304]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/oferta/model-transzowy/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Umowa kompleksowa dla MŚP]]></title>
+		<link>https://playground.wordpress.net/?p=305</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=305</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>305</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-305]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[301]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[305]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/oferta/umowa-kompleksowa-msp/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Biometan (wkrótce)]]></title>
+		<link>https://playground.wordpress.net/?p=306</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=306</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>306</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-306]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[301]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[306]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/oferta/biometan/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Ceny orientacyjne]]></title>
+		<link>https://playground.wordpress.net/?p=307</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=307</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>307</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-307]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[307]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/ceny-orientacyjne/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Narzędzia]]></title>
+		<link>https://playground.wordpress.net/?p=308</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=308</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>308</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-308]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[308]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/kalkulator-wypowiedzenia/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Wgraj fakturę]]></title>
+		<link>https://playground.wordpress.net/?p=309</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=309</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>309</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-309]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[308]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[309]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/wgraj-fakture/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Kalkulator terminu wypowiedzenia]]></title>
+		<link>https://playground.wordpress.net/?p=310</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=310</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>310</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-310]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>10</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[308]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[310]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/kalkulator-wypowiedzenia/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Analiza umowy]]></title>
+		<link>https://playground.wordpress.net/?p=311</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=311</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>311</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-311]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>11</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[308]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[311]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/analiza-umowy/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Dla agentów AI]]></title>
+		<link>https://playground.wordpress.net/?p=312</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=312</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>312</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-312]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>12</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[308]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[312]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/dla-agentow-ai/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Wiedza]]></title>
+		<link>https://playground.wordpress.net/?p=313</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=313</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>313</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-313]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>13</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[313]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/wiedza/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Dla doradców]]></title>
+		<link>https://playground.wordpress.net/?p=314</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=314</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>314</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-314]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>14</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[314]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/dla-doradcow/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[O nas]]></title>
+		<link>https://playground.wordpress.net/?p=315</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=315</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>315</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-315]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>15</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[315]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/o-nas/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Kontakt]]></title>
+		<link>https://playground.wordpress.net/?p=316</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=316</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>316</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-316]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>16</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="glowne"><![CDATA[Menu główne]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[316]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/kontakt/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Polityka prywatności]]></title>
+		<link>https://playground.wordpress.net/?p=317</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=317</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>317</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-317]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="prawne"><![CDATA[Menu prawne (stopka)]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[317]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/polityka-prywatnosci/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Regulamin serwisu]]></title>
+		<link>https://playground.wordpress.net/?p=318</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=318</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>318</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-318]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="prawne"><![CDATA[Menu prawne (stopka)]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[318]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/regulamin/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Informacja o plikach cookie]]></title>
+		<link>https://playground.wordpress.net/?p=319</link>
+		<pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://playground.wordpress.net/?p=319</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>319</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name><![CDATA[menu-319]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="prawne"><![CDATA[Menu prawne (stopka)]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[319]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[/polityka-prywatnosci/#cookie]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>

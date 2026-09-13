@@ -1,0 +1,9 @@
+/*
+ * Fonty: etap 1 używa wyłącznie stosów systemowych (decyzja z docs/decisions.md).
+ * Brak reguł @font-face i brak pobrań z hostów zewnętrznych (Google Fonts wyłączone
+ * filtrem blocksy:typography:google:use-remote w functions.php).
+ *
+ * Gdy zleceniodawca dostarczy pliki fontów firmowych (WOFF2), dodaj tutaj @font-face
+ * z font-display: swap i podmień wartości fontFamilies w config/tokens.json.
+ * Definicje stosów znajdują się w theme.json (settings.typography.fontFamilies).
+ */

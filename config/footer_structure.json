@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "opis": "Układ stopki Blocksy (Footer Builder, tryb kolumn). Identyfikatory elementów są stałe dla Blocksy free.",
+    "wiersze": {
+      "top-row": "4 kolumny: Oferta | Narzędzia | Wiedza i firma | Kontakt (widget-area-1..4, treść z content/blocks/stopka-*.html)",
+      "middle-row": "1 kolumna: dane spółki + zastrzeżenie prawne (widget-area-5)",
+      "bottom-row": "menu prawne (lewo) + copyright (prawo)"
+    }
+  },
+  "rows": {
+    "top-row": [["widget-area-1"], ["widget-area-2"], ["widget-area-3"], ["widget-area-4"]],
+    "middle-row": [["widget-area-5"]],
+    "bottom-row": [["menu"], ["copyright"]]
+  },
+  "sidebars": {
+    "widget-area-1": {"sidebar": "ct-footer-sidebar-1", "tytul": "Oferta", "plik": "content/blocks/stopka-oferta.html"},
+    "widget-area-2": {"sidebar": "ct-footer-sidebar-2", "tytul": "Narzędzia", "plik": "content/blocks/stopka-narzedzia.html"},
+    "widget-area-3": {"sidebar": "ct-footer-sidebar-3", "tytul": "Wiedza i firma", "plik": "content/blocks/stopka-wiedza.html"},
+    "widget-area-4": {"sidebar": "ct-footer-sidebar-4", "tytul": "Kontakt", "plik": "content/blocks/stopka-kontakt.html"},
+    "widget-area-5": {"sidebar": "ct-footer-sidebar-5", "tytul": "", "plik": "content/blocks/stopka-dane-spolki.html"}
+  }
+}

@@ -1,0 +1,67 @@
+/*
+ * Kierunek A: „Przemysłowy”.
+ * Surowy, inżynierski układ: ostre linie, dużo białego, liczby w kroju mono.
+ * Plik kopiowany przez scripts/build-theme-zip.sh do assets/css/variant.css.
+ */
+:root {
+	--gdp-radius: 0px;
+	--gdp-border-width: 1px;
+}
+
+/* Hero: dwie kolumny na białym tle, formularz jako atrapa z ostrą ramką */
+.gdp-hero {
+	border-bottom: 2px solid var(--wp--preset--color--contrast);
+}
+
+.gdp-hero .gdp-formularz {
+	border: 2px solid var(--wp--preset--color--contrast);
+}
+
+/* Pasek zaufania: liczby duże, mono, z linią oddzielającą */
+.gdp-zaufanie .gdp-wartosc {
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: var(--wp--preset--font-size--xl);
+	letter-spacing: -0.02em;
+}
+
+.gdp-zaufanie .wp-block-column {
+	border-left: 2px solid var(--wp--preset--color--line);
+	padding-left: var(--wp--preset--spacing--30);
+}
+
+/* Tabele: ostre linie, mono w liczbach, nagłówek na tle surface */
+.gdp-table-scroll table {
+	border: var(--gdp-border-width) solid var(--wp--preset--color--contrast);
+}
+
+.gdp-table-scroll thead th {
+	background: var(--wp--preset--color--surface);
+	border-bottom: 2px solid var(--wp--preset--color--contrast);
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-size: var(--wp--preset--font-size--xs);
+}
+
+.gdp-table-scroll td.num {
+	font-family: var(--wp--preset--font-family--mono);
+}
+
+/* Karty i kroki: numer kroku jako kwadrat */
+.gdp-krok__numer {
+	background: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--base);
+	font-family: var(--wp--preset--font-family--mono);
+	border-radius: 0;
+}
+
+.gdp-karta {
+	border-top: 3px solid var(--wp--preset--color--primary);
+}
+
+/* Przyciski: bez zaokrągleń, wersalikowe litery */
+.wp-block-button__link {
+	border-radius: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-size: var(--wp--preset--font-size--xs);
+}

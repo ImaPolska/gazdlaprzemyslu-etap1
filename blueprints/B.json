@@ -1,0 +1,94 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "meta": {
+    "title": "Gaz dla Przemysłu – etap 1 – kierunek B: Energetyczny",
+    "description": "Prototyp gazdlaprzemyslu.pl (PBM Sp. z o.o., Grupa IMA Polska). Blocksy free + motyw potomny gdp-child, wyłącznie bloki core, zero wtyczek.",
+    "author": "agent",
+    "categories": [
+      "Prototyp"
+    ]
+  },
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "landingPage": "/",
+  "login": true,
+  "steps": [
+    {
+      "step": "setSiteLanguage",
+      "language": "pl_PL"
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "blocksy"
+      },
+      "options": {
+        "activate": false
+      }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://160b0be17-8080.na112.preview.abacusai.app/dist/gdp-child-B.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp site empty --yes"
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://160b0be17-8080.na112.preview.abacusai.app/content/site.wxr"
+      },
+      "fetchAttachments": true
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/gdp-setup.php",
+      "data": {
+        "resource": "url",
+        "url": "https://160b0be17-8080.na112.preview.abacusai.app/scripts/playground-setup.php"
+      }
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php define('GDP_BASE', 'https://160b0be17-8080.na112.preview.abacusai.app/'); define('GDP_VARIANT', 'B'); require '/wordpress/wp-load.php'; require '/wordpress/gdp-setup.php';"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "Gaz dla Przemysłu",
+        "blogdescription": "PBM Sp. z o.o., Grupa IMA Polska",
+        "permalink_structure": "/%postname%/",
+        "show_on_front": "page",
+        "timezone_string": "Europe/Warsaw",
+        "date_format": "j.m.Y",
+        "time_format": "H:i",
+        "start_of_week": "1",
+        "blog_public": "0",
+        "default_comment_status": "closed",
+        "default_ping_status": "closed"
+      }
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp user create redaktor redaktor@example.invalid --role=editor --user_pass=Redaktor-Etap1-2026 --display_name=Redaktor"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp rewrite flush --hard"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+/*
+ * Kierunek B: „Energetyczny”.
+ * Ciemny nagłówek i hero (granat), jeden mocny akcent (turkus), zaokrąglone karty.
+ * Plik kopiowany przez scripts/build-theme-zip.sh do assets/css/variant.css.
+ */
+:root {
+	--gdp-radius: 12px;
+	--gdp-border-width: 1px;
+	--gdp-ciemne-tlo: var(--wp--preset--color--surface);
+	--gdp-ciemna-karta: #16283d;
+	--gdp-ciemny-tekst: var(--wp--preset--color--base);
+	--gdp-ciemny-tekst-2: #c5d0dc;
+}
+
+/* Hero: pełna szerokość na ciemnym granacie, formularz w jasnej karcie */
+.gdp-hero {
+	background: var(--gdp-ciemne-tlo);
+	color: var(--gdp-ciemny-tekst);
+	padding-top: var(--wp--preset--spacing--70);
+	padding-bottom: var(--wp--preset--spacing--70);
+}
+
+.gdp-hero h1,
+.gdp-hero h2,
+.gdp-hero h3 {
+	color: var(--gdp-ciemny-tekst);
+}
+
+.gdp-hero p {
+	color: var(--gdp-ciemny-tekst-2);
+}
+
+.gdp-hero a:not(.wp-block-button__link) {
+	color: var(--wp--preset--color--primary);
+}
+
+.gdp-hero .gdp-formularz {
+	background: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--contrast);
+	border: 0;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.gdp-hero .gdp-formularz p,
+.gdp-hero .gdp-formularz h2,
+.gdp-hero .gdp-formularz h3 {
+	color: var(--wp--preset--color--contrast);
+}
+
+/* Pasek zaufania: ciemne karty pod hero */
+.gdp-zaufanie {
+	background: var(--gdp-ciemne-tlo);
+	color: var(--gdp-ciemny-tekst);
+}
+
+.gdp-zaufanie .wp-block-column {
+	background: var(--gdp-ciemna-karta);
+	border-radius: var(--gdp-radius);
+	padding: var(--wp--preset--spacing--30);
+}
+
+.gdp-zaufanie .wp-block-column p {
+	color: var(--gdp-ciemny-tekst-2);
+}
+
+.gdp-zaufanie .gdp-wartosc {
+	color: var(--wp--preset--color--primary);
+	font-size: var(--wp--preset--font-size--xl);
+}
+
+/* Sekcje na tle surface na jasnej stronie: zamiast granatu użyj bardzo jasnego błękitu */
+.gdp-sekcja--surface:not(.gdp-hero):not(.gdp-zaufanie) {
+	background: #eef3f8;
+}
+
+/* Tabele jako zaokrąglone karty */
+.gdp-table-scroll table {
+	border: 0;
+	border-radius: var(--gdp-radius);
+	overflow: hidden;
+	box-shadow: 0 1px 0 var(--wp--preset--color--line), 0 8px 24px rgba(13, 27, 42, 0.06);
+}
+
+.gdp-table-scroll thead th {
+	background: var(--gdp-ciemne-tlo);
+	color: var(--gdp-ciemny-tekst);
+	border: 0;
+}
+
+.gdp-table-scroll tbody tr:nth-child(even) td {
+	background: #f4f8fb;
+}
+
+/* Karty i kroki: zaokrąglone, numer w kole */
+.gdp-karta {
+	border-radius: var(--gdp-radius);
+	box-shadow: 0 8px 24px rgba(13, 27, 42, 0.06);
+}
+
+.gdp-krok__numer {
+	border-radius: 50%;
+	background: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--surface);
+}
+
+/* Przyciski: pigułki */
+.wp-block-button__link {
+	border-radius: 999px;
+}

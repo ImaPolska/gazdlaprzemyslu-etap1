@@ -1,0 +1,406 @@
+/*
+Theme Name:   Gaz dla Przemysłu (gdp-child)
+Theme URI:    https://gazdlaprzemyslu.pl
+Description:  Motyw potomny Blocksy dla serwisu gazdlaprzemyslu.pl (PBM Sp. z o.o., Grupa IMA Polska). Etap 1: prototyp UI/UX, wyłącznie bloki core.
+Author:       agent (etap 1)
+Author URI:   https://gazdlaprzemyslu.pl
+Template:     blocksy
+Version:      0.1.0
+Requires at least: 6.6
+Tested up to: 6.8
+Requires PHP: 8.1
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  gdp-child
+*/
+
+/* =========================================================================
+   Wspólne dla wszystkich kierunków (A/B/C).
+   Wartości kolorów i fontów pochodzą WYŁĄCZNIE z theme.json (zmienne --wp--preset--*).
+   Charakter kierunku (linie, promienie, tła hero) jest w assets/css/variant.css.
+   ========================================================================= */
+
+:root {
+	/* Spójność z Blocksy: szerokości kontenerów bloków = tokeny układu z theme.json. */
+	--theme-block-max-width: 760px;
+	--theme-block-wide-max-width: 1200px;
+	--gdp-radius: 0px;
+	--gdp-border-width: 1px;
+}
+
+/* --- Dostępność ------------------------------------------------------- */
+
+.skip-link,
+.skip-to-content-link {
+	position: absolute;
+	left: -9999px;
+	top: 0;
+	z-index: 100000;
+	padding: 0.75rem 1rem;
+	background: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--base);
+	text-decoration: none;
+}
+
+.skip-link:focus,
+.skip-to-content-link:focus {
+	left: 0.5rem;
+	top: 0.5rem;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+.wp-block-button__link:focus-visible,
+[tabindex]:focus-visible {
+	outline: 3px solid var(--wp--preset--color--primary);
+	outline-offset: 2px;
+	box-shadow: 0 0 0 5px var(--wp--preset--color--base);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* --- Typografia ------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6,
+.wp-block-heading,
+.site-title {
+	font-family: var(--wp--preset--font-family--heading);
+	overflow-wrap: anywhere;
+}
+
+body,
+.entry-content {
+	font-family: var(--wp--preset--font-family--body);
+}
+
+/* Liczby i placeholdery danych w tabelach: mono, tabular-nums, do prawej. */
+.wp-block-table td.num,
+.wp-block-table th.num,
+.gdp-num {
+	font-family: var(--wp--preset--font-family--mono);
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+	white-space: nowrap;
+}
+
+/* Placeholdery [[ ]] – widoczne w prototypie, żeby nikt nie wziął ich za dane. */
+.gdp-placeholder {
+	background: var(--wp--preset--color--surface);
+	border: 1px dashed var(--wp--preset--color--line);
+	padding: 0 0.25em;
+}
+
+/* --- Sekcje strony ----------------------------------------------------- */
+
+/* Każda sekcja to core/group alignfull; odstępy pionowe z tokenów theme.json. */
+.entry-content > .wp-block-group.alignfull,
+.gdp-sekcja {
+	padding-top: var(--wp--preset--spacing--70);
+	padding-bottom: var(--wp--preset--spacing--70);
+	padding-left: var(--wp--preset--spacing--40);
+	padding-right: var(--wp--preset--spacing--40);
+}
+
+.gdp-sekcja--zwarta {
+	padding-top: var(--wp--preset--spacing--50);
+	padding-bottom: var(--wp--preset--spacing--50);
+}
+
+.gdp-sekcja--surface {
+	background-color: var(--wp--preset--color--surface);
+}
+
+/* Blocksy: strona bez tytułu i bez odstępów wokół treści – sekcje dotykają nagłówka i stopki. */
+.page .ct-container[data-vertical-spacing],
+.page .ct-container-full[data-vertical-spacing] {
+	--content-vertical-spacing: 0px;
+}
+
+/* --- Karty (segmenty, kroki, produkty) --------------------------------- */
+
+.gdp-karta {
+	background: var(--wp--preset--color--base);
+	border: var(--gdp-border-width) solid var(--wp--preset--color--line);
+	border-radius: var(--gdp-radius);
+	padding: var(--wp--preset--spacing--50);
+	height: 100%;
+}
+
+.gdp-karta > :first-child {
+	margin-top: 0;
+}
+
+.gdp-karta .wp-block-buttons {
+	margin-top: auto;
+}
+
+.gdp-krok__numer {
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: var(--wp--preset--font-size--xl);
+	line-height: 1;
+	color: var(--wp--preset--color--primary);
+	margin: 0 0 var(--wp--preset--spacing--30);
+}
+
+/* --- Slot formularza (atrapa z bloków core) ----------------------------- */
+
+.gdp-formularz {
+	background: var(--wp--preset--color--base);
+	border: var(--gdp-border-width) solid var(--wp--preset--color--line);
+	border-radius: var(--gdp-radius);
+	padding: var(--wp--preset--spacing--50);
+}
+
+.gdp-formularz .gdp-pole {
+	display: block;
+	border: var(--gdp-border-width) solid var(--wp--preset--color--line);
+	border-radius: var(--gdp-radius);
+	padding: 0.75rem 1rem;
+	margin: 0 0 var(--wp--preset--spacing--30);
+	background: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--contrast);
+	opacity: 0.85;
+}
+
+.gdp-formularz .gdp-pole--plik {
+	border-style: dashed;
+	text-align: center;
+	padding: var(--wp--preset--spacing--50) 1rem;
+}
+
+.gdp-formularz .wp-block-buttons {
+	margin-top: var(--wp--preset--spacing--30);
+}
+
+.gdp-formularz .wp-block-button {
+	width: 100%;
+}
+
+.gdp-formularz .wp-block-button__link {
+	width: 100%;
+	text-align: center;
+}
+
+.gdp-prawne {
+	font-size: var(--wp--preset--font-size--xs);
+	line-height: 1.5;
+}
+
+/* Mikrodowód „24 h” */
+.gdp-mikrodowod {
+	display: inline-block;
+	font-size: var(--wp--preset--font-size--xs);
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: var(--wp--preset--color--secondary);
+}
+
+/* --- Tabele ------------------------------------------------------------ */
+
+/* Kontener przewijany na mobile; strona nigdy nie przewija się poziomo. */
+.gdp-table-scroll {
+	max-width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.gdp-table-scroll table {
+	min-width: 560px;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.wp-block-table thead th {
+	text-align: left;
+	font-weight: 600;
+	background: var(--wp--preset--color--surface);
+	border-bottom: 2px solid var(--wp--preset--color--line);
+}
+
+.wp-block-table td,
+.wp-block-table th {
+	border: var(--gdp-border-width) solid var(--wp--preset--color--line);
+	padding: 0.6rem 0.8rem;
+	vertical-align: top;
+}
+
+.wp-block-table figcaption {
+	text-align: left;
+	font-size: var(--wp--preset--font-size--xs);
+	margin-top: 0.5rem;
+}
+
+/* --- Details (FAQ) ------------------------------------------------------ */
+
+.wp-block-details {
+	border-bottom: var(--gdp-border-width) solid var(--wp--preset--color--line);
+	padding: var(--wp--preset--spacing--30) 0;
+}
+
+.wp-block-details summary {
+	cursor: pointer;
+	font-weight: 600;
+	font-family: var(--wp--preset--font-family--heading);
+}
+
+.wp-block-details[open] summary {
+	margin-bottom: var(--wp--preset--spacing--20);
+}
+
+/* --- Pasek zaufania ------------------------------------------------------ */
+
+.gdp-zaufanie .wp-block-column {
+	border-left: 3px solid var(--wp--preset--color--primary);
+	padding-left: var(--wp--preset--spacing--30);
+}
+
+.gdp-zaufanie .wp-block-column > p {
+	margin: 0;
+}
+
+.gdp-zaufanie .gdp-wartosc {
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: var(--wp--preset--font-size--l);
+	font-weight: 700;
+	color: var(--wp--preset--color--contrast);
+}
+
+/* --- Przyciski ------------------------------------------------------------ */
+
+.wp-block-button__link {
+	border-radius: var(--gdp-radius);
+	font-weight: 600;
+	text-decoration: none;
+}
+
+/* --- Query Loop: komentarze rynkowe ---------------------------------------- */
+
+.gdp-komentarze .wp-block-post {
+	border-top: var(--gdp-border-width) solid var(--wp--preset--color--line);
+	padding-top: var(--wp--preset--spacing--30);
+}
+
+.gdp-komentarze .wp-block-post-date,
+.gdp-komentarze .wp-block-post-author-name {
+	font-size: var(--wp--preset--font-size--xs);
+	color: var(--wp--preset--color--secondary);
+}
+
+/* --- Mobile ----------------------------------------------------------------- */
+
+@media (max-width: 781px) {
+	.entry-content > .wp-block-group.alignfull,
+	.gdp-sekcja {
+		padding-top: var(--wp--preset--spacing--60);
+		padding-bottom: var(--wp--preset--spacing--60);
+	}
+
+	/* Kolumny paska zaufania i kroków: po dwie w rzędzie na tablecie/telefonie. */
+	.gdp-zaufanie .wp-block-columns,
+	.gdp-kroki .wp-block-columns {
+		flex-wrap: wrap !important;
+	}
+
+	.gdp-zaufanie .wp-block-column,
+	.gdp-kroki .wp-block-column {
+		flex-basis: calc(50% - var(--wp--style--block-gap, 2rem) / 2) !important;
+	}
+}
+
+@media (max-width: 480px) {
+	.gdp-zaufanie .wp-block-column,
+	.gdp-kroki .wp-block-column {
+		flex-basis: 100% !important;
+	}
+}
+
+/* Strona nigdy nie przewija się w poziomie (tabele mają własny kontener). */
+html, body {
+	overflow-x: clip;
+}
+
+/* ---------------------------------------------------------------------------
+   Elementy treści używane w content/pages i content/blocks
+   --------------------------------------------------------------------------- */
+
+/* Etykieta nad H1 (ścieżka, kontekst) */
+.gdp-etykieta {
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	font-weight: 600;
+	margin-bottom: var(--wp--preset--spacing--20);
+}
+
+/* Wstęp-odpowiedź artykułu i komentarza (sekcja 10.2) */
+.gdp-wstep {
+	font-weight: 500;
+	border-left: 3px solid var(--wp--preset--color--primary);
+	padding-left: var(--wp--preset--spacing--30);
+}
+
+/* Autor, data aktualizacji */
+.gdp-meta {
+	color: var(--wp--preset--color--contrast);
+	opacity: 0.8;
+}
+
+/* Hero: większe odstępy pionowe */
+.gdp-hero {
+	padding-top: var(--wp--preset--spacing--70);
+	padding-bottom: var(--wp--preset--spacing--70);
+}
+
+.gdp-hero .gdp-lista-korzysci {
+	padding-left: 1.2em;
+}
+
+/* Sloty: obrys docelowego interfejsu etapu 4 (ten sam wymiar dla bloków pbm/*) */
+.gdp-slot {
+	position: relative;
+}
+
+.gdp-slot .gdp-wynik {
+	background: var(--wp--preset--color--surface);
+	margin-top: var(--wp--preset--spacing--30);
+}
+
+/* CTA końcowe: środkowanie */
+.gdp-cta {
+	text-align: center;
+}
+
+/* FAQ: Details */
+.gdp-faq .wp-block-details {
+	border-bottom: var(--gdp-border-width) solid var(--wp--preset--color--line);
+	padding: var(--wp--preset--spacing--20) 0;
+	margin: 0;
+}
+
+.gdp-faq .wp-block-details summary {
+	font-weight: 600;
+	cursor: pointer;
+	padding: var(--wp--preset--spacing--20) 0;
+}
+
+.gdp-faq .wp-block-details summary:focus-visible {
+	outline: 2px solid var(--wp--preset--color--primary);
+	outline-offset: 2px;
+}
+
+.gdp-faq .wp-block-details > :not(summary) {
+	margin-top: 0;
+	margin-bottom: var(--wp--preset--spacing--20);
+}
