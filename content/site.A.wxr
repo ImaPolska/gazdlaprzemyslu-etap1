@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Gaz dla Przemysłu – etap 1 – kierunek A. Plik generowany: scripts/build-wxr.py -->
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+	<title>Gaz dla Przemysłu</title>
+	<link>https://gazdlaprzemyslu.pl</link>
+	<description>PBM Sp. z o.o., Grupa IMA Polska</description>
+	<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+	<language>pl-PL</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://gazdlaprzemyslu.pl</wp:base_site_url>
+	<wp:base_blog_url>https://gazdlaprzemyslu.pl</wp:base_blog_url>
+	<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[redaktor]]></wp:author_login><wp:author_email><![CDATA[redaktor@example.invalid]]></wp:author_email><wp:author_display_name><![CDATA[Zespół analiz PBM]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:category><wp:term_id>31</wp:term_id><wp:category_nicename><![CDATA[zmiana-sprzedawcy]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Zmiana sprzedawcy]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>32</wp:term_id><wp:category_nicename><![CDATA[umowy-i-wypowiedzenia]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Umowy i wypowiedzenia]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>33</wp:term_id><wp:category_nicename><![CDATA[ceny-i-rynek]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Ceny i rynek]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>34</wp:term_id><wp:category_nicename><![CDATA[biometan-i-raportowanie]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Biometan i raportowanie (CSRD/ETS)]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>35</wp:term_id><wp:category_nicename><![CDATA[sprzedaz-rezerwowa]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Sprzedaż rezerwowa]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>36</wp:term_id><wp:category_nicename><![CDATA[komentarz-rynkowy]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Komentarz rynkowy]]></wp:cat_name></wp:category>
+	<generator>gdp/build-wxr.py</generator>
+	<item>
+		<title><![CDATA[Zastrzeżenie cen]]></title>
+		<link>https://gazdlaprzemyslu.pl/zastrzezenie-cen/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=9001</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"className":"gdp-zastrzezenie","metadata":{"name":"Zastrzeżenie cen"}} -->
+<p class="gdp-zastrzezenie">Prezentowane pasma cen mają charakter orientacyjny i nie stanowią oferty w rozumieniu art. 66 Kodeksu cywilnego. Warunki określa indywidualna oferta i umowa.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9001</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[zastrzezenie-cen]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp_pattern_sync_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[CTA: wgraj fakturę]]></title>
+		<link>https://gazdlaprzemyslu.pl/cta-wgraj-fakture/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=9002</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"CTA: wgraj fakturę"},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","metadata":{"name":"Nagłówek CTA","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<h2 class="wp-block-heading has-text-align-center">Wgraj fakturę. Ofertę dostaniesz w 24 godziny.</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","fontSize":"m","metadata":{"name":"Podtytuł CTA","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="has-text-align-center has-m-font-size">Bez zobowiązań. Jeżeli wolisz rozmowę, opiekun oddzwoni w terminie, który wskażesz.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"className":"gdp-cta-duzy","layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons gdp-cta-duzy"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/wgraj-fakture/">Wgraj fakturę</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9002</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cta-wgraj-fakture]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp_pattern_sync_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Slot: upload faktury]]></title>
+		<link>https://gazdlaprzemyslu.pl/slot-upload-faktury/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=9003</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: upload faktury"},"className":"gdp-karta gdp-slot","layout":{"type":"constrained"}} -->
+<div class="wp-block-group gdp-karta gdp-slot"><!-- wp:heading {"level":2,"fontSize":"m"} -->
+<h2 class="wp-block-heading has-m-font-size">Wgraj fakturę za gaz</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->
+<p class="gdp-tekst-pomocniczy">Wystarczy jedna strona z danymi punktu poboru i zużyciem. PDF, JPG albo PNG.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole gdp-pole-plik"} -->
+<p class="gdp-pole gdp-pole-plik">Przeciągnij plik tutaj albo wybierz z dysku</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-etykieta-pola"} -->
+<p class="gdp-etykieta-pola">E-mail służbowy</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">imie.nazwisko@twojafirma.pl</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-etykieta-pola"} -->
+<p class="gdp-etykieta-pola">Telefon</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">+48</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-etykieta-pola"} -->
+<p class="gdp-etykieta-pola">NIP</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">10 cyfr</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/kontakt/">Wyślij i odbierz ofertę w 24 h</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->
+<p class="gdp-tekst-pomocniczy">Oferta indykatywna w 24 godziny. Bez zobowiązań. Fakturę usuwamy po [[okres retencji]].</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->
+<p class="gdp-tekst-pomocniczy">[[treść zgody dostarczy zleceniodawca]] <a href="/polityka-prywatnosci/">Polityka prywatności</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9003</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[slot-upload-faktury]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp_pattern_sync_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Slot: tabela cen]]></title>
+		<link>https://gazdlaprzemyslu.pl/slot-tabela-cen/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=9004</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: tabela cen"},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:table {"hasFixedLayout":false,"className":"gdp-liczby"} -->
+<figure class="wp-block-table gdp-liczby"><table><thead><tr><th>Model ceny</th><th>Pasmo ceny gazu netto [[zł/MWh]]</th><th>Okres umowy</th><th>Dla kogo</th></tr></thead><tbody><tr><td>Cena stała</td><td>[[ ]] – [[ ]]</td><td>[[ ]]</td><td>Stabilne zużycie, budżet na rok naprzód</td></tr><tr><td>Cena indeksowana TGE</td><td>indeks [[ ]] + [[ ]]</td><td>[[ ]]</td><td>Akceptujesz zmienność, chcesz ceny rynkowej</td></tr><tr><td>Model transzowy</td><td>[[ ]] – [[ ]]</td><td>[[ ]]</td><td>Duży wolumen, zakupy w kilku terminach</td></tr><tr><td>Umowa kompleksowa dla MŚP</td><td>[[ ]] – [[ ]]</td><td>[[ ]]</td><td>Jedna faktura za gaz i dystrybucję</td></tr></tbody></table><figcaption class="wp-element-caption">Pasma nie zawierają opłat dystrybucyjnych, akcyzy ani podatków. Szczegóły: <a href="/ceny-orientacyjne/">ceny orientacyjne</a>.</figcaption></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy","metadata":{"name":"Data aktualizacji","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-tekst-pomocniczy">Ostatnia aktualizacja pasm: [[data]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:block {"ref":"__BLOCK:zastrzezenie-cen__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9004</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[slot-tabela-cen]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp_pattern_sync_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Slot: kalkulator wypowiedzenia]]></title>
+		<link>https://gazdlaprzemyslu.pl/slot-kalkulator-wypowiedzenia/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=9005</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: kalkulator wypowiedzenia"},"className":"gdp-slot","layout":{"type":"constrained"}} -->
+<div class="wp-block-group gdp-slot"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"55%","className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta" style="flex-basis:55%"><!-- wp:heading {"level":2,"fontSize":"m"} -->
+<h2 class="wp-block-heading has-m-font-size">Dane z Twojej umowy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"gdp-etykieta-pola"} -->
+<p class="gdp-etykieta-pola">Data końca umowy</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">DD.MM.RRRR</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-etykieta-pola"} -->
+<p class="gdp-etykieta-pola">Okres wypowiedzenia</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">np. 3 miesiące ze skutkiem na koniec miesiąca</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-etykieta-pola"} -->
+<p class="gdp-etykieta-pola">Klauzula prolongacyjna</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Tak, umowa przedłuża się automatycznie o [[ ]] / Nie</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/kontakt/">Oblicz termin</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->
+<p class="gdp-tekst-pomocniczy">Wynik ma charakter informacyjny. Termin z umowy weryfikuje człowiek przed przygotowaniem jakiegokolwiek dokumentu.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"45%","className":"gdp-karta","backgroundColor":"surface"} -->
+<div class="wp-block-column gdp-karta has-surface-background-color has-background" style="flex-basis:45%"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta">Wynik</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-liczba"} -->
+<p class="gdp-liczba">[[DD.MM.RRRR]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ostatni dzień na skuteczne złożenie wypowiedzenia, żeby umowa zakończyła się w terminie i nie przedłużyła automatycznie.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->
+<p class="gdp-tekst-pomocniczy">Przypomnienie e-mail na [[ ]] dni przed terminem: [[treść zgody dostarczy zleceniodawca]]</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9005</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[slot-kalkulator-wypowiedzenia]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp_pattern_sync_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Slot: analiza umowy]]></title>
+		<link>https://gazdlaprzemyslu.pl/slot-analiza-umowy/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=9006</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: analiza umowy"},"className":"gdp-slot","layout":{"type":"constrained"}} -->
+<div class="wp-block-group gdp-slot"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta"><!-- wp:heading {"level":2,"fontSize":"m"} -->
+<h2 class="wp-block-heading has-m-font-size">Prześlij umowę do analizy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"gdp-pole gdp-pole-plik"} -->
+<p class="gdp-pole gdp-pole-plik">Przeciągnij umowę (PDF) albo wybierz plik</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-etykieta-pola"} -->
+<p class="gdp-etykieta-pola">E-mail służbowy</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">imie.nazwisko@twojafirma.pl</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/kontakt/">Prześlij umowę</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->
+<p class="gdp-tekst-pomocniczy">Każdy wynik analizy i każdy dokument sprawdza człowiek przed wysyłką. [[treść zgody dostarczy zleceniodawca]]</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Co odczytamy z umowy</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"gdp-lista-check"} -->
+<ul class="wp-block-list gdp-lista-check"><!-- wp:list-item -->
+<li>Datę zakończenia okresu obowiązywania</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Okres i formę wypowiedzenia</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Klauzulę prolongacyjną i jej warunki</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Opłaty za wcześniejsze rozwiązanie umowy</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Zadeklarowany wolumen i pasmo tolerancji</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Model ceny i formułę zmian ceny</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->
+<p class="gdp-tekst-pomocniczy">Nie sugerujemy rozwiązania umowy przed czasem. Skutki błędnego wypowiedzenia (sprzedaż rezerwowa, kary) ponosi klient, dlatego stosujemy kolejność: umowa z PBM, pełnomocnictwo, dopiero potem wypowiedzenie i zgłoszenie do OSD.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9006</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[slot-analiza-umowy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp_pattern_sync_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Slot: formularz doradcy]]></title>
+		<link>https://gazdlaprzemyslu.pl/slot-formularz-doradcy/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=9007</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Slot: formularz doradcy"},"className":"gdp-karta gdp-slot","layout":{"type":"constrained"}} -->
+<div class="wp-block-group gdp-karta gdp-slot"><!-- wp:heading {"level":2,"fontSize":"m"} -->
+<h2 class="wp-block-heading has-m-font-size">Zgłoś się jako doradca</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"gdp-etykieta-pola"} -->
+<p class="gdp-etykieta-pola">Imię i nazwisko</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Jan Kowalski</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-etykieta-pola"} -->
+<p class="gdp-etykieta-pola">Firma i NIP</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">Nazwa firmy, 10 cyfr</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-etykieta-pola"} -->
+<p class="gdp-etykieta-pola">E-mail i telefon</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">imie.nazwisko@firma.pl, +48</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-etykieta-pola"} -->
+<p class="gdp-etykieta-pola">Liczba punktów poboru w portfelu</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-pole"} -->
+<p class="gdp-pole">do 10 / 10–50 / powyżej 50</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/kontakt/">Zgłoś się</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->
+<p class="gdp-tekst-pomocniczy">[[treść zgody dostarczy zleceniodawca]] <a href="/polityka-prywatnosci/">Polityka prywatności</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9007</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[slot-formularz-doradcy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp_pattern_sync_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Wzorzec: segmenty]]></title>
+		<link>https://gazdlaprzemyslu.pl/wzorzec-segmenty/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=9008</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:columns {"metadata":{"name":"Wzorzec: segmenty"},"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta">Mniejsza firma</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"metadata":{"name":"Segment 1: nagłówek","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<h3 class="wp-block-heading">Zużywasz do [[X]] GWh gazu rocznie</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"metadata":{"name":"Segment 1: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Szybka ścieżka. Wgrywasz fakturę, w 24 godziny dostajesz ofertę. Umowa kompleksowa albo sprzedażowa, bez wizyty handlowca.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/dla-kogo/msp/">Oferta dla MŚP</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta">Przemysł</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"metadata":{"name":"Segment 2: nagłówek","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<h3 class="wp-block-heading">Zużywasz powyżej [[X]] GWh gazu rocznie</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"metadata":{"name":"Segment 2: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Dostajesz opiekuna. Razem ustalacie profil zużycia, model ceny (stała, indeksowana, transze) i harmonogram zakupów.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/dla-kogo/przemysl/">Oferta dla przemysłu</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta">Doradca</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"metadata":{"name":"Segment 3: nagłówek","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<h3 class="wp-block-heading">Obsługujesz portfel klientów</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"metadata":{"name":"Segment 3: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Jedno okno zgłoszeń dla wielu punktów poboru, warunki współpracy [[model współpracy]] i status każdej sprawy.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/dla-doradcow/">Dla doradców</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9008</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wzorzec-segmenty]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp_pattern_sync_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Pasek zaufania]]></title>
+		<link>https://gazdlaprzemyslu.pl/pasek-zaufania/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=9009</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:columns {"metadata":{"name":"Pasek zaufania"},"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph {"className":"gdp-liczba","metadata":{"name":"Element 1: wartość","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-liczba">Grupa IMA Polska</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-liczba-opis","metadata":{"name":"Element 1: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-liczba-opis">Właściciel PBM: bioetanol, biogaz, biometan [[opis aktywów]]</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph {"className":"gdp-liczba","metadata":{"name":"Element 2: wartość","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-liczba">Koncesja OPG</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-liczba-opis","metadata":{"name":"Element 2: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-liczba-opis">nr [[ ]] wydana przez Prezesa URE</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph {"className":"gdp-liczba","metadata":{"name":"Element 3: wartość","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-liczba">[[ ]] GWh</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-liczba-opis","metadata":{"name":"Element 3: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-liczba-opis">[[własne aktywa i wolumen Grupy]]</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph {"className":"gdp-liczba","metadata":{"name":"Element 4: wartość","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-liczba">24 h</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-liczba-opis","metadata":{"name":"Element 4: opis","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p class="gdp-liczba-opis">od wgrania faktury do oferty indykatywnej</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9009</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pasek-zaufania]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp_pattern_sync_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[FAQ: produkt]]></title>
+		<link>https://gazdlaprzemyslu.pl/faq-produkt/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=9010</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"FAQ: produkt"},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:details {"metadata":{"name":"Pytanie 1"}} -->
+<details class="wp-block-details"><summary>Czy cena stała obejmuje dystrybucję i podatki?</summary><!-- wp:paragraph {"metadata":{"name":"Odpowiedź 1","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Nie. Stała jest cena gazu jako paliwa. Opłaty dystrybucyjne wynikają z taryfy Twojego operatora zatwierdzanej przez Prezesa URE, a akcyza i podatki z przepisów. Te składniki zmieniają się niezależnie od umowy sprzedaży.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"metadata":{"name":"Pytanie 2"}} -->
+<details class="wp-block-details"><summary>Co się stanie, gdy zużyję mniej albo więcej niż zadeklarowałem?</summary><!-- wp:paragraph {"metadata":{"name":"Odpowiedź 2","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Umowa określa pasmo tolerancji [[ ]] i sposób rozliczenia odchyleń. Ustalamy je na podstawie historii zużycia z Twojej faktury, żeby ryzyko było po obu stronach przewidywalne.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"metadata":{"name":"Pytanie 3"}} -->
+<details class="wp-block-details"><summary>Czy mogę zmienić model w trakcie umowy?</summary><!-- wp:paragraph {"metadata":{"name":"Odpowiedź 3","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Zmiana modelu w trakcie okresu umowy wymaga aneksu na warunkach z umowy [[ ]]. Jeżeli Twoje zużycie jest sezonowe, rozważ od początku model transzowy.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"metadata":{"name":"Pytanie 4"}} -->
+<details class="wp-block-details"><summary>Kiedy mogę przejść do PBM, jeśli mam umowę z innym sprzedawcą?</summary><!-- wp:paragraph {"metadata":{"name":"Odpowiedź 4","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Po zakończeniu obecnej umowy albo w terminie wynikającym z jej okresu wypowiedzenia. Nie sugerujemy rozwiązania umowy przed czasem. Najpierw podpisujesz umowę z PBM i pełnomocnictwo, potem my wypowiadamy obecną umowę w terminie i zgłaszamy zmianę do operatora.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"metadata":{"name":"Pytanie 5"}} -->
+<details class="wp-block-details"><summary>Czy muszę podpisać osobną umowę dystrybucyjną?</summary><!-- wp:paragraph {"metadata":{"name":"Odpowiedź 5","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Jeżeli PBM nie ma zawartej generalnej umowy dystrybucyjnej z Twoim operatorem, podpiszesz osobno umowę dystrybucyjną; pomożemy w tym. Dostawa gazu odbywa się tą samą siecią, bez zmian technicznych.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"metadata":{"name":"Pytanie 6"}} -->
+<details class="wp-block-details"><summary>Skąd wiem, że cena stała jest dla mnie korzystna?</summary><!-- wp:paragraph {"metadata":{"name":"Odpowiedź 6","bindings":{"__default":{"source":"core/pattern-overrides"}}}} -->
+<p>Porównaj ją z ceną indeksowaną dla Twojego profilu zużycia. W ofercie indykatywnej pokazujemy oba warianty obok siebie, z założeniami. Decyzję podejmujesz Ty.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9010</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[faq-produkt]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_block]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp_pattern_sync_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title><![CDATA[Gaz dla Przemysłu: oferta na gaz dla firm w 24 h]]></title>
+		<link>https://gazdlaprzemyslu.pl/start/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1001</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero"},"templateLock":"contentOnly","align":"full","className":"gdp-hero","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull gdp-hero" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"58%"} -->
+<div class="wp-block-column" style="flex-basis:58%"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta">Gaz ziemny dla firm · PBM Sp. z o.o., Grupa IMA Polska</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"className":"gdp-hero-tytul"} -->
+<h1 class="wp-block-heading gdp-hero-tytul">Oferta na gaz dla Twojego zakładu w 24 godziny od wgrania faktury</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Wgraj ostatnią fakturę za gaz. Odczytamy z niej punkt poboru, taryfę i zużycie. W 24 godziny dostaniesz ofertę indykatywną: cena stała, indeksowana do TGE albo model transzowy. Twoją obecną umowę wypowiadamy dopiero po podpisaniu nowej, w jej terminie.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/wgraj-fakture/">Wgraj fakturę</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/ceny-orientacyjne/">Zobacz pasma cen</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"42%","className":"gdp-hero-formularz"} -->
+<div class="wp-block-column gdp-hero-formularz" style="flex-basis:42%"><!-- wp:block {"ref":"__BLOCK:slot-upload-faktury__"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Pasek zaufania"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:block {"ref":"__BLOCK:pasek-zaufania__"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Segmenty: dla kogo"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta">Dla kogo</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Wybierz ścieżkę dopasowaną do zużycia Twojej firmy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Mniejsza firma potrzebuje szybkiej oferty i jednej faktury. Zakład przemysłowy potrzebuje opiekuna, modelu ceny i harmonogramu zakupów. Doradca potrzebuje jednego okna dla wielu klientów.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:block {"ref":"__BLOCK:wzorzec-segmenty__"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Jak to działa"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta">Jak to działa</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Od faktury do dostawy w czterech krokach</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Nie wypowiadamy Twojej obecnej umowy przed czasem. Najpierw umowa z PBM i pełnomocnictwo, potem wypowiedzenie w terminie i zgłoszenie zmiany sprzedawcy do operatora.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph {"className":"gdp-krok-numer"} -->
+<p class="gdp-krok-numer">01</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Wgrywasz fakturę</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Odczytujemy punkt poboru, grupę taryfową, moc umowną i zużycie. Nie musisz niczego przepisywać.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph {"className":"gdp-krok-numer"} -->
+<p class="gdp-krok-numer">02</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Dostajesz ofertę w 24 h</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Pasmo ceny w wybranym modelu, założenia i lista dokumentów potrzebnych do umowy.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph {"className":"gdp-krok-numer"} -->
+<p class="gdp-krok-numer">03</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Podpisujesz umowę i pełnomocnictwo</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Dopiero potem wypowiadamy Twoją obecną umowę w jej terminie i zgłaszamy zmianę sprzedawcy do operatora.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph {"className":"gdp-krok-numer"} -->
+<p class="gdp-krok-numer">04</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Gaz płynie bez przerwy</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Ten sam operator, ta sama sieć i ten sam gazomierz. Zmienia się sprzedawca i faktura.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Ceny orientacyjne: skrót"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta">Ceny orientacyjne</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Pasma cen, zanim wyślesz zapytanie</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Pokazujemy orientacyjne pasma dla każdego modelu ceny i tłumaczymy, z czego składa się Twoja stawka za MWh. Pełną tabelę i dekompozycję ceny znajdziesz na stronie <a href="/ceny-orientacyjne/">ceny orientacyjne</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:block {"ref":"__BLOCK:slot-tabela-cen__"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Komentarz rynkowy"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta">Komentarz rynkowy</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Co dzieje się na rynku gazu</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Krótkie komentarze z datą i autorem: notowania TGE, decyzje URE, zmiany w przepisach. Wszystkie wpisy znajdziesz w <a href="/komentarz-rynkowy/">archiwum komentarzy</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:query {"queryId":11,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false,"taxQuery":{"category":["__CAT:komentarz-rynkowy__"]}},"align":"wide","className":"gdp-komentarze"} -->
+<div class="wp-block-query alignwide gdp-komentarze"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:post-date {"fontSize":"xs"} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true} /-->
+
+<!-- wp:post-excerpt {"moreText":"Czytaj komentarz","excerptLength":24} /-->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA: kalkulator wypowiedzenia"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","verticalAlignment":"center"} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta">Narzędzie</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Kiedy najpóźniej możesz wypowiedzieć obecną umowę</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Wpisz datę końca umowy, okres wypowiedzenia i klauzulę prolongacyjną. Kalkulator pokaże ostatni bezpieczny termin i przypomni Ci o nim. Bez ryzyka sprzedaży rezerwowej z powodu spóźnionego pisma.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:buttons {"className":"gdp-cta-duzy","layout":{"type":"flex","justifyContent":"right"}} -->
+<div class="wp-block-buttons gdp-cta-duzy"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/kalkulator-wypowiedzenia/">Oblicz termin</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"FAQ"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta">Pytania i odpowiedzi</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Zmiana sprzedawcy gazu w praktyce</h2>
+<!-- /wp:heading -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy zmiana sprzedawcy gazu oznacza przerwę w dostawie?</summary><!-- wp:paragraph -->
+<p>Nie. Gaz dostarcza ten sam operator systemu dystrybucyjnego tą samą siecią. Zmienia się sprzedawca i wystawca faktury za paliwo.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Kto wypowiada moją obecną umowę?</summary><!-- wp:paragraph -->
+<p>Po podpisaniu umowy z PBM i pełnomocnictwa robimy to my, w terminie wynikającym z Twojej umowy. Nie sugerujemy rozwiązania umowy przed czasem, bo skutki błędnego wypowiedzenia (sprzedaż rezerwowa, kary) ponosi klient.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Ile trwa zmiana sprzedawcy?</summary><!-- wp:paragraph -->
+<p>Operator ma 21 dni na przeprowadzenie zmiany sprzedawcy od zgłoszenia (art. 4j ust. 6 Prawa energetycznego [[do weryfikacji prawnej]]). Do tego dochodzi okres wypowiedzenia Twojej obecnej umowy.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy potrzebuję osobnej umowy dystrybucyjnej?</summary><!-- wp:paragraph -->
+<p>Zależy od operatora. Jeżeli PBM nie ma zawartej generalnej umowy dystrybucyjnej z Twoim operatorem, podpiszesz osobno umowę dystrybucyjną; pomożemy w tym.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Co odczytujecie z faktury?</summary><!-- wp:paragraph -->
+<p>Punkt poboru, grupę taryfową, moc umowną, zużycie w okresie rozliczeniowym i obecnego sprzedawcę. Fakturę przetwarzamy tylko w celu przygotowania oferty i usuwamy po [[okres retencji]].</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Czy pasma cen na stronie są ofertą?</summary><!-- wp:paragraph -->
+<p>Nie. Prezentowane pasma cen mają charakter orientacyjny i nie stanowią oferty w rozumieniu art. 66 Kodeksu cywilnego. Warunki określa indywidualna oferta i umowa.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1001</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[start]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Wgraj fakturę]]></title>
+		<link>https://gazdlaprzemyslu.pl/wgraj-fakture/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1002</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Wgraj fakturę</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Landing modułu M1: nagłówek, Slot: upload faktury, co odczytamy z faktury, co dostaniesz w 24 h, bezpieczeństwo danych, FAQ.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Slot"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:block {"ref":"__BLOCK:slot-upload-faktury__"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1002</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wgraj-fakture]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Oferta]]></title>
+		<link>https://gazdlaprzemyslu.pl/oferta/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1003</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Oferta</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Hub produktów: wstęp, 5 kart produktów, tabela porównawcza, dla kogo który model, CTA.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1003</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[oferta]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Cena stała]]></title>
+		<link>https://gazdlaprzemyslu.pl/cena-stala/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1004</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero produktu"},"templateLock":"contentOnly","align":"full","className":"gdp-hero gdp-hero-produkt","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull gdp-hero gdp-hero-produkt has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"className":"gdp-etykieta"} -->
+<p class="gdp-etykieta"><a href="/oferta/">Oferta</a> · Cena stała</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Cena stała gazu dla firm</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Cena stała to jedna stawka za MWh gazu przez cały okres umowy, zwykle [[12 albo 24 miesiące]]. Płacisz tyle samo niezależnie od notowań na TGE. Wybierasz ją, gdy przewidywalność kosztu jest dla Ciebie ważniejsza niż szansa na niższą cenę przy spadkach rynku.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/wgraj-fakture/">Wgraj fakturę</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/oferta/">Porównaj modele ceny</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Dla kogo"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading -->
+<h2 class="wp-block-heading">Dla kogo jest cena stała</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta"><!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Budżetujesz koszt gazu na rok naprzód</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Znasz stawkę za MWh w dniu podpisania umowy. Koszt paliwa w budżecie zależy tylko od wolumenu.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta"><!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Zużycie jest stabilne i przewidywalne</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Deklarujesz wolumen na podstawie historii z faktur. Im mniejsze odchylenia, tym prostsze rozliczenie.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"gdp-karta"} -->
+<div class="wp-block-column gdp-karta"><!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Nie chcesz śledzić notowań TGE</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Decyzję o cenie podejmujesz raz, przy podpisaniu umowy. Potem zajmujesz się produkcją, nie rynkiem.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:paragraph -->
+<p>Rozważ inny model, gdy Twoje zużycie jest sezonowe albo oczekujesz spadku cen w okresie umowy. Zobacz <a href="/oferta/cena-indeksowana-tge/">cenę indeksowaną TGE</a> i <a href="/oferta/model-transzowy/">model transzowy</a>.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Mechanizm"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading -->
+<h2 class="wp-block-heading">Jak działa cena stała</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Stała jest cena gazu jako paliwa. Pozostałe składniki faktury wynikają z taryfy operatora i przepisów, więc zmieniają się niezależnie od umowy sprzedaży.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table {"hasFixedLayout":false} -->
+<figure class="wp-block-table"><table><thead><tr><th>Składnik faktury</th><th>Kto ustala</th><th>Stały w okresie umowy</th></tr></thead><tbody><tr><td>Cena gazu (zł/MWh)</td><td>PBM, w umowie</td><td>Tak</td></tr><tr><td>Opłata handlowa / abonamentowa</td><td>PBM, w umowie</td><td>Tak [[warunki]]</td></tr><tr><td>Opłaty dystrybucyjne</td><td>Operator systemu dystrybucyjnego, taryfa zatwierdzana przez Prezesa URE</td><td>Nie, zgodnie z taryfą</td></tr><tr><td>Akcyza, VAT, inne opłaty ustawowe</td><td>Przepisy prawa</td><td>Nie, zgodnie z przepisami</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>Z faktury odczytujemy Twój profil zużycia i grupę taryfową.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Proponujemy cenę stałą na okres [[ ]] wraz z pasmem tolerancji wolumenu [[ ]].</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Podpisujesz umowę i pełnomocnictwo. Wypowiedzenie obecnej umowy składamy w jej terminie, nie wcześniej.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Od pierwszego dnia dostawy płacisz stałą cenę za każdą MWh do końca umowy.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Ryzyka i ograniczenia"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading -->
+<h2 class="wp-block-heading">Ryzyka i ograniczenia</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Cena stała chroni przed wzrostem cen, ale ma cenę w postaci rezygnacji z korzyści przy spadkach. Zanim ją wybierzesz, sprawdź cztery punkty.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Spadek cen na rynku</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Gdy notowania spadną, płacisz cenę z umowy. To świadoma zamiana szansy na przewidywalność.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Odchylenia wolumenu</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Zużycie poza pasmem tolerancji [[ ]] rozliczamy według zasad z umowy. Deklaruj wolumen na podstawie historii, nie planów.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Wcześniejsze rozwiązanie umowy</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Może wiązać się z opłatą określoną w umowie [[warunki]]. Dotyczy to także Twojej obecnej umowy, dlatego nigdy nie wypowiadamy jej przed terminem.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"fontSize":"m"} -->
+<h3 class="wp-block-heading has-m-font-size">Składniki poza ceną gazu</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Dystrybucja, akcyza i podatki zmieniają się niezależnie od umowy sprzedaży. Cena stała ich nie obejmuje.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Przykład liczbowy"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading -->
+<h2 class="wp-block-heading">Przykład liczbowy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Przykład dla zakładu o zużyciu [[ ]] MWh rocznie. Wszystkie wartości uzupełni PBM na podstawie aktualnych warunków.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table {"hasFixedLayout":false,"className":"gdp-liczby"} -->
+<figure class="wp-block-table gdp-liczby"><table><thead><tr><th>Pozycja</th><th>Wartość</th><th>Jednostka</th></tr></thead><tbody><tr><td>Zużycie roczne</td><td>[[ ]]</td><td>MWh</td></tr><tr><td>Cena stała gazu</td><td>[[ ]]</td><td>zł/MWh netto</td></tr><tr><td>Koszt gazu w roku</td><td>[[ ]]</td><td>zł netto</td></tr><tr><td>Opłaty dystrybucyjne wg taryfy [[grupa taryfowa]]</td><td>[[ ]]</td><td>zł netto</td></tr><tr><td>Akcyza i opłaty ustawowe</td><td>[[ ]]</td><td>zł netto</td></tr><tr><td>Razem w roku</td><td>[[ ]]</td><td>zł netto</td></tr></tbody></table><figcaption class="wp-element-caption">Przykład ilustruje strukturę kosztu, nie ofertę.</figcaption></figure>
+<!-- /wp:table -->
+
+<!-- wp:block {"ref":"__BLOCK:zastrzezenie-cen__"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"FAQ"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading -->
+<h2 class="wp-block-heading">Pytania o cenę stałą</h2>
+<!-- /wp:heading -->
+
+<!-- wp:block {"ref":"__BLOCK:faq-produkt__"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Źródła i aktualizacja"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":2,"fontSize":"m"} -->
+<h2 class="wp-block-heading has-m-font-size">Źródła</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Ustawa Prawo energetyczne, art. 4j (zmiana sprzedawcy) – <a href="https://isap.sejm.gov.pl">ISAP, Sejm RP</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Urząd Regulacji Energetyki, taryfy operatorów systemów dystrybucyjnych – <a href="https://www.ure.gov.pl">ure.gov.pl</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Towarowa Giełda Energii, indeksy rynku gazu – <a href="https://tge.pl">tge.pl</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->
+<p class="gdp-tekst-pomocniczy">Ostatnia aktualizacja: [[data]] · Autor: [[imię i nazwisko, stanowisko]]</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1004</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cena-stala]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1003</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Cena indeksowana TGE]]></title>
+		<link>https://gazdlaprzemyslu.pl/cena-indeksowana-tge/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1005</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Cena indeksowana TGE</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Strona produktu: definicja, dla kogo, mechanizm, opis indeksu (link do publicznych indeksów TGE), ryzyka, przykład liczbowy, FAQ, CTA.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1005</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cena-indeksowana-tge]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1003</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Model transzowy]]></title>
+		<link>https://gazdlaprzemyslu.pl/model-transzowy/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1006</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Model transzowy</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Strona produktu: definicja, dla kogo, mechanizm, schemat transz (tabela), ryzyka, przykład liczbowy, FAQ, CTA „Zapytaj o model”.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1006</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[model-transzowy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1003</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Umowa kompleksowa dla MŚP]]></title>
+		<link>https://gazdlaprzemyslu.pl/umowa-kompleksowa-msp/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1007</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Umowa kompleksowa dla MŚP</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Strona produktu dla MŚP z informacją: Jeżeli PBM nie ma zawartej generalnej umowy dystrybucyjnej z Twoim operatorem, podpiszesz osobno umowę dystrybucyjną; pomożemy w tym.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1007</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[umowa-kompleksowa-msp]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1003</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Biometan (wkrótce)]]></title>
+		<link>https://gazdlaprzemyslu.pl/biometan/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1008</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Biometan (wkrótce)</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Strona „wkrótce”: biometan z aktywów Grupy IMA, ograniczenia certyfikacyjne, moduł M9 „wkrótce”, formularz zainteresowania jako slot. Bez cen, terminów i wolumenów.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1008</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[biometan]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1003</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Ceny orientacyjne]]></title>
+		<link>https://gazdlaprzemyslu.pl/ceny-orientacyjne/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1009</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Ceny orientacyjne</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Pełny Slot: tabela cen, dekompozycja ceny (gaz, dystrybucja, akcyza, opłaty, marża), jak czytać pasma, data aktualizacji, zastrzeżenie.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Slot"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:block {"ref":"__BLOCK:slot-tabela-cen__"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1009</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[ceny-orientacyjne]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Kalkulator terminu wypowiedzenia]]></title>
+		<link>https://gazdlaprzemyslu.pl/kalkulator-wypowiedzenia/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1010</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Kalkulator terminu wypowiedzenia</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Wstęp, Slot: kalkulator wypowiedzenia, skąd wziąć dane z umowy, ostrzeżenia prawne, CTA „Prześlij umowę do analizy”.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Slot"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:block {"ref":"__BLOCK:slot-kalkulator-wypowiedzenia__"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1010</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[kalkulator-wypowiedzenia]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Analiza umowy]]></title>
+		<link>https://gazdlaprzemyslu.pl/analiza-umowy/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1011</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Analiza umowy</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Wstęp, Slot: analiza umowy, proces 5 kroków z krokiem „weryfikacja przez człowieka”, co robimy i czego nie robimy, CTA.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Slot"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:block {"ref":"__BLOCK:slot-analiza-umowy__"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1011</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[analiza-umowy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Dla kogo]]></title>
+		<link>https://gazdlaprzemyslu.pl/dla-kogo/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1012</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Dla kogo</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Strona nadrzędna segmentów: przemysł i MŚP.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Slot"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:block {"ref":"__BLOCK:wzorzec-segmenty__"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1012</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dla-kogo]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Gaz dla przemysłu]]></title>
+		<link>https://gazdlaprzemyslu.pl/przemysl/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1013</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Gaz dla przemysłu</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Segment przemysłowy: problemy segmentu, dopasowane produkty, proces, CTA „Porozmawiaj z opiekunem”.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1013</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[przemysl]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1012</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Gaz dla MŚP]]></title>
+		<link>https://gazdlaprzemyslu.pl/msp/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1014</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Gaz dla MŚP</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Segment MŚP: prostszy język, problemy segmentu, umowa kompleksowa, proces, CTA „Wgraj fakturę”.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1014</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[msp]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>1012</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Dla doradców energetycznych]]></title>
+		<link>https://gazdlaprzemyslu.pl/dla-doradcow/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1015</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Dla doradców energetycznych</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Kanał M6: model współpracy [[ ]], co dostaje doradca, Slot: formularz doradcy.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Slot"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:block {"ref":"__BLOCK:slot-formularz-doradcy__"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1015</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dla-doradcow]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Dla agentów AI]]></title>
+		<link>https://gazdlaprzemyslu.pl/dla-agentow-ai/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1016</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Dla agentów AI</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Kanał B2A (M8): czym jest kanał, co będzie dostępne maszynowo (oferta, RFQ), zasady, placeholder linku do specyfikacji [[ ]].</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1016</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dla-agentow-ai]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Wiedza]]></title>
+		<link>https://gazdlaprzemyslu.pl/wiedza/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1017</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Wiedza</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Hub bazy wiedzy (strona wpisów): kategorie, najnowsze wpisy, wyszukiwanie.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1017</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wiedza]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Komentarz rynkowy]]></title>
+		<link>https://gazdlaprzemyslu.pl/komentarz-rynkowy/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1018</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Komentarz rynkowy</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Archiwum komentarzy rynkowych (M7): lista wpisów z datą i autorem, subskrypcja jako slot.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Lista wpisów"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:query {"queryId":21,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false,"taxQuery":{"category":["__CAT:komentarz-rynkowy__"]}},"align":"wide","className":"gdp-komentarze"} -->
+<div class="wp-block-query alignwide gdp-komentarze"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:post-date {"fontSize":"xs"} /-->
+
+<!-- wp:post-title {"level":2,"isLink":true} /-->
+
+<!-- wp:post-excerpt {"moreText":"Czytaj komentarz","excerptLength":24} /-->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1018</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[komentarz-rynkowy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[O nas]]></title>
+		<link>https://gazdlaprzemyslu.pl/o-nas/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1019</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">O nas</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: PBM Sp. z o.o., Grupa IMA Polska, aktywa [[ ]], zespół [[ ]], koncesja [[ ]].</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1019</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[o-nas]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Dokumenty]]></title>
+		<link>https://gazdlaprzemyslu.pl/dokumenty/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1020</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Dokumenty</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Lista dokumentów jako [[ ]]: koncesja, cennik dla odbiorców biznesowych, struktura paliw, regulaminy, RODO, decyzje URE.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1020</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dokumenty]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Kontakt]]></title>
+		<link>https://gazdlaprzemyslu.pl/kontakt/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1021</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Kontakt</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: Dane [[ ]], formularz jako slot, mapa jako placeholder, godziny [[ ]].</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA końcowe"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:block {"ref":"__BLOCK:cta-wgraj-fakture__"} /--></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1021</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[kontakt]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Polityka prywatności]]></title>
+		<link>https://gazdlaprzemyslu.pl/polityka-prywatnosci/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1022</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Polityka prywatności</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: [[treść dostarczy zleceniodawca]]</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1022</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[polityka-prywatnosci]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Regulamin serwisu]]></title>
+		<link>https://gazdlaprzemyslu.pl/regulamin/</link>
+		<pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=1023</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Nagłówek strony"},"templateLock":"contentOnly","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"surface","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Regulamin serwisu</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Strona robocza etapu 1. Zakres w P1.2: [[treść dostarczy zleceniodawca]]</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1023</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-13 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-13 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-13 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[regulamin]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[[[Tytuł komentarza rynkowego]]: notowania TGE i decyzje URE w tygodniu [[nr]]]]></title>
+		<link>https://gazdlaprzemyslu.pl/komentarz-rynkowy-szablon-1/</link>
+		<pubDate>Tue, 08 Sep 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=2001</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">[[Jedno zdanie streszczenia komentarza: co się zmieniło i co to znaczy dla odbiorcy przemysłowego.]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[[komentarz]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Co to znaczy dla Twojej umowy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>[[komentarz]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->
+<p class="gdp-tekst-pomocniczy">Autor: [[imię i nazwisko, stanowisko]] · Ostatnia aktualizacja: [[data]]</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[[[Jedno zdanie streszczenia komentarza: co się zmieniło i co to znaczy dla odbiorcy przemysłowego.]]]]></excerpt:encoded>
+		<wp:post_id>2001</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-08 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-08 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-08 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-08 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[komentarz-rynkowy-szablon-1]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="komentarz-rynkowy"><![CDATA[Komentarz rynkowy]]></category>
+	</item>
+	<item>
+		<title><![CDATA[[[Tytuł komentarza rynkowego]]: co zmienia [[wydarzenie]] dla umów na gaz]]></title>
+		<link>https://gazdlaprzemyslu.pl/komentarz-rynkowy-szablon-2/</link>
+		<pubDate>Tue, 01 Sep 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[redaktor]]></dc:creator>
+		<guid isPermaLink="false">https://gazdlaprzemyslu.pl/?p=2002</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">[[Jedno zdanie streszczenia komentarza.]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[[komentarz]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Co to znaczy dla Twojej umowy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>[[komentarz]]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->
+<p class="gdp-tekst-pomocniczy">Autor: [[imię i nazwisko, stanowisko]] · Ostatnia aktualizacja: [[data]]</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[[[Jedno zdanie streszczenia komentarza.]]]]></excerpt:encoded>
+		<wp:post_id>2002</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-01 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-09-01 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-09-01 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[komentarz-rynkowy-szablon-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="komentarz-rynkowy"><![CDATA[Komentarz rynkowy]]></category>
+	</item>
+</channel>
+</rss>

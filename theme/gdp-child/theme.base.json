@@ -1,0 +1,131 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": false,
+    "useRootPaddingAwareAlignments": false,
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1200px",
+      "allowEditing": false,
+      "allowCustomContentAndWideSize": false
+    },
+    "color": {
+      "custom": false,
+      "customGradient": false,
+      "customDuotone": false,
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "defaultDuotone": false,
+      "background": true,
+      "text": true,
+      "link": false,
+      "heading": false,
+      "button": false,
+      "caption": false,
+      "gradients": [],
+      "duotone": [],
+      "palette": []
+    },
+    "typography": {
+      "customFontSize": false,
+      "fluid": true,
+      "defaultFontSizes": false,
+      "lineHeight": false,
+      "fontWeight": false,
+      "fontStyle": false,
+      "letterSpacing": false,
+      "textDecoration": false,
+      "textTransform": false,
+      "textColumns": false,
+      "writingMode": false,
+      "dropCap": false,
+      "fontFamilies": [],
+      "fontSizes": [
+        { "slug": "xs", "name": "XS", "size": "0.8125rem", "fluid": { "min": "0.8125rem", "max": "0.875rem" } },
+        { "slug": "s", "name": "S", "size": "0.9375rem", "fluid": { "min": "0.9375rem", "max": "1rem" } },
+        { "slug": "m", "name": "M", "size": "1.0625rem", "fluid": { "min": "1.0625rem", "max": "1.125rem" } },
+        { "slug": "l", "name": "L", "size": "1.25rem", "fluid": { "min": "1.25rem", "max": "1.5rem" } },
+        { "slug": "xl", "name": "XL", "size": "1.75rem", "fluid": { "min": "1.625rem", "max": "2.25rem" } },
+        { "slug": "xxl", "name": "XXL", "size": "2.5rem", "fluid": { "min": "2.125rem", "max": "3.375rem" } }
+      ]
+    },
+    "spacing": {
+      "customSpacingSize": false,
+      "defaultSpacingSizes": false,
+      "padding": true,
+      "margin": true,
+      "blockGap": true,
+      "units": [ "px", "rem", "%" ],
+      "spacingSizes": [
+        { "slug": "20", "name": "20", "size": "clamp(0.5rem, 0.4rem + 0.5vw, 0.75rem)" },
+        { "slug": "30", "name": "30", "size": "clamp(0.75rem, 0.6rem + 0.75vw, 1.25rem)" },
+        { "slug": "40", "name": "40", "size": "clamp(1.25rem, 1rem + 1.25vw, 2rem)" },
+        { "slug": "50", "name": "50", "size": "clamp(2rem, 1.5rem + 2vw, 3rem)" },
+        { "slug": "60", "name": "60", "size": "clamp(3rem, 2rem + 3vw, 4.5rem)" },
+        { "slug": "70", "name": "70", "size": "clamp(4rem, 2.5rem + 4vw, 6rem)" },
+        { "slug": "80", "name": "80", "size": "clamp(5rem, 3rem + 5vw, 8rem)" }
+      ]
+    },
+    "border": { "color": false, "radius": false, "style": false, "width": false },
+    "shadow": { "defaultPresets": false, "presets": [] },
+    "dimensions": { "aspectRatio": false, "minHeight": false },
+    "position": { "sticky": false },
+    "background": { "backgroundImage": false, "backgroundSize": false },
+    "blocks": {
+      "core/button": { "border": { "radius": false } },
+      "core/group": { "color": { "background": true, "text": true } },
+      "core/cover": { "color": { "background": true, "text": true } },
+      "core/table": { "color": { "background": false, "text": false } }
+    }
+  },
+  "styles": {
+    "color": { "background": "var:preset|color|base", "text": "var:preset|color|contrast" },
+    "typography": {
+      "fontFamily": "var:preset|font-family|body",
+      "fontSize": "var:preset|font-size|m",
+      "lineHeight": "1.6"
+    },
+    "spacing": { "blockGap": "var:preset|spacing|40" },
+    "elements": {
+      "link": {
+        "color": { "text": "var:preset|color|primary" },
+        ":hover": { "color": { "text": "var:preset|color|contrast" } }
+      },
+      "heading": {
+        "typography": { "fontFamily": "var:preset|font-family|heading", "fontWeight": "700", "lineHeight": "1.15" },
+        "color": { "text": "var:preset|color|contrast" }
+      },
+      "h1": { "typography": { "fontSize": "var:preset|font-size|xxl" } },
+      "h2": { "typography": { "fontSize": "var:preset|font-size|xl" } },
+      "h3": { "typography": { "fontSize": "var:preset|font-size|l" } },
+      "h4": { "typography": { "fontSize": "var:preset|font-size|m", "fontWeight": "600" } },
+      "button": {
+        "color": { "background": "var:preset|color|primary", "text": "var:preset|color|base" },
+        "typography": { "fontFamily": "var:preset|font-family|heading", "fontSize": "var:preset|font-size|s", "fontWeight": "600" },
+        "border": { "radius": "var(--gdp-radius-button)", "width": "0" },
+        "spacing": { "padding": { "top": "0.85rem", "bottom": "0.85rem", "left": "1.5rem", "right": "1.5rem" } },
+        ":hover": { "color": { "background": "var:preset|color|contrast", "text": "var:preset|color|base" } },
+        ":focus": { "color": { "background": "var:preset|color|contrast", "text": "var:preset|color|base" } }
+      }
+    },
+    "blocks": {
+      "core/heading": { "spacing": { "margin": { "top": "0", "bottom": "0" } } },
+      "core/paragraph": { "spacing": { "margin": { "top": "0", "bottom": "0" } } },
+      "core/list": { "spacing": { "margin": { "top": "0", "bottom": "0" } } },
+      "core/table": {
+        "typography": { "fontSize": "var:preset|font-size|s" },
+        "border": { "color": "var:preset|color|line", "width": "1px", "style": "solid" }
+      },
+      "core/details": {
+        "typography": { "fontSize": "var:preset|font-size|m" },
+        "spacing": { "padding": { "top": "var:preset|spacing|20", "bottom": "var:preset|spacing|20" } },
+        "border": { "bottom": { "color": "var:preset|color|line", "width": "1px", "style": "solid" } }
+      },
+      "core/separator": { "color": { "text": "var:preset|color|line" } },
+      "core/quote": { "border": { "left": { "color": "var:preset|color|primary", "width": "3px", "style": "solid" } } },
+      "core/post-date": { "typography": { "fontSize": "var:preset|font-size|xs" } },
+      "core/post-excerpt": { "typography": { "fontSize": "var:preset|font-size|s" } }
+    }
+  }
+}

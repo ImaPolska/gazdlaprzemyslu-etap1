@@ -1,0 +1,196 @@
+{
+  "direction": "A",
+  "total": 31,
+  "ok": 31,
+  "not_200": [],
+  "debug_log_entries": 0,
+  "debug_log": [],
+  "results": [
+    {
+      "url": "/",
+      "status": 200,
+      "final": "/",
+      "h1": 1
+    },
+    {
+      "url": "/wgraj-fakture/",
+      "status": 200,
+      "final": "/wgraj-fakture/",
+      "h1": 1
+    },
+    {
+      "url": "/oferta/",
+      "status": 200,
+      "final": "/oferta/",
+      "h1": 1
+    },
+    {
+      "url": "/oferta/cena-stala/",
+      "status": 200,
+      "final": "/oferta/cena-stala/",
+      "h1": 1
+    },
+    {
+      "url": "/oferta/cena-indeksowana-tge/",
+      "status": 200,
+      "final": "/oferta/cena-indeksowana-tge/",
+      "h1": 1
+    },
+    {
+      "url": "/oferta/model-transzowy/",
+      "status": 200,
+      "final": "/oferta/model-transzowy/",
+      "h1": 1
+    },
+    {
+      "url": "/oferta/umowa-kompleksowa-msp/",
+      "status": 200,
+      "final": "/oferta/umowa-kompleksowa-msp/",
+      "h1": 1
+    },
+    {
+      "url": "/oferta/biometan/",
+      "status": 200,
+      "final": "/oferta/biometan/",
+      "h1": 1
+    },
+    {
+      "url": "/ceny-orientacyjne/",
+      "status": 200,
+      "final": "/ceny-orientacyjne/",
+      "h1": 1
+    },
+    {
+      "url": "/kalkulator-wypowiedzenia/",
+      "status": 200,
+      "final": "/kalkulator-wypowiedzenia/",
+      "h1": 1
+    },
+    {
+      "url": "/analiza-umowy/",
+      "status": 200,
+      "final": "/analiza-umowy/",
+      "h1": 1
+    },
+    {
+      "url": "/dla-kogo/",
+      "status": 200,
+      "final": "/dla-kogo/",
+      "h1": 1
+    },
+    {
+      "url": "/dla-kogo/przemysl/",
+      "status": 200,
+      "final": "/dla-kogo/przemysl/",
+      "h1": 1
+    },
+    {
+      "url": "/dla-kogo/msp/",
+      "status": 200,
+      "final": "/dla-kogo/msp/",
+      "h1": 1
+    },
+    {
+      "url": "/dla-doradcow/",
+      "status": 200,
+      "final": "/dla-doradcow/",
+      "h1": 1
+    },
+    {
+      "url": "/dla-agentow-ai/",
+      "status": 200,
+      "final": "/dla-agentow-ai/",
+      "h1": 1
+    },
+    {
+      "url": "/wiedza/",
+      "status": 200,
+      "final": "/wiedza/",
+      "h1": 1
+    },
+    {
+      "url": "/komentarz-rynkowy/",
+      "status": 200,
+      "final": "/komentarz-rynkowy/",
+      "h1": 1
+    },
+    {
+      "url": "/o-nas/",
+      "status": 200,
+      "final": "/o-nas/",
+      "h1": 1
+    },
+    {
+      "url": "/dokumenty/",
+      "status": 200,
+      "final": "/dokumenty/",
+      "h1": 1
+    },
+    {
+      "url": "/kontakt/",
+      "status": 200,
+      "final": "/kontakt/",
+      "h1": 1
+    },
+    {
+      "url": "/polityka-prywatnosci/",
+      "status": 200,
+      "final": "/polityka-prywatnosci/",
+      "h1": 1
+    },
+    {
+      "url": "/regulamin/",
+      "status": 200,
+      "final": "/regulamin/",
+      "h1": 1
+    },
+    {
+      "url": "/category/zmiana-sprzedawcy/",
+      "status": 200,
+      "final": "/category/zmiana-sprzedawcy/",
+      "h1": 1
+    },
+    {
+      "url": "/category/umowy-i-wypowiedzenia/",
+      "status": 200,
+      "final": "/category/umowy-i-wypowiedzenia/",
+      "h1": 1
+    },
+    {
+      "url": "/category/ceny-i-rynek/",
+      "status": 200,
+      "final": "/category/ceny-i-rynek/",
+      "h1": 1
+    },
+    {
+      "url": "/category/biometan-i-raportowanie/",
+      "status": 200,
+      "final": "/category/biometan-i-raportowanie/",
+      "h1": 1
+    },
+    {
+      "url": "/category/sprzedaz-rezerwowa/",
+      "status": 200,
+      "final": "/category/sprzedaz-rezerwowa/",
+      "h1": 1
+    },
+    {
+      "url": "/category/komentarz-rynkowy/",
+      "status": 200,
+      "final": "/category/komentarz-rynkowy/",
+      "h1": 1
+    },
+    {
+      "url": "/komentarz-rynkowy-szablon-1/",
+      "status": 200,
+      "final": "/komentarz-rynkowy-szablon-1/",
+      "h1": 1
+    },
+    {
+      "url": "/komentarz-rynkowy-szablon-2/",
+      "status": 200,
+      "final": "/komentarz-rynkowy-szablon-2/",
+      "h1": 1
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "meta": {
+    "title": "Gaz dla Przemysłu – etap 1 – kierunek C",
+    "description": "Blocksy (wordpress.org) + motyw potomny gdp-child, bloki core, bez wtyczek. Kierunek wizualny C.",
+    "author": "gdp"
+  },
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "landingPage": "/",
+  "login": true,
+  "steps": [
+    {
+      "step": "setSiteLanguage",
+      "language": "pl_PL"
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "blocksy"
+      },
+      "options": {
+        "activate": false
+      }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-C/dist/gdp-child-C.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "Gaz dla Przemysłu",
+        "blogdescription": "PBM Sp. z o.o., Grupa IMA Polska",
+        "permalink_structure": "/%postname%/",
+        "timezone_string": "Europe/Warsaw",
+        "date_format": "j.m.Y",
+        "time_format": "H:i",
+        "blog_public": "0",
+        "default_comment_status": "closed",
+        "default_ping_status": "closed",
+        "fresh_site": "0"
+      }
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp user create redaktor redaktor@example.invalid --role=editor --display_name=\"Redaktor\" --user_pass=Redaktor-Etap1-2026"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post delete 1 2 3 --force"
+    },
+    {
+      "step": "mkdir",
+      "path": "/wordpress/gdp-config"
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/gdp-config/theme_mods.json",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-C/config/theme_mods_C.json"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/gdp-config/menus.json",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-C/config/menus.json"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/gdp-config/footer.json",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-C/config/footer.json"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/gdp-config/apply-theme-mods.php",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-C/scripts/apply-theme-mods.php"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/gdp-config/apply-config.php",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-C/scripts/apply-config.php"
+      }
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; require '/wordpress/gdp-config/apply-theme-mods.php';"
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-C/content/site.C.wxr"
+      },
+      "importer": "default"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; require '/wordpress/gdp-config/apply-config.php';"
+    }
+  ]
+}
