@@ -8,9 +8,9 @@
  * Kroki:
  *  1. theme_mods Blocksy z config/theme_mods_<X>.json (set_theme_mod dla każdego klucza poza „_…”)
  *  2. lokalizacje menu Blocksy (menu_1, menu_mobile, footer) → term_id menu po slugu
- *  3. strona główna (start) i strona wpisów (wiedza)
+ *  3. strona główna (start); permalinki /wiedza/%postname%/ i baza kategorii wiedza/kategoria
  *  4. widgety blokowe stopki z config/widgets.json (ct-footer-sidebar-1..5)
- *  5. poprawka ID kategorii komentarz-rynkowy w Query Loop (importer nie zachowuje ID terminów)
+ *  5. poprawka ID kategorii (6 kategorii) w Query Loop (importer nie zachowuje ID terminów)
  *  6. wp_pattern_sync_status: wzorce mają być zsynchronizowane (pusta meta = synced)
  *
  * Skrypt jest idempotentny: można go uruchomić ponownie bez skutków ubocznych.
@@ -89,22 +89,19 @@ foreach ($by_slug as $location => $slug) {
 set_theme_mod('nav_menu_locations', $locations);
 gdp_log('nav_menu_locations: ' . json_encode($locations));
 
-// 3. strona główna i strona wpisów
+// 3. strona główna; /wiedza/ jest zwykłą stroną z Query Loop (nie page_for_posts), żeby jej treść blokowa była renderowana
 $front = get_page_by_path('start');
-$posts_page = get_page_by_path('wiedza');
 update_option('show_on_front', 'page');
+update_option('page_for_posts', 0);
 if ($front) {
     update_option('page_on_front', $front->ID);
     gdp_log('page_on_front = ' . $front->ID);
 } else {
     gdp_log('brak strony „start”');
 }
-if ($posts_page) {
-    update_option('page_for_posts', $posts_page->ID);
-    gdp_log('page_for_posts = ' . $posts_page->ID);
-} else {
-    gdp_log('brak strony „wiedza”');
-}
+// adresy: wpisy /wiedza/<slug>/, archiwa kategorii /wiedza/kategoria/<slug>/ (decyzja D-14)
+update_option('permalink_structure', '/wiedza/%postname%/');
+update_option('category_base', 'wiedza/kategoria');
 
 // 4. widgety blokowe stopki
 $widgets = gdp_fetch_json('config/widgets.json');
@@ -142,26 +139,36 @@ if ($widgets && isset($widgets['sidebars'])) {
     gdp_log('widgety stopki: ' . count($widgets['sidebars']) . ' sidebarów');
 }
 
-// 5. ID kategorii komentarz-rynkowy w Query Loop
-$cat = get_category_by_slug('komentarz-rynkowy');
-if ($cat) {
-    $real = (int) $cat->term_id;
-    $pages = get_posts(['post_type' => ['page', 'wp_block'], 'posts_per_page' => -1, 'post_status' => 'any']);
-    $fixed = 0;
-    foreach ($pages as $p) {
-        if (strpos($p->post_content, '"taxQuery":{"category":[') === false) {
-            continue;
-        }
-        $new = preg_replace('/"taxQuery":\{"category":\[\d+\]\}/', '"taxQuery":{"category":[' . $real . ']}', $p->post_content);
-        if ($new !== $p->post_content) {
-            wp_update_post(['ID' => $p->ID, 'post_content' => $new]);
-            $fixed++;
-        }
+// 5. ID kategorii w Query Loop: WXR ma stałe term_id (TERM_IDS w scripts/build-wxr.py), importer może je zmienić
+$wxr_terms = [
+    'komentarz-rynkowy' => 21, 'zmiana-sprzedawcy' => 22, 'umowy-i-wypowiedzenia' => 23,
+    'ceny-i-rynek' => 24, 'biometan-i-raportowanie' => 25, 'sprzedaz-rezerwowa' => 26,
+];
+$map = [];
+foreach ($wxr_terms as $slug => $wxr_id) {
+    $cat = get_category_by_slug($slug);
+    if ($cat) {
+        $map[$wxr_id] = (int) $cat->term_id;
+    } else {
+        gdp_log('brak kategorii ' . $slug);
     }
-    gdp_log('komentarz-rynkowy term_id = ' . $real . '; poprawiono stron: ' . $fixed);
-} else {
-    gdp_log('brak kategorii komentarz-rynkowy');
 }
+$pages = get_posts(['post_type' => ['page', 'wp_block'], 'posts_per_page' => -1, 'post_status' => 'any']);
+$fixed = 0;
+foreach ($pages as $p) {
+    if (strpos($p->post_content, '"taxQuery":{"category":[') === false) {
+        continue;
+    }
+    $new = preg_replace_callback('/"taxQuery":\{"category":\[(\d+)\]\}/', function ($m) use ($map) {
+        $id = (int) $m[1];
+        return '"taxQuery":{"category":[' . (isset($map[$id]) ? $map[$id] : $id) . ']}';
+    }, $p->post_content);
+    if ($new !== $p->post_content) {
+        wp_update_post(['ID' => $p->ID, 'post_content' => $new]);
+        $fixed++;
+    }
+}
+gdp_log('kategorie WXR→WP: ' . json_encode($map) . '; poprawiono stron: ' . $fixed);
 
 // 6. wzorce zsynchronizowane: brak meta wp_pattern_sync_status = synced (WordPress 6.3+)
 $blocks = get_posts(['post_type' => 'wp_block', 'posts_per_page' => -1, 'post_status' => 'any']);

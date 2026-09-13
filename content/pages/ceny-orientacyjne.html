@@ -1,0 +1,96 @@
+<!--
+  Strona: /ceny-orientacyjne/ (slug: ceny-orientacyjne)
+  Tytuł: Ceny orientacyjne gazu dla firm
+  CTA główne: Wgraj fakturę
+  Sekcje: 6
+-->
+<!-- wp:group {"metadata":{"name":"Hero: ceny orientacyjne"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-hero","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-hero">
+<!-- wp:paragraph {"className":"gdp-etykieta","fontSize":"xs"} -->
+<p class="gdp-etykieta has-xs-font-size"><a href="/">Start</a> · Transparentność ceny</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Ceny orientacyjne gazu dla firm</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Poniżej publikujemy pasma cen paliwa gazowego dla trzech segmentów odbiorców oraz opis, z czego składa się cena na fakturze. Pasma są orientacyjne. Konkretną cenę dla Twojego punktu poboru dostaniesz po przesłaniu faktury, w 24 godziny.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/wgraj-fakture/">Wgraj fakturę</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"className":"gdp-mikrodowod","fontSize":"xs"} -->
+<p class="gdp-mikrodowod has-xs-font-size">Cena z oferty zależy od zużycia, profilu poboru, okresu umowy i notowań TGE w dniu wyceny.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Pasma cen"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section gdp-ceny gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section gdp-ceny gdp-sekcja--surface gdp-surface">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Pasma cen paliwa gazowego</h2>
+<!-- /wp:heading -->
+
+<!-- wp:block {"ref":{{ref:slot-tabela-cen}}} /-->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Dekompozycja ceny"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Z czego składa się cena gazu na fakturze</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Na fakturze za gaz tylko część kwoty zależy od sprzedawcy. Resztę ustala operator sieci i ustawodawca. Poniżej składniki w kolejności, w jakiej zwykle pojawiają się na fakturze.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table {"hasFixedLayout":false,"className":"gdp-tabela"} -->
+<figure class="wp-block-table gdp-tabela"><table><thead><tr><th>Składnik</th><th>Kto ustala</th><th>Od czego zależy</th><th>Czy PBM ma na to wpływ</th></tr></thead><tbody><tr><td>Paliwo gazowe (cena za MWh)</td><td>Sprzedawca (PBM)</td><td>Notowania TGE, okres umowy, profil zużycia, model ceny</td><td>Tak: to jest przedmiot oferty</td></tr><tr><td>Opłata abonamentowa sprzedawcy</td><td>Sprzedawca (PBM)</td><td>Koszt obsługi umowy i rozliczeń</td><td>Tak</td></tr><tr><td>Dystrybucja: opłata stała i zmienna</td><td>Operator sieci (OSD), taryfa zatwierdzana przez Prezesa URE</td><td>Grupa taryfowa, moc umowna, zużycie</td><td>Nie; przenoszona 1:1</td></tr><tr><td>Akcyza</td><td>Ustawodawca</td><td>Zużycie i przeznaczenie gazu; część odbiorców przemysłowych korzysta ze zwolnień [[do weryfikacji prawnej]]</td><td>Nie</td></tr><tr><td>Opłaty regulowane i podatki</td><td>Ustawodawca, Prezes URE</td><td>Zużycie; stawki publikowane przez URE</td><td>Nie</td></tr><tr><td>Marża sprzedawcy</td><td>Sprzedawca (PBM)</td><td>Zawarta w cenie paliwa gazowego lub wykazana osobno (cena indeksowana)</td><td>Tak: jawna w modelu indeksowanym</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Jak czytać pasma"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section gdp-sekcja--surface gdp-surface">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Jak czytać pasma cen</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list">
+<!-- wp:list-item -->
+<li>Pasmo dotyczy wyłącznie ceny paliwa gazowego. Do porównania z Twoją fakturą weź pozycję „paliwo gazowe” lub „sprzedaż gazu”, nie kwotę końcową.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Dolna granica pasma to cena dla odbiorcy o równym, przewidywalnym zużyciu i dłuższym okresie umowy. Górna: dla zużycia sezonowego i krótszego okresu.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Pasma aktualizujemy po istotnych zmianach notowań TGE. Data aktualizacji jest podana nad tabelą; jeśli jest starsza niż [[termin]] dni, traktuj pasmo jako orientację, nie punkt odniesienia.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Twoja cena może wypaść poza pasmem, jeśli zużycie znacząco odbiega od typowego dla segmentu lub jeśli wybierasz model indeksowany.</li>
+<!-- /wp:list-item -->
+</ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"className":"gdp-meta","fontSize":"xs"} -->
+<p class="gdp-meta has-xs-font-size">Data aktualizacji pasm: [[data]]. Źródło notowań: <a href="https://tge.pl/">Towarowa Giełda Energii</a>.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Zastrzeżenie"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--zwarta gdp-prawne","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--zwarta gdp-prawne">
+<!-- wp:block {"ref":{{ref:zastrzezenie-cen}}} /-->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:block {"ref":{{ref:cta-wgraj-fakture}},"content":{"Nagłówek CTA":{"content":"Sprawdź cenę dla swojego punktu poboru"},"Podtytuł CTA":{"content":"Pasma są orientacyjne. Prześlij fakturę, a w 24 godziny dostaniesz cenę dla Twojego zużycia i profilu poboru."}}} /-->

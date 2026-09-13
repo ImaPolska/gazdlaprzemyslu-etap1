@@ -7,7 +7,7 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SRC="$ROOT/theme/gdp-child"
 DIST="$ROOT/dist"
 TMP="$ROOT/.tmp-build"
-DEFAULT_VARIANT="${DEFAULT_VARIANT:-A}"
+DEFAULT_VARIANT="${DEFAULT_VARIANT:-B}"  # P1.2: wybrany kierunek B
 VARIANTS=("$@")
 [ ${#VARIANTS[@]} -eq 0 ] && VARIANTS=(A B C)
 

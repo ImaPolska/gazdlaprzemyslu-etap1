@@ -7,11 +7,13 @@ Zasady:
   - wzorce zsynchronizowane (wp_block) mają stałe ID 9001–9010; strony odwołują się do nich
     przez {{ref:slug}} → <!-- wp:block {"ref":9001} /--> ; importer WordPressa zachowuje ID
     (import_id), więc odwołania działają po imporcie w świeżej instancji Playground;
-  - kategoria komentarz-rynkowy ma w WXR term_id 21; importer NIE gwarantuje zachowania ID
-    terminów, dlatego {{term:komentarz-rynkowy}} jest poprawiane po imporcie przez
-    scripts/playground-setup.php (szuka '"category":[21]' w treści stron);
+  - kategorie mają w WXR stałe term_id 21–26 (TERM_IDS); importer NIE gwarantuje zachowania ID
+    terminów, dlatego {{term:slug}} jest poprawiane po imporcie przez scripts/playground-setup.php
+    (mapa slug → ID z WXR musi być zgodna z TERM_IDS poniżej);
   - metadane strony (tytuł, slug, rodzic) są w komentarzu HTML na początku pliku
-    (linie "Tytuł:", "Strona: /sciezka/ (slug: x, rodzic: y)").
+    (linie "Tytuł:", "Strona: /sciezka/ (slug: x, rodzic: y)"); metadane wpisu: "Tytuł:",
+    "Kategoria: slug", "Skrót: ..." (brak Kategoria → komentarz-rynkowy);
+  - ID stron 101–123 i wpisów 201–207 są stałe (PAGE_IDS / POST_IDS): kolejność = menu_order.
 
 Uruchom: python3 scripts/build-wxr.py
 """
@@ -53,9 +55,34 @@ BLOCK_TITLES = {
     "zastrzezenie-cen": "Zastrzeżenie cen",
     "faq-produkt": "FAQ: produkt",
 }
-TERM_IDS = {"komentarz-rynkowy": 21}
-PAGE_IDS = {"start": 101, "oferta": 102, "cena-stala": 103, "wiedza": 104}
-POST_ID_START = 201
+# kategorie: slug -> (term_id w WXR, nazwa, opis)
+CATEGORIES = {
+    "komentarz-rynkowy": (21, "Komentarz rynkowy", "Co dzieje się z ceną gazu na TGE i co to znaczy dla Twojej umowy. Autor i data przy każdym wpisie."),
+    "zmiana-sprzedawcy": (22, "Zmiana sprzedawcy", "Kolejność kroków, terminy, pełnomocnictwo, zgłoszenie do operatora."),
+    "umowy-i-wypowiedzenia": (23, "Umowy i wypowiedzenia", "Okres wypowiedzenia, klauzula prolongacyjna, art. 4j Prawa energetycznego."),
+    "ceny-i-rynek": (24, "Ceny i rynek", "Cena stała, indeks TGE, transze; z czego składa się cena na fakturze."),
+    "biometan-i-raportowanie": (25, "Biometan i raportowanie", "Biometan z aktywów Grupy, certyfikacja, Scope 1 i CSRD bez obietnic."),
+    "sprzedaz-rezerwowa": (26, "Sprzedaż rezerwowa", "Kiedy grozi, jak jej uniknąć, co robić, gdy już trwa."),
+}
+TERM_IDS = {slug: v[0] for slug, v in CATEGORIES.items()}
+# strony: slug -> ID (rodzic musi być zdefiniowany przed dzieckiem; kolejność = menu_order)
+PAGE_IDS = {
+    "start": 101, "oferta": 102, "cena-stala": 103, "wiedza": 104,
+    "wgraj-fakture": 105, "cena-indeksowana-tge": 106, "model-transzowy": 107,
+    "umowa-kompleksowa-msp": 108, "biometan": 109, "ceny-orientacyjne": 110,
+    "kalkulator-wypowiedzenia": 111, "analiza-umowy": 112, "dla-kogo": 113, "przemysl": 114,
+    "msp": 115, "dla-doradcow": 116, "dla-agentow-ai": 117, "o-nas": 118, "dokumenty": 119,
+    "kontakt": 120, "polityka-prywatnosci": 121, "regulamin": 122, "komentarz-rynkowy": 123,
+}
+# wpisy: slug pliku -> ID (kolejność = data publikacji rosnąco, co 7 dni wstecz od NOW)
+POST_IDS = {
+    "komentarz-rynkowy-1": 201, "komentarz-rynkowy-2": 202,
+    "jak-zmienic-sprzedawce-gazu-w-firmie": 203,
+    "okres-wypowiedzenia-i-klauzula-prolongacyjna": 204,
+    "sprzedaz-rezerwowa-gazu": 205,
+    "cena-stala-czy-indeksowana-do-tge": 206,
+    "art-4j-ust-3b-prawa-energetycznego-msp": 207,
+}
 MENU_TERM_ID_START = 31
 MENU_ITEM_ID_START = 301
 FOOTER_WIDGETS = {  # id widgetu blokowego -> plik
@@ -87,6 +114,12 @@ def strip_leading_comment(html: str) -> tuple[str, dict]:
         p = re.search(r"rodzic:\s*([a-z0-9-]+)", header)
         if p:
             meta["parent"] = p.group(1)
+        c = re.search(r"Kategoria:\s*([a-z0-9-]+)", header)
+        if c:
+            meta["category"] = c.group(1)
+        e = re.search(r"Skrót:\s*(.+)", header)
+        if e:
+            meta["excerpt"] = e.group(1).strip()
     return html.strip() + "\n", meta
 
 
@@ -157,16 +190,17 @@ def build() -> int:
     items = []
     terms_xml = []
 
-    # --- kategoria komentarz-rynkowy ---
-    terms_xml.append(
-        "\t<wp:category>\n"
-        f"\t\t<wp:term_id>{TERM_IDS['komentarz-rynkowy']}</wp:term_id>\n"
-        "\t\t<wp:category_nicename><![CDATA[komentarz-rynkowy]]></wp:category_nicename>\n"
-        "\t\t<wp:category_parent><![CDATA[]]></wp:category_parent>\n"
-        "\t\t<wp:cat_name><![CDATA[Komentarz rynkowy]]></wp:cat_name>\n"
-        "\t\t<wp:category_description><![CDATA[Co dzieje się z ceną gazu na TGE i co to znaczy dla Twojej umowy. Autor i data przy każdym wpisie.]]></wp:category_description>\n"
-        "\t</wp:category>"
-    )
+    # --- kategorie ---
+    for slug, (tid, name, desc) in CATEGORIES.items():
+        terms_xml.append(
+            "\t<wp:category>\n"
+            f"\t\t<wp:term_id>{tid}</wp:term_id>\n"
+            f"\t\t<wp:category_nicename>{cdata(slug)}</wp:category_nicename>\n"
+            "\t\t<wp:category_parent><![CDATA[]]></wp:category_parent>\n"
+            f"\t\t<wp:cat_name>{cdata(name)}</wp:cat_name>\n"
+            f"\t\t<wp:category_description>{cdata(desc)}</wp:category_description>\n"
+            "\t</wp:category>"
+        )
 
     # --- wzorce zsynchronizowane (wp_block) ---
     for slug, pid in BLOCK_IDS.items():
@@ -190,21 +224,30 @@ def build() -> int:
         items.append(item(post_id=pid, title=meta.get("title", slug), slug=slug, post_type="page",
                           content=html, parent=parent, menu_order=list(PAGE_IDS).index(slug)))
 
-    # --- wpisy: komentarz rynkowy ---
+    # --- wpisy (komentarze rynkowe + artykuły wiedzy) ---
     post_files = sorted((CONTENT / "posts").glob("*.html"))
-    for i, path in enumerate(post_files):
+    for path in post_files:
+        if path.stem not in POST_IDS:
+            sys.exit(f"[błąd] {path}: brak stałego ID w POST_IDS")
+    for path in sorted(post_files, key=lambda q: POST_IDS[q.stem]):
         html, meta = strip_leading_comment(read(path))
         html = substitute(html, str(path))
-        n = i + 1
+        n = POST_IDS[path.stem] - 200
+        cat_slug = meta.get("category", "komentarz-rynkowy")
+        if cat_slug not in CATEGORIES:
+            sys.exit(f"[błąd] {path}: nieznana kategoria {cat_slug}")
+        title = meta.get("title", path.stem)
+        if title.startswith("Komentarz rynkowy:"):  # robocze komentarze bez tytułu: numeracja jak w P1.1
+            title = f"Komentarz rynkowy {n}: [[tytuł]]"
         items.append(item(
-            post_id=POST_ID_START + i,
-            title=f"Komentarz rynkowy {n}: [[tytuł]]",
+            post_id=POST_IDS[path.stem],
+            title=title,
             slug=path.stem,
             post_type="post",
             content=html,
             date=NOW - dt.timedelta(days=7 * (len(post_files) - n)),
-            excerpt="[[komentarz: skrót do 25 słów]]",
-            terms=[("category", "komentarz-rynkowy", "Komentarz rynkowy")],
+            excerpt=meta.get("excerpt", "[[komentarz: skrót do 25 słów]]"),
+            terms=[("category", cat_slug, CATEGORIES[cat_slug][1])],
         ))
 
     # --- menu (nav_menu + nav_menu_item) ---

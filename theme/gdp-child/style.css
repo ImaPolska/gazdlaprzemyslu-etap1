@@ -221,7 +221,7 @@ body {
 
 /* Placeholdery [[ ]] – widoczne w prototypie, żeby nikt nie wziął ich za dane. */
 .gdp-placeholder {
-	background: var(--wp--preset--color--surface);
+	background: var(--gdp-surface-bg, var(--wp--preset--color--surface));
 	border: 1px dashed var(--wp--preset--color--line);
 	padding: 0 0.25em;
 }
@@ -366,7 +366,7 @@ body {
 	border-width: 2px;
 	text-align: center;
 	padding: clamp(1.5rem, 3vw, 2.25rem) 1rem;
-	background: var(--wp--preset--color--surface);
+	background: var(--gdp-surface-bg, var(--wp--preset--color--surface));
 	color: var(--wp--preset--color--contrast);
 	font-weight: 500;
 }
@@ -409,7 +409,7 @@ body {
 }
 
 .gdp-slot .gdp-wynik {
-	background: var(--wp--preset--color--surface);
+	background: var(--gdp-surface-bg, var(--wp--preset--color--surface));
 	border-radius: var(--gdp-radius-s);
 	padding: var(--wp--preset--spacing--30);
 	margin-top: var(--wp--preset--spacing--30);
@@ -615,7 +615,7 @@ body {
 }
 
 .wp-block-table tbody tr:hover td {
-	background: var(--wp--preset--color--surface);
+	background: var(--gdp-surface-bg, var(--wp--preset--color--surface));
 }
 
 .gdp-surface .wp-block-table tbody tr:hover td {
@@ -748,7 +748,7 @@ body {
 }
 
 .gdp-mechanizm ol + p {
-	background: var(--wp--preset--color--surface);
+	background: var(--gdp-surface-bg, var(--wp--preset--color--surface));
 	border-left: 4px solid var(--wp--preset--color--primary);
 	border-radius: 0 var(--gdp-radius-s) var(--gdp-radius-s) 0;
 	padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--40);
@@ -794,7 +794,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
-	background: var(--wp--preset--color--surface);
+	background: var(--gdp-surface-bg, var(--wp--preset--color--surface));
 	color: var(--wp--preset--color--primary);
 	font-weight: 700;
 	font-family: var(--wp--preset--font-family--mono);
@@ -806,7 +806,7 @@ body {
 }
 
 .wp-block-details summary:hover {
-	background: var(--wp--preset--color--surface);
+	background: var(--gdp-surface-bg, var(--wp--preset--color--surface));
 }
 
 .wp-block-details[open] summary {
@@ -1172,4 +1172,178 @@ footer.ct-footer,
 .editor-styles-wrapper .gdp-cta-final {
 	margin-left: 0;
 	margin-right: 0;
+}
+
+/* ---------------------------------------------------------------------------
+ * P1.2: klasy dla stron z mapy 8.1 (wspólne dla kierunków A/B/C)
+ * ------------------------------------------------------------------------- */
+
+/* hero z formularzem w dwu kolumnach (wgraj-fakture, analiza-umowy) */
+.gdp-hero .gdp-hero__tekst {
+	flex-basis: 55%;
+}
+.gdp-hero .gdp-hero__formularz {
+	flex-basis: 45%;
+}
+.gdp-hero .gdp-hero__formularz .gdp-formularz {
+	margin-top: 0;
+}
+
+/* wyróżnione zastrzeżenie (umowa dystrybucyjna, ostrzeżenia prawne) */
+.gdp-uwaga {
+	border-left: 4px solid var(--wp--preset--color--primary);
+}
+.gdp-uwaga.gdp-sekcja--zwarta {
+	padding: var(--wp--preset--spacing--40) var(--wp--preset--spacing--50);
+	background: var(--gdp-surface-bg, var(--wp--preset--color--surface));
+	border-radius: var(--gdp-radius, 8px);
+}
+
+/* produkt „wkrótce” */
+.gdp-wkrotce h1::after,
+.gdp-badge {
+	display: inline-block;
+	margin-left: 0.5em;
+	padding: 0.1em 0.6em;
+	border-radius: 999px;
+	font-size: 0.55em;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	vertical-align: middle;
+	background: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--base);
+}
+.gdp-wkrotce h1::after {
+	content: "wkrótce";
+}
+.gdp-badge {
+	font-size: 0.5em;
+}
+
+/* sekcja z formularzem w kolumnie (biometan, kontakt, subskrypcja) */
+.gdp-formularz-sekcja .wp-block-columns {
+	align-items: flex-start;
+}
+.gdp-formularz-sekcja .gdp-formularz {
+	margin-top: 0;
+}
+
+/* artykuł: nagłówek, sekcje, źródła */
+.gdp-naglowek-artykulu {
+	padding-bottom: var(--wp--preset--spacing--40);
+	border-bottom: 1px solid var(--wp--preset--color--line);
+}
+.gdp-naglowek-artykulu .gdp-wstep {
+	font-weight: 500;
+}
+.gdp-naglowek-artykulu ol {
+	columns: 2;
+	column-gap: var(--wp--preset--spacing--50);
+}
+.gdp-artykul-sekcja {
+	margin-top: var(--wp--preset--spacing--60);
+}
+.gdp-artykul-sekcja h2 {
+	scroll-margin-top: 6rem;
+}
+.gdp-zrodla {
+	margin-top: var(--wp--preset--spacing--60);
+	padding-top: var(--wp--preset--spacing--40);
+	border-top: 1px solid var(--wp--preset--color--line);
+}
+.gdp-zrodla ul {
+	font-size: var(--wp--preset--font-size--s);
+}
+
+/* dokumenty: wiersz dokumentu (nazwa, data, PDF) */
+.gdp-dokument h3 {
+	margin-bottom: 0.25em;
+}
+.gdp-dokument .gdp-dokument__meta {
+	margin-top: 0.5em;
+	color: var(--wp--preset--color--secondary);
+}
+
+/* kontakt: tabela danych bez nagłówka, mapa jako placeholder */
+.gdp-kontakt-dane thead {
+	display: none;
+}
+.gdp-kontakt-dane td:first-child {
+	font-weight: 600;
+	white-space: nowrap;
+}
+.gdp-mapa {
+	min-height: 220px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: 1px dashed var(--wp--preset--color--secondary);
+	border-radius: var(--gdp-radius, 8px);
+	background: var(--gdp-surface-bg, var(--wp--preset--color--surface));
+}
+
+/* wiedza: karty kategorii, wyszukiwarka */
+.gdp-kategorie .gdp-kategoria h3 {
+	margin-bottom: 0.25em;
+}
+.gdp-szukaj {
+	max-width: 560px;
+}
+.gdp-szukaj .wp-block-search__input {
+	border-radius: var(--gdp-radius, 8px);
+}
+
+/* proces 5 kroków (analiza umowy) – numer kroku jak na stronie startowej */
+.gdp-proces .gdp-krok__numer {
+	margin-bottom: 0.25em;
+}
+
+/* kanał B2A: placeholder specyfikacji jak blok kodu */
+.gdp-kanal-ai {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	font-size: var(--wp--preset--font-size--s);
+	padding: var(--wp--preset--spacing--40);
+	border-radius: var(--gdp-radius, 8px);
+	border: 1px dashed var(--wp--preset--color--secondary);
+	background: var(--gdp-surface-bg, var(--wp--preset--color--surface));
+}
+
+/* nagłówek ukryty wizualnie (kotwice sekcji ze slotem) */
+.gdp-sekcja .screen-reader-text {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+/* strony prawne */
+.gdp-prawne-naglowek h1 {
+	margin-bottom: 0.5em;
+}
+
+/* 404 */
+.gdp-404 {
+	padding: var(--wp--preset--spacing--80, 4rem) var(--wp--preset--spacing--50, 1.5rem);
+	text-align: center;
+}
+.gdp-404 h1 {
+	margin-bottom: 0.5em;
+}
+.gdp-404 .wp-block-buttons {
+	justify-content: center;
+}
+.gdp-404 p {
+	max-width: 40em;
+	margin: 0 auto 1.5em;
+}
+
+@media (max-width: 781px) {
+	.gdp-naglowek-artykulu ol {
+		columns: 1;
+	}
 }

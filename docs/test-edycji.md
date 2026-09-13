@@ -21,7 +21,7 @@ Oczekiwane: żadnych pytań o układ, kolory ani szerokość. Jeśli edytor pyta
 
 ## Operacja 2 — dodanie akapitu i tabeli 3×3 w artykule
 
-1. Panel → „Wpisy” → „Komentarz rynkowy 1” (kliknij tytuł).
+1. Panel → „Wpisy” → „Jak zmienić sprzedawcę gazu w firmie: kolejność kroków i terminy” (kliknij tytuł).
 2. Kliknij pod drugim nagłówkiem w treści (koniec akapitu) i naciśnij Enter — pojawia się nowy, pusty akapit. Wpisz zdanie.
 3. Naciśnij Enter, wpisz `/tabela` i wybierz „Tabela”. Ustaw 3 kolumny, 3 wiersze → „Utwórz tabelę”. Wpisz cokolwiek w komórki.
 4. Kliknij „Aktualizuj”. Otwórz artykuł na froncie.
@@ -51,11 +51,9 @@ Oczekiwane: sekcje można przestawiać jako całość; wnętrze sekcji jest zabl
 Jako `admin`:
 1. Panel → „Wygląd” → „Edytor” → „Wzorce” → „Moje wzorce” → „Zastrzeżenie cen” (albo: na dowolnej stronie kliknij blok zastrzeżenia → „Edytuj oryginał”).
 2. Zmień jedno słowo w tekście zastrzeżenia (np. dopisz „(test)” na końcu). Kliknij „Zapisz”.
-3. Sprawdź stronę główną, `/oferta/cena-stala/` i stopkę.
+3. Sprawdź stronę główną, `/oferta/cena-stala/`, `/ceny-orientacyjne/` (slot tabeli cen) i stopkę.
 
 Oczekiwane: zmieniony tekst jest widoczny wszędzie, gdzie występuje zastrzeżenie, bez edycji tych stron.
-Uwaga: w P1.1 strona `/ceny-orientacyjne/` jeszcze nie istnieje (P1.2); wzorzec jest osadzony w slocie tabeli cen, który
-pojawi się na niej po dodaniu strony.
 
 Po teście przywróć tekst pierwotny (krok 1–2, usuń dopisek) — wzorzec zastrzeżenia ma brzmienie ustalone w sekcji 10.4 instrukcji.
 

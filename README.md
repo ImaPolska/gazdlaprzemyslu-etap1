@@ -2,7 +2,7 @@
 
 Repozytorium prototypu serwisu gazdlaprzemyslu.pl (PBM Sp. z o.o., Grupa IMA Polska).
 Zakres etapu 1: WordPress Playground, motyw Blocksy (free) z motywem potomnym `gdp-child`,
-wyłącznie bloki `core/*`, zero wtyczek. Stan: **P1.0 + P1.1** (trzy kierunki wizualne A/B/C).
+wyłącznie bloki `core/*`, zero wtyczek. Stan: **P1.2** (pełny prototyp wszystkich stron z mapy 8.1, kierunek B jako bazowy; tag `etap1-v0.1`).
 
 Zasada nadrzędna: żadna informacja nie istnieje wyłącznie w instancji Playground — wszystko,
 co widać na stronie, jest odtwarzalne z tego repozytorium.
@@ -13,6 +13,7 @@ Adres bazowy repozytorium (serwer statyczny): `https://160b0be17-8080.na112.prev
 
 | Kierunek | Tag | Link uruchomieniowy |
 |---|---|---|
+| **Główny (P1.2) — pełny prototyp, kierunek B** | `etap1-v0.1` | https://playground.wordpress.net/?blueprint-url=https://160b0be17-8080.na112.preview.abacusai.app/blueprints/main.json |
 | A — Przemysłowy (ostre krawędzie, ceglasty akcent, monospace w liczbach) | `etap1-A` | https://playground.wordpress.net/?blueprint-url=https://160b0be17-8080.na112.preview.abacusai.app/blueprints/A.json |
 | B — Nowoczesny (zaokrąglenia 12 px, ciemne hero, turkusowy akcent) | `etap1-B` | https://playground.wordpress.net/?blueprint-url=https://160b0be17-8080.na112.preview.abacusai.app/blueprints/B.json |
 | C — Ekspercki (serif w nagłówkach, cienkie linie, zielony akcent) | `etap1-C` | https://playground.wordpress.net/?blueprint-url=https://160b0be17-8080.na112.preview.abacusai.app/blueprints/C.json |
@@ -31,11 +32,11 @@ Logowanie (`/wp-admin/` w tej samej karcie):
 ## Struktura repozytorium
 
 ```
-blueprints/            A.json, B.json, C.json — blueprinty Playground (ten sam zestaw kroków, inny ZIP motywu i theme_mods)
-theme/gdp-child/       motyw potomny: style.css, functions.php, theme.json (= kierunek A), patterns/*.php, assets/
+blueprints/            main.json (P1.2, = kierunek B), A.json, B.json, C.json — blueprinty Playground (ten sam zestaw kroków, inny ZIP motywu i theme_mods)
+theme/gdp-child/       motyw potomny: style.css, functions.php, 404.php, theme.json (= kierunek A; ZIP-y per kierunek), patterns/*.php, assets/
 theme/variants/{A,B,C} theme.json + variant.css per kierunek (generowane skryptem)
 content/pages/*.html   treść stron (markup bloków core) z metadanymi w komentarzu nagłówkowym
-content/posts/*.html   artykuły „Komentarz rynkowy”
+content/posts/*.html   artykuły Wiedzy (nagłówek: Tytuł, Kategoria, Skrót) i komentarze rynkowe
 content/blocks/*.html  wzorce zsynchronizowane (wp_block) i widgety stopki
 content/site.wxr       eksport WXR generowany z content/ (strony, wpisy, wp_block, menu)
 config/tokens.json     tokeny projektowe (kolory, typografia, odstępy) — źródło dla theme.json i theme_mods
@@ -43,7 +44,7 @@ config/theme_mods_*.json  ustawienia Customizera Blocksy per kierunek (generowan
 config/menus.json, footer_structure.json, widgets.json  menu, struktura stopki, widgety
 scripts/               budowanie i weryfikacja (opis niżej)
 docs/                  decyzje, changelog, otwarte pozycje, test edycji
-dist/                  ZIP-y motywu potomnego (gdp-child-A/B/C.zip; gdp-child.zip = A)
+dist/                  ZIP-y motywu potomnego (gdp-child-A/B/C.zip; gdp-child.zip = B)
 ```
 
 ## Budowanie i weryfikacja
@@ -63,11 +64,12 @@ po zmianie treści w `content/` uruchom build-wxr i verify-blocks.
 
 Skrypt `scripts/playground-setup.php` uruchamia się wewnątrz WordPressa (krok `runPHP` blueprintu
 lub `wp eval-file` w etapie 2): ustawia theme_mods Blocksy, lokalizacje menu, stronę główną,
-widgety stopki i poprawia ID kategorii w pętli zapytań.
+widgety stopki, permalinki (`/wiedza/%postname%/`, baza kategorii `wiedza/kategoria`) i mapuje ID kategorii (21–26 z WXR) w pętlach zapytań.
 
 ## Edycja treści
 
 - Treść stron: `content/pages/<slug>.html`. Pierwszy komentarz HTML zawiera `Tytuł:`, `slug:`, `rodzic:`.
+- Treść artykułów: `content/posts/<slug>.html`; nagłówek zawiera `Tytuł:`, `Kategoria:` (slug z listy w `build-wxr.py`), `Skrót:`.
   Odwołania do wzorców zsynchronizowanych: `{{ref:slug-wzorca}}`; do kategorii: `{{term:komentarz-rynkowy}}`.
 - Wzorce zsynchronizowane: `content/blocks/<slug>.html` (jedno źródło prawdy dla CTA, slotów, zastrzeżenia cen, FAQ).
 - Sloty modułów (upload faktury, tabela cen, kalkulator, analiza umowy, formularz doradcy) mają docelowe
@@ -89,4 +91,5 @@ widgety stopki i poprawia ID kategorii w pętli zapytań.
 ## Tagi
 
 - `etap1-A`, `etap1-B`, `etap1-C` — punkt kontrolny P1.1 (trzy kierunki wizualne, ten sam commit).
-- Kolejne: `etap1-v0.1` (P1.2), `etap1-v0.x` (iteracje), `etap1-final` (P1.4).
+- `etap1-v0.1` — P1.2, pełny prototyp (blueprint `main.json`).
+- Kolejne: `etap1-v0.x` (iteracje), `etap1-final` (P1.4).

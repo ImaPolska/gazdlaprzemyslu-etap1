@@ -1,15 +1,174 @@
 <!--
-  Strona: /wiedza/ (slug: wiedza, page_for_posts). Treść poniżej jest widoczna tylko w edytorze,
-  bo WordPress na stronie wpisów wyświetla listę wpisów według szablonu Blocksy. Pełny hub w P1.2.
+  Strona: /wiedza/ — hub bazy wiedzy (zwykła strona z Query Loop; nie page_for_posts) (slug: wiedza)
   Tytuł: Wiedza
+  CTA główne: Wgraj fakturę
+  Sekcje: 5
+  Strona nie jest ustawiona jako page_for_posts, żeby WordPress renderował jej treść blokową; listy wpisów zapewnia Query Loop.
 -->
-<!-- wp:group {"metadata":{"name":"Wstęp bazy wiedzy"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja","layout":{"type":"constrained","contentSize":"760px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja">
+<!-- wp:group {"metadata":{"name":"Hero: wiedza"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-hero","layout":{"type":"constrained","contentSize":"760px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-hero">
+<!-- wp:paragraph {"className":"gdp-etykieta","fontSize":"xs"} -->
+<p class="gdp-etykieta has-xs-font-size"><a href="/">Start</a> · Wiedza</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">Wiedza</h1>
+<h1 class="wp-block-heading">Wiedza o zakupie gazu dla firm</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"m"} -->
+<p class="has-m-font-size">Artykuły o zmianie sprzedawcy, umowach i wypowiedzeniach, cenach i rynku, biometanie i sprzedaży rezerwowej. Każdy tekst zaczyna się od odpowiedzi w kilku zdaniach, ma spis treści, źródła, datę i autora.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:search {"label":"Szukaj w bazie wiedzy","showLabel":false,"placeholder":"np. okres wypowiedzenia","buttonText":"Szukaj","className":"gdp-szukaj"} /-->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Kategorie"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section gdp-kategorie gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section gdp-kategorie gdp-sekcja--surface gdp-surface">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Kategorie</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"className":"gdp-karta gdp-card gdp-kategoria"} -->
+<div class="wp-block-column gdp-karta gdp-card gdp-kategoria">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/wiedza/kategoria/zmiana-sprzedawcy/">Zmiana sprzedawcy</a></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Artykuły o zmianie sprzedawcy gazu, umowach i wypowiedzeniach, cenach i rynku, biometanie i raportowaniu oraz sprzedaży rezerwowej. Pięć artykułów roboczych i pełny hub kategorii: [[P1.2]].</p>
+<p>Kolejność kroków, terminy, pełnomocnictwo, zgłoszenie do operatora.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"gdp-karta gdp-card gdp-kategoria"} -->
+<div class="wp-block-column gdp-karta gdp-card gdp-kategoria">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/wiedza/kategoria/umowy-i-wypowiedzenia/">Umowy i wypowiedzenia</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Okres wypowiedzenia, klauzula prolongacyjna, art. 4j Prawa energetycznego.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"gdp-karta gdp-card gdp-kategoria"} -->
+<div class="wp-block-column gdp-karta gdp-card gdp-kategoria">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/wiedza/kategoria/ceny-i-rynek/">Ceny i rynek</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Cena stała, indeks TGE, transze; z czego składa się cena na fakturze.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"className":"gdp-karta gdp-card gdp-kategoria"} -->
+<div class="wp-block-column gdp-karta gdp-card gdp-kategoria">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/wiedza/kategoria/biometan-i-raportowanie/">Biometan i raportowanie</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Biometan z aktywów Grupy, certyfikacja, Scope 1 i CSRD bez obietnic.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"gdp-karta gdp-card gdp-kategoria"} -->
+<div class="wp-block-column gdp-karta gdp-card gdp-kategoria">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/wiedza/kategoria/sprzedaz-rezerwowa/">Sprzedaż rezerwowa</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Kiedy grozi, jak jej uniknąć, co robić, gdy już trwa.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"gdp-karta gdp-card gdp-kategoria"} -->
+<div class="wp-block-column gdp-karta gdp-card gdp-kategoria">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="/wiedza/kategoria/komentarz-rynkowy/">Komentarz rynkowy</a></h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Krótkie wpisy o notowaniach TGE z datą i autorem.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Najnowsze artykuły"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Najnowsze artykuły</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"queryId":2,"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"className":"gdp-komentarze gdp-artykuly"} -->
+<div class="wp-block-query gdp-komentarze gdp-artykuly">
+<!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:post-title {"isLink":true,"level":3,"fontSize":"m"} /-->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"},"fontSize":"xs"} -->
+<div class="wp-block-group has-xs-font-size">
+<!-- wp:post-date /-->
+<!-- wp:post-author-name {"prefix":"Autor: "} /-->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:post-excerpt {"excerptLength":30} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph -->
+<p>Pierwsze artykuły pojawią się wkrótce.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results -->
+</div>
+<!-- /wp:query -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Komentarz rynkowy"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section gdp-sekcja--surface gdp-surface">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Komentarz rynkowy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"queryId":3,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false,"taxQuery":{"category":[{{term:komentarz-rynkowy}}]}},"className":"gdp-komentarze"} -->
+<div class="wp-block-query gdp-komentarze">
+<!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:post-title {"isLink":true,"level":3,"fontSize":"m"} /-->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"},"fontSize":"xs"} -->
+<div class="wp-block-group has-xs-font-size">
+<!-- wp:post-date /-->
+<!-- wp:post-author-name {"prefix":"Autor: "} /-->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:post-excerpt {"excerptLength":25} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph -->
+<p>Pierwszy komentarz rynkowy pojawi się wkrótce.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results -->
+</div>
+<!-- /wp:query -->
+
+<!-- wp:paragraph -->
+<p><a href="/komentarz-rynkowy/">Wszystkie komentarze rynkowe</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
+
+<!-- wp:block {"ref":{{ref:cta-wgraj-fakture}},"content":{"Nagłówek CTA":{"content":"Masz pytanie o własną umowę"},"Podtytuł CTA":{"content":"Prześlij fakturę lub umowę. Odpowiemy w 24 godziny, konkretnie i z terminami."}}} /-->

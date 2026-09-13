@@ -69,3 +69,26 @@ Decyzja: w P1.1 istnieją strony `/` (start), `/oferta/`, `/oferta/cena-stala/`,
 pozostałe strony z tabeli 8.1 (ceny orientacyjne, kalkulator, analiza umowy, o nas, kontakt, wgraj fakturę, strony prawne)
 powstają w P1.2. Linki do nich w menu i stopce są już obecne (struktura URL jest ustalona).
 Uzasadnienie: P1.1 służy wyborowi kierunku wizualnego; pełna treść to P1.2.
+
+### D-13 Szablon 404.php w motywie potomnym
+Decyzja: motyw potomny zawiera `404.php` (nadpisanie szablonu Blocksy) — krótki tekst i dwa przyciski (start, oferta), bez stylów inline.
+Uzasadnienie: Blocksy free jest motywem klasycznym, więc strona błędu nie jest edytowalna blokami; jeden plik PHP z markupem bloków
+jest mniejszym odstępstwem niż wtyczka lub strona „404” podpięta filtrem. Treść jest statyczna i nie podlega edycji redaktora (odnotowane w open-items).
+
+### D-14 Struktura adresów treści Wiedzy
+Decyzja: permalinki wpisów `/wiedza/%postname%/`, baza kategorii `wiedza/kategoria` (archiwum `/wiedza/kategoria/<slug>/`).
+`/wiedza/` jest zwykłą stroną z Query Loop (nie `page_for_posts`), `/komentarz-rynkowy/` jest stroną (ID 123) z Query Loop
+ograniczonym do kategorii i slotem subskrypcji; właściwe archiwum kategorii to `/wiedza/kategoria/komentarz-rynkowy/`.
+Uzasadnienie: mapa 8.1 wymaga adresów `/wiedza/<slug>/` i osobnego `/komentarz-rynkowy/`; strona zamiast archiwum daje redaktorowi
+edytowalny wstęp i slot formularza bez szablonu PHP.
+
+### D-15 Stałe identyfikatory w WXR i mapowanie kategorii
+Decyzja: strony mają ID 101–123, wpisy 201–207, kategorie 21–26 w pliku WXR (`scripts/build-wxr.py`). Importer WordPressa nadaje
+kategoriom własne ID, dlatego `playground-setup.php` (krok 5) przepisuje `"taxQuery":{"category":[21..26]}` w blokach Query Loop
+na realne ID po imporcie.
+Uzasadnienie: stałe ID pozwalają odwoływać się do stron i kategorii w treści (menu, Query Loop) bez zależności od kolejności importu.
+
+### D-16 Kierunek B jako bazowy blueprint `main.json`
+Decyzja: `blueprints/main.json` powstaje z `B.json` (kierunek „Energetyczny”), `dist/gdp-child.zip` = wariant B; blueprinty A/C
+pozostają dostępne do porównania.
+Uzasadnienie: wskazanie zleceniodawcy dla P1.2; zmiana kierunku to podmiana jednego ZIP-a i `theme_mods`, bez zmian w treści.

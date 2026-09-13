@@ -45,7 +45,8 @@ $WP option update time_format "H:i"
 $WP option update default_comment_status "closed"
 $WP option update default_ping_status "closed"
 $WP option update blog_public 0   # prototyp: nie indeksuj; przed startem produkcyjnym ustaw 1
-$WP rewrite structure "/%postname%/" --hard
+$WP option update category_base "wiedza/kategoria"
+$WP rewrite structure "/wiedza/%postname%/" --hard
 $WP rewrite flush --hard
 
 echo "[5/7] użytkownik redaktor"

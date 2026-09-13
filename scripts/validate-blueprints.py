@@ -20,7 +20,7 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BLUEPRINTS = ["A", "B", "C"]
+BLUEPRINTS = ["A", "B", "C", "main"]  # main = pełny prototyp P1.2 (kierunek B)
 
 # nazwa kroku -> wymagane pola (wg schematu Playground, stan 2026-09)
 REQUIRED = {

@@ -1,10 +1,15 @@
 <!--
-  Strona: /oferta/ (slug: oferta) — hub produktów. W P1.1 wersja minimalna (wstęp, karty, tabela porównawcza, CTA); pełna w P1.2.
+  Strona: /oferta/ — hub produktów (slug: oferta)
   Tytuł: Oferta gazu dla firm
   CTA główne: Wgraj fakturę
+  Sekcje: 6
 -->
 <!-- wp:group {"metadata":{"name":"Hero: oferta"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-hero","layout":{"type":"constrained","contentSize":"1200px"}} -->
 <div class="wp-block-group alignfull gdp-sekcja gdp-hero">
+<!-- wp:paragraph {"className":"gdp-etykieta","fontSize":"xs"} -->
+<p class="gdp-etykieta has-xs-font-size"><a href="/">Start</a> · Oferta</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Oferta gazu ziemnego dla firm</h1>
 <!-- /wp:heading -->
@@ -20,44 +25,59 @@
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
+
+<!-- wp:paragraph {"className":"gdp-mikrodowod","fontSize":"xs"} -->
+<p class="gdp-mikrodowod has-xs-font-size">Oferta indykatywna w 24 godziny w dni robocze.</p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Karty produktów"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-sekcja--surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja gdp-sekcja--surface">
+<!-- wp:group {"metadata":{"name":"Karty produktów"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section gdp-sekcja--surface gdp-surface">
 <!-- wp:heading -->
 <h2 class="wp-block-heading">Modele umowy</h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns -->
 <div class="wp-block-columns">
-<!-- wp:column {"className":"gdp-karta"} -->
-<div class="wp-block-column gdp-karta">
+<!-- wp:column {"className":"gdp-karta gdp-card"} -->
+<div class="wp-block-column gdp-karta gdp-card">
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading"><a href="/oferta/cena-stala/">Cena stała</a></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>Jedna cena za MWh na cały okres umowy. Stały budżet, ryzyko rynkowe po stronie PBM.</p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"gdp-meta","fontSize":"xs"} -->
+<p class="gdp-meta has-xs-font-size">Dla firm z budżetem zatwierdzanym z góry.</p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
-<!-- wp:column {"className":"gdp-karta"} -->
-<div class="wp-block-column gdp-karta">
+
+<!-- wp:column {"className":"gdp-karta gdp-card"} -->
+<div class="wp-block-column gdp-karta gdp-card">
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><a href="/oferta/cena-indeksowana-tge/">Cena indeksowana TGE</a></h3>
+<h3 class="wp-block-heading"><a href="/oferta/cena-indeksowana-tge/">Cena indeksowana do TGE</a></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>Cena podąża za publicznym indeksem TGE plus stała marża. Dla firm, które zarządzają ryzykiem samodzielnie.</p>
 <!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"gdp-meta","fontSize":"xs"} -->
+<p class="gdp-meta has-xs-font-size">Dla firm z osobą śledzącą rynek.</p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
-<!-- wp:column {"className":"gdp-karta"} -->
-<div class="wp-block-column gdp-karta">
+
+<!-- wp:column {"className":"gdp-karta gdp-card"} -->
+<div class="wp-block-column gdp-karta gdp-card">
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading"><a href="/oferta/model-transzowy/">Model transzowy</a></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>Zakup wolumenu w kilku transzach w różnych terminach. Uśrednia cenę, wymaga decyzji w czasie.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"gdp-meta","fontSize":"xs"} -->
+<p class="gdp-meta has-xs-font-size">Dla dużych odbiorców z doradcą lub działem zakupów.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
@@ -66,30 +86,30 @@
 
 <!-- wp:columns -->
 <div class="wp-block-columns">
-<!-- wp:column {"className":"gdp-karta"} -->
-<div class="wp-block-column gdp-karta">
+<!-- wp:column {"className":"gdp-karta gdp-card"} -->
+<div class="wp-block-column gdp-karta gdp-card">
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading"><a href="/oferta/umowa-kompleksowa-msp/">Umowa kompleksowa dla MŚP</a></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Sprzedaż i dystrybucja w jednej umowie i na jednej fakturze. Jeżeli PBM nie ma zawartej generalnej umowy dystrybucyjnej z Twoim operatorem, podpiszesz osobno umowę dystrybucyjną; pomożemy w tym.</p>
+<p>Sprzedaż i dystrybucja na jednej fakturze, cena stała. Jeżeli PBM nie ma zawartej generalnej umowy dystrybucyjnej z Twoim operatorem, podpiszesz osobno umowę dystrybucyjną; pomożemy w tym.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"gdp-meta","fontSize":"xs"} -->
+<p class="gdp-meta has-xs-font-size">Dla firm zużywających do [[X]] GWh rocznie.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
-<!-- wp:column {"className":"gdp-karta"} -->
-<div class="wp-block-column gdp-karta">
+
+<!-- wp:column {"className":"gdp-karta gdp-card"} -->
+<div class="wp-block-column gdp-karta gdp-card">
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><a href="/oferta/biometan/">Biometan (wkrótce)</a></h3>
+<h3 class="wp-block-heading"><a href="/oferta/biometan/">Biometan</a> <span class="gdp-badge">wkrótce</span></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Biometan z aktywów Grupy IMA Polska. Bez deklaracji terminów, wolumenów i cen do czasu zakończenia certyfikacji.</p>
+<p>Biometan z aktywów Grupy IMA Polska, w przygotowaniu. Bez terminów, wolumenów i cen do czasu zakończenia certyfikacji.</p>
 <!-- /wp:paragraph -->
-</div>
-<!-- /wp:column -->
-<!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:paragraph -->
-<p>[[strona /oferta/ w pełnej wersji: P1.2]]</p>
+<!-- wp:paragraph {"className":"gdp-meta","fontSize":"xs"} -->
+<p class="gdp-meta has-xs-font-size">Zapisz się na informację o starcie.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
@@ -98,18 +118,34 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Tabela porównawcza"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group alignfull gdp-sekcja">
+<!-- wp:group {"metadata":{"name":"Tabela porównawcza"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section">
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Który model do jakiej firmy</h2>
+<h2 class="wp-block-heading">Porównanie modeli</h2>
 <!-- /wp:heading -->
 
-<!-- wp:table {"hasFixedLayout":false} -->
-<figure class="wp-block-table"><table><thead><tr><th>Cecha</th><th>Cena stała</th><th>Cena indeksowana TGE</th><th>Model transzowy</th><th>Umowa kompleksowa dla MŚP</th></tr></thead><tbody><tr><td>Stałość budżetu</td><td>Pełna</td><td>Brak</td><td>Częściowa</td><td>Pełna</td></tr><tr><td>Kto ponosi ryzyko ceny rynkowej</td><td>PBM</td><td>Odbiorca</td><td>Dzielone</td><td>PBM</td></tr><tr><td>Wymagane zaangażowanie odbiorcy</td><td>Niskie</td><td>Wysokie</td><td>Średnie</td><td>Niskie</td></tr><tr><td>Typowy profil</td><td>Stałe zużycie</td><td>Duży odbiorca z zespołem zakupów</td><td>Duży odbiorca, decyzje w transzach</td><td>MŚP do [[X]] GWh rocznie</td></tr></tbody></table></figure>
+<!-- wp:table {"hasFixedLayout":false,"className":"gdp-tabela gdp-price-table"} -->
+<figure class="wp-block-table gdp-tabela gdp-price-table"><table><thead><tr><th>Cecha</th><th>Cena stała</th><th>Cena indeksowana</th><th>Model transzowy</th><th>Umowa kompleksowa MŚP</th></tr></thead><tbody><tr><td>Cena paliwa gazowego</td><td>stała przez okres umowy</td><td>indeks TGE + stała marża, co miesiąc</td><td>średnia z zamkniętych transz</td><td>stała przez okres umowy</td></tr><tr><td>Kto ponosi ryzyko ceny</td><td>PBM</td><td>odbiorca</td><td>odbiorca, rozłożone na kilka decyzji</td><td>PBM</td></tr><tr><td>Decyzje w trakcie umowy</td><td>brak</td><td>brak (obserwacja rynku)</td><td>zamknięcie transz w oknach</td><td>brak</td></tr><tr><td>Dystrybucja</td><td>osobno lub w umowie kompleksowej</td><td>osobno lub w umowie kompleksowej</td><td>osobno</td><td>na tej samej fakturze [[jeśli GUD-K z operatorem]]</td></tr><tr><td>Typowe zużycie</td><td>od [[ ]] GWh</td><td>od [[ ]] GWh</td><td>od [[X]] GWh</td><td>do [[X]] GWh</td></tr><tr><td>Typowe okresy umowy</td><td>[[ ]]</td><td>[[ ]]</td><td>[[ ]]</td><td>[[ ]]</td></tr><tr><td>Tolerancja wolumenu</td><td>[[tolerancja]]</td><td>[[tolerancja]]</td><td>[[tolerancja]]</td><td>[[tolerancja]]</td></tr><tr><td>Wcześniejsze rozwiązanie</td><td>według umowy</td><td>według umowy</td><td>według umowy; rozliczenie zamkniętych transz</td><td>według umowy i art. 4j ust. 3b PE [[do weryfikacji prawnej]]</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 </div>
 <!-- /wp:group -->
 
-<!-- wp:block {"ref":{{ref:faq-produkt}}} /-->
+<!-- wp:group {"metadata":{"name":"Dla kogo który model"},"templateLock":"contentOnly","align":"full","className":"gdp-sekcja gdp-section gdp-dla-kogo gdp-sekcja--surface gdp-surface","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull gdp-sekcja gdp-section gdp-dla-kogo gdp-sekcja--surface gdp-surface">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Dla kogo który model</h2>
+<!-- /wp:heading -->
 
-<!-- wp:block {"ref":{{ref:cta-wgraj-fakture}}} /-->
+<!-- wp:table {"hasFixedLayout":false,"className":"gdp-tabela"} -->
+<figure class="wp-block-table gdp-tabela"><table><thead><tr><th>Twoja sytuacja</th><th>Model do rozważenia</th><th>Dlaczego</th></tr></thead><tbody><tr><td>Budżet gazu zatwierdzany raz w roku; odchylenia są problemem</td><td>Cena stała</td><td>Jedna liczba w budżecie, brak decyzji w trakcie roku.</td></tr><tr><td>Masz osobę śledzącą rynek; możesz przenieść zmiany ceny na produkt</td><td>Cena indeksowana do TGE</td><td>Płacisz cenę rynkową bez premii za ryzyko sprzedawcy.</td></tr><tr><td>Zużycie powyżej [[X]] GWh; chcesz uśrednić cenę</td><td>Model transzowy</td><td>Kilka decyzji zamiast jednej; wpływ pojedynczego momentu maleje.</td></tr><tr><td>Mała firma, jeden punkt poboru, brak czasu na formalności</td><td>Umowa kompleksowa dla MŚP</td><td>Jedna umowa, jedna faktura, cena stała, zmiana sprzedawcy załatwiona za Ciebie.</td></tr><tr><td>Chcesz gazu odnawialnego z polskiej produkcji</td><td>Biometan (wkrótce)</td><td>Zostaw kontakt; odezwiemy się, gdy oferta będzie gotowa.</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>Nie wiesz, który model wybrać? Zobacz artykuł <a href="/wiedza/cena-stala-czy-indeksowana-do-tge/">Cena stała czy indeksowana do TGE: dla jakiego profilu zużycia</a> albo prześlij fakturę.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:block {"ref":{{ref:zastrzezenie-cen}}} /-->
+
+<!-- wp:block {"ref":{{ref:cta-wgraj-fakture}},"content":{"Nagłówek CTA":{"content":"Prześlij fakturę i sprawdź cenę"},"Podtytuł CTA":{"content":"W 24 godziny dostaniesz ofertę w modelu dopasowanym do zużycia, z porównaniem do ceny z Twojej faktury."}}} /-->
