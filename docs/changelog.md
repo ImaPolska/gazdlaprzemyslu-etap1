@@ -22,3 +22,6 @@ Naprawiono w trakcie QA
 - Tabele: bez `has-fixed-layout`, przewijanie poziome na mobile, mono tylko w kolumnach liczbowych.
 - `/wiedza/` bez h1 – włączony hero Blocksy tylko dla archiwum bloga.
 - Zdublowany pasek liczb w hero A – usunięty (zostaje synchronizowany „Pasek zaufania”).
+- Pasek górny (C): link do komentarza dziedziczy jasny kolor tekstu; hover w kolorze secondary.
+- Język instalacji pl_PL (`setSiteLanguage`) + polskie etykiety Blocksy filtrem `gettext_blocksy`.
+- Test publicznych linków Playground dla A/B/C: `docs/verify/public-links.md`.

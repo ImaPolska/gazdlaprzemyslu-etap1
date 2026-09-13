@@ -619,10 +619,10 @@
                   "color": "#FBF8F2"
                 },
                 "link_initial": {
-                  "color": "#7A5C2E"
+                  "color": "#FBF8F2"
                 },
                 "link_hover": {
-                  "color": "#FBF8F2"
+                  "color": "#7A5C2E"
                 }
               }
             }

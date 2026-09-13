@@ -120,7 +120,7 @@ def build(direction):
         items.append({'id': 'text', 'values': {
             'header_text': 'Komentarz rynkowy: [[data]] — <a href="/komentarz-rynkowy/">[[tytuł]]</a>',
             'headerTextFont': typo(FONT_BODY, '14px', 'n4', '1.3'),
-            'headerTextColor': {'default': color(pal['base']), 'link_initial': color(pal['secondary']), 'link_hover': color(pal['base'])},
+            'headerTextColor': {'default': color(pal['base']), 'link_initial': color(pal['base']), 'link_hover': color(pal['secondary'])},
         }})
         items.append({'id': 'top-row', 'values': {
             'headerRowHeight': 38,

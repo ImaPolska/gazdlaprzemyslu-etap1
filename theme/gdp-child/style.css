@@ -384,3 +384,8 @@ html.gdp-scrolled .ct-header { box-shadow: 0 1px 0 var(--gdp-line), 0 6px 20px r
    5. Edytor: widoczne nazwy sekcji i placeholdery działają jak na froncie
    ------------------------------------------------------------------------- */
 .editor-styles-wrapper .gdp-karta { height: auto; }
+
+/* Pasek górny (kierunek C): link komentarza rynkowego dziedziczy jasny kolor tekstu na ciemnym tle. */
+[data-row="top"] .ct-header-text a,
+.ct-header [data-row="top"] .ct-header-text a { color: inherit; text-decoration: underline; text-underline-offset: 0.15em; }
+[data-row="top"] .ct-header-text a:hover { color: var(--wp--preset--color--secondary); }
