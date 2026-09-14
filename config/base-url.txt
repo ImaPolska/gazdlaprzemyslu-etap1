@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-{d}/
+https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-{d}/

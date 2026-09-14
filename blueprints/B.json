@@ -33,7 +33,7 @@
       "step": "installTheme",
       "themeData": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-B/dist/gdp-child-B.zip"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-B/dist/gdp-child-B.zip"
       },
       "options": {
         "activate": true
@@ -71,7 +71,7 @@
       "path": "/wordpress/gdp-config/theme_mods.json",
       "data": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-B/config/theme_mods_B.json"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-B/config/theme_mods_B.json"
       }
     },
     {
@@ -79,7 +79,7 @@
       "path": "/wordpress/gdp-config/menus.json",
       "data": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-B/config/menus.json"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-B/config/menus.json"
       }
     },
     {
@@ -87,7 +87,7 @@
       "path": "/wordpress/gdp-config/footer.json",
       "data": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-B/config/footer.json"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-B/config/footer.json"
       }
     },
     {
@@ -95,7 +95,7 @@
       "path": "/wordpress/gdp-config/apply-theme-mods.php",
       "data": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-B/scripts/apply-theme-mods.php"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-B/scripts/apply-theme-mods.php"
       }
     },
     {
@@ -103,7 +103,7 @@
       "path": "/wordpress/gdp-config/apply-config.php",
       "data": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-B/scripts/apply-config.php"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-B/scripts/apply-config.php"
       }
     },
     {
@@ -114,7 +114,7 @@
       "step": "importWxr",
       "file": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-B/content/site.B.wxr"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-B/content/site.B.wxr"
       },
       "importer": "default"
     },

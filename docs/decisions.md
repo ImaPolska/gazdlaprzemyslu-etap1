@@ -24,3 +24,10 @@ Format: data · decyzja · uzasadnienie · konsekwencja. Decyzje domyślne z sek
 | D16 | **Zrzuty referencyjne: 1440×900 (desktop) i 360×800 (mobile), pełna strona, widok niezalogowanego gościa** (`scripts/screenshot.py`). | Zgodnie z 13.4; pasek admina nie zniekształca layoutu. | Zrzuty 768×1024 dołączane od P1.2. |
 | D17 | **Plan dni do P1.1 (dzień 1–4)**: d1 – środowisko, skille, motyw potomny, tokeny, blueprinty, skrypty weryfikacji; d2 – wzorce zsynchronizowane i niezsynchronizowane, treść `start` + `cena-stala`, stopka/menu; d3 – trzy kierunki, QA wizualne, poprawki; d4 – tagi `etap1-A/B/C`, test linków publicznych, raport P1.1. Wykonanie: całość zrealizowana w dniu 1; publikacja tagów czeka na repozytorium GitHub. | Praca bez pytań między punktami kontrolnymi. | Po wyborze kierunku: P1.2 w 5 dni roboczych od decyzji. |
 | D18 | **Repozytorium**: agent nie ma własnego konta GitHub (brak tokenu w sandboxie), więc publiczne repozytorium musi powstać na koncie zleceniodawcy (połączenie GitHub w tej sesji albo podany URL repo z prawem zapisu). Do czasu publikacji artefakty są kompletne lokalnie (tagi lokalne `etap1-A/B/C`). | Linki `playground.wordpress.net/?blueprint-url=…` wymagają publicznego URL z CORS – `raw.githubusercontent.com` spełnia to bez konfiguracji. | Po podłączeniu GitHub: `git push --tags`, przebudowa blueprintów produkcyjnych z właściwym `--base`, test linków. |
+
+## Dzień 2 (2026-09-14) – po P1.1
+
+| # | Decyzja | Uzasadnienie | Konsekwencja |
+|---|---|---|---|
+| D19 | **Wybrany kierunek: A (narzędziowy).** Decyzja zleceniodawcy w punkcie P1.1. | Punkt kontrolny P1.1. | P1.2 buduje `main.json` na wariancie A; warianty B i C pozostają w tagach `etap1-B/C` jako archiwum, w `main` zostaną usunięte przy tagu `etap1-v0.1`. |
+| D20 | **Repozytorium: `https://github.com/ImaPolska/gazdlaprzemyslu-etap1` (publiczne, konto zleceniodawcy, utworzone za jego zgodą).** | Playground pobiera blueprint i ZIP z `raw.githubusercontent.com`; wymaga repozytorium publicznego. | Blueprinty produkcyjne wskazują `raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-{X}/`. |

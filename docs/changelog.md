@@ -25,3 +25,7 @@ Naprawiono w trakcie QA
 - Pasek górny (C): link do komentarza dziedziczy jasny kolor tekstu; hover w kolorze secondary.
 - Język instalacji pl_PL (`setSiteLanguage`) + polskie etykiety Blocksy filtrem `gettext_blocksy`.
 - Test publicznych linków Playground dla A/B/C: `docs/verify/public-links.md`.
+
+## 2026-09-14 – publikacja
+- Repozytorium publiczne `ImaPolska/gazdlaprzemyslu-etap1`; blueprinty A/B/C przebudowane na adresy `raw.githubusercontent.com` tagów `etap1-A/B/C`.
+- Decyzja zleceniodawcy: kierunek A (D19).

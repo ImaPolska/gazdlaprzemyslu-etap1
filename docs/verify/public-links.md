@@ -14,9 +14,9 @@ z tymczasowego publicznego hosta z nagłówkiem `Access-Control-Allow-Origin: *`
 Docelowe linki (po publikacji tagów w GitHub) – ta sama treść blueprintu, inny host:
 
 ```
-https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-A/blueprints/A.json
-https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-B/blueprints/B.json
-https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/[[org]]/[[repo]]/etap1-C/blueprints/C.json
+https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-A/blueprints/A.json
+https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-B/blueprints/B.json
+https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-C/blueprints/C.json
 ```
 
 Po publikacji test powtarza się tym samym skryptem na docelowych adresach; wynik dopisuje się poniżej.
