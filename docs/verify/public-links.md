@@ -20,3 +20,13 @@ https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.co
 ```
 
 Po publikacji test powtarza się tym samym skryptem na docelowych adresach; wynik dopisuje się poniżej.
+
+## Wynik na adresach docelowych (2026-09-14, tagi `etap1-A/B/C` w `ImaPolska/gazdlaprzemyslu-etap1`)
+
+| Kierunek | Wynik | Czas do wyrenderowanej strony głównej | `lang` | klasa kierunku | h1 | CTA „Wgraj fakturę” w nagłówku |
+|---|---|---|---|---|---|---|
+| A | OK | 15 s | pl-PL | `gdp-dir-A` | 1 | tak |
+| B | OK | 15 s | pl-PL | `gdp-dir-B` | 1 | tak |
+| C | OK | 15 s | pl-PL | `gdp-dir-C` | 1 | tak |
+
+`raw.githubusercontent.com` zwraca `access-control-allow-origin: *` dla blueprintu i ZIP motywu (sprawdzone `curl -I`).
