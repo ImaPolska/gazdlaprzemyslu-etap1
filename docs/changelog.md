@@ -27,6 +27,7 @@ Naprawiono w trakcie QA
 - Test publicznych linków Playground dla A/B/C: `docs/verify/public-links.md`.
 
 ## 2026-09-14 – P1.2 w toku: pełna treść stron i artykuły (kierunek A)
+Tag podglądowy `etap1-v0.1-rc1` (D26); link publiczny sprawdzony 2026-09-14: strona główna, `/wiedza/jak-zmienic-sprzedawce-gazu-w-firmie/` i autor `[[Imię i nazwisko autora]]` ładują się poprawnie. Weryfikacja: HTTP 200 dla 36/36 adresów, edytor bloków bez ostrzeżeń dla 30/30 stron i wpisów, zrzuty 30 × 2 widoki w `docs/screens/p12/`.
 Dodano
 - Pełna treść 21 stron dotąd zastępczych (oferta ×6, ceny orientacyjne, wgraj fakturę, kalkulator, analiza umowy, dla kogo / przemysł / MŚP, dla doradców, dla agentów AI, wiedza, komentarz rynkowy, o nas, dokumenty, kontakt, polityka prywatności, regulamin) – każda jako sekwencja sekcji `core/group` (`metadata.name` po polsku, `templateLock: contentOnly`), z leadem-odpowiedzią ≤ 60 słów, tabelami z `<thead>`, FAQ (`core/details`), źródłami i CTA.
 - 5 artykułów bazy wiedzy (`/wiedza/<slug>/`): jak zmienić sprzedawcę gazu w firmie; okres wypowiedzenia i klauzula prolongacyjna; sprzedaż rezerwowa gazu; cena stała czy indeksowana do TGE; art. 4j ust. 3b PE dla MŚP – każdy z leadem ≤ 60 słów, spisem treści z kotwicami, tabelami, sekcją „Źródła”, datą aktualizacji `[[data]]`, autorem `[[ ]]`, CTA. 2 szablony komentarza rynkowego przebudowane (tabela notowań, decyzje, „Co to znaczy dla Twojej umowy”, zastrzeżenie cen).
