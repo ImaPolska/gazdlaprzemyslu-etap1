@@ -1,52 +1,327 @@
 {
   "_komentarz": "Mapa stron etapu 1 (sekcja 8.1 instrukcji). Pola: slug, title, parent (slug), file (plik z content/pages) lub stub (strona robocza z H1 i notatką). ID są stałe, żeby WXR był deterministyczny.",
   "pages": [
-    {"id": 1001, "slug": "start", "title": "Gaz dla Przemysłu: oferta na gaz dla firm w 24 h", "file": "start.html", "menu_order": 0},
-    {"id": 1002, "slug": "wgraj-fakture", "title": "Wgraj fakturę", "stub": "Landing modułu M1: nagłówek, Slot: upload faktury, co odczytamy z faktury, co dostaniesz w 24 h, bezpieczeństwo danych, FAQ.", "slot": "slot-upload-faktury"},
-    {"id": 1003, "slug": "oferta", "title": "Oferta", "stub": "Hub produktów: wstęp, 5 kart produktów, tabela porównawcza, dla kogo który model, CTA."},
-    {"id": 1004, "slug": "cena-stala", "parent": "oferta", "title": "Cena stała", "file": "oferta-cena-stala.html"},
-    {"id": 1005, "slug": "cena-indeksowana-tge", "parent": "oferta", "title": "Cena indeksowana TGE", "stub": "Strona produktu: definicja, dla kogo, mechanizm, opis indeksu (link do publicznych indeksów TGE), ryzyka, przykład liczbowy, FAQ, CTA."},
-    {"id": 1006, "slug": "model-transzowy", "parent": "oferta", "title": "Model transzowy", "stub": "Strona produktu: definicja, dla kogo, mechanizm, schemat transz (tabela), ryzyka, przykład liczbowy, FAQ, CTA „Zapytaj o model”."},
-    {"id": 1007, "slug": "umowa-kompleksowa-msp", "parent": "oferta", "title": "Umowa kompleksowa dla MŚP", "stub": "Strona produktu dla MŚP z informacją: Jeżeli PBM nie ma zawartej generalnej umowy dystrybucyjnej z Twoim operatorem, podpiszesz osobno umowę dystrybucyjną; pomożemy w tym."},
-    {"id": 1008, "slug": "biometan", "parent": "oferta", "title": "Biometan (wkrótce)", "stub": "Strona „wkrótce”: biometan z aktywów Grupy IMA, ograniczenia certyfikacyjne, moduł M9 „wkrótce”, formularz zainteresowania jako slot. Bez cen, terminów i wolumenów."},
-    {"id": 1009, "slug": "ceny-orientacyjne", "title": "Ceny orientacyjne", "stub": "Pełny Slot: tabela cen, dekompozycja ceny (gaz, dystrybucja, akcyza, opłaty, marża), jak czytać pasma, data aktualizacji, zastrzeżenie.", "slot": "slot-tabela-cen"},
-    {"id": 1010, "slug": "kalkulator-wypowiedzenia", "title": "Kalkulator terminu wypowiedzenia", "stub": "Wstęp, Slot: kalkulator wypowiedzenia, skąd wziąć dane z umowy, ostrzeżenia prawne, CTA „Prześlij umowę do analizy”.", "slot": "slot-kalkulator-wypowiedzenia"},
-    {"id": 1011, "slug": "analiza-umowy", "title": "Analiza umowy", "stub": "Wstęp, Slot: analiza umowy, proces 5 kroków z krokiem „weryfikacja przez człowieka”, co robimy i czego nie robimy, CTA.", "slot": "slot-analiza-umowy"},
-    {"id": 1012, "slug": "dla-kogo", "title": "Dla kogo", "stub": "Strona nadrzędna segmentów: przemysł i MŚP.", "slot": "wzorzec-segmenty"},
-    {"id": 1013, "slug": "przemysl", "parent": "dla-kogo", "title": "Gaz dla przemysłu", "stub": "Segment przemysłowy: problemy segmentu, dopasowane produkty, proces, CTA „Porozmawiaj z opiekunem”."},
-    {"id": 1014, "slug": "msp", "parent": "dla-kogo", "title": "Gaz dla MŚP", "stub": "Segment MŚP: prostszy język, problemy segmentu, umowa kompleksowa, proces, CTA „Wgraj fakturę”."},
-    {"id": 1015, "slug": "dla-doradcow", "title": "Dla doradców energetycznych", "stub": "Kanał M6: model współpracy [[ ]], co dostaje doradca, Slot: formularz doradcy.", "slot": "slot-formularz-doradcy"},
-    {"id": 1016, "slug": "dla-agentow-ai", "title": "Dla agentów AI", "stub": "Kanał B2A (M8): czym jest kanał, co będzie dostępne maszynowo (oferta, RFQ), zasady, placeholder linku do specyfikacji [[ ]]."},
-    {"id": 1017, "slug": "wiedza", "title": "Wiedza", "stub": "Hub bazy wiedzy (strona wpisów): kategorie, najnowsze wpisy, wyszukiwanie."},
-    {"id": 1018, "slug": "komentarz-rynkowy", "title": "Komentarz rynkowy", "stub": "Archiwum komentarzy rynkowych (M7): lista wpisów z datą i autorem, subskrypcja jako slot.", "query": "komentarz-rynkowy"},
-    {"id": 1019, "slug": "o-nas", "title": "O nas", "stub": "PBM Sp. z o.o., Grupa IMA Polska, aktywa [[ ]], zespół [[ ]], koncesja [[ ]]."},
-    {"id": 1020, "slug": "dokumenty", "title": "Dokumenty", "stub": "Lista dokumentów jako [[ ]]: koncesja, cennik dla odbiorców biznesowych, struktura paliw, regulaminy, RODO, decyzje URE."},
-    {"id": 1021, "slug": "kontakt", "title": "Kontakt", "stub": "Dane [[ ]], formularz jako slot, mapa jako placeholder, godziny [[ ]]."},
-    {"id": 1022, "slug": "polityka-prywatnosci", "title": "Polityka prywatności", "stub": "[[treść dostarczy zleceniodawca]]"},
-    {"id": 1023, "slug": "regulamin", "title": "Regulamin serwisu", "stub": "[[treść dostarczy zleceniodawca]]"}
+    {
+      "id": 1001,
+      "slug": "start",
+      "title": "Gaz dla Przemysłu: oferta na gaz dla firm w 24 h",
+      "file": "start.html",
+      "menu_order": 0
+    },
+    {
+      "id": 1002,
+      "slug": "wgraj-fakture",
+      "title": "Wgraj fakturę",
+      "slot": "slot-upload-faktury",
+      "file": "wgraj-fakture.html"
+    },
+    {
+      "id": 1003,
+      "slug": "oferta",
+      "title": "Oferta",
+      "file": "oferta.html"
+    },
+    {
+      "id": 1004,
+      "slug": "cena-stala",
+      "parent": "oferta",
+      "title": "Cena stała",
+      "file": "oferta-cena-stala.html"
+    },
+    {
+      "id": 1005,
+      "slug": "cena-indeksowana-tge",
+      "parent": "oferta",
+      "title": "Cena indeksowana TGE",
+      "file": "cena-indeksowana-tge.html"
+    },
+    {
+      "id": 1006,
+      "slug": "model-transzowy",
+      "parent": "oferta",
+      "title": "Model transzowy",
+      "file": "model-transzowy.html"
+    },
+    {
+      "id": 1007,
+      "slug": "umowa-kompleksowa-msp",
+      "parent": "oferta",
+      "title": "Umowa kompleksowa dla MŚP",
+      "file": "umowa-kompleksowa-msp.html"
+    },
+    {
+      "id": 1008,
+      "slug": "biometan",
+      "parent": "oferta",
+      "title": "Biometan (wkrótce)",
+      "file": "biometan.html"
+    },
+    {
+      "id": 1009,
+      "slug": "ceny-orientacyjne",
+      "title": "Ceny orientacyjne",
+      "slot": "slot-tabela-cen",
+      "file": "ceny-orientacyjne.html"
+    },
+    {
+      "id": 1010,
+      "slug": "kalkulator-wypowiedzenia",
+      "title": "Kalkulator terminu wypowiedzenia",
+      "slot": "slot-kalkulator-wypowiedzenia",
+      "file": "kalkulator-wypowiedzenia.html"
+    },
+    {
+      "id": 1011,
+      "slug": "analiza-umowy",
+      "title": "Analiza umowy",
+      "slot": "slot-analiza-umowy",
+      "file": "analiza-umowy.html"
+    },
+    {
+      "id": 1012,
+      "slug": "dla-kogo",
+      "title": "Dla kogo",
+      "slot": "wzorzec-segmenty",
+      "file": "dla-kogo.html"
+    },
+    {
+      "id": 1013,
+      "slug": "przemysl",
+      "parent": "dla-kogo",
+      "title": "Gaz dla przemysłu",
+      "file": "przemysl.html"
+    },
+    {
+      "id": 1014,
+      "slug": "msp",
+      "parent": "dla-kogo",
+      "title": "Gaz dla MŚP",
+      "file": "msp.html"
+    },
+    {
+      "id": 1015,
+      "slug": "dla-doradcow",
+      "title": "Dla doradców energetycznych",
+      "slot": "slot-formularz-doradcy",
+      "file": "dla-doradcow.html"
+    },
+    {
+      "id": 1016,
+      "slug": "dla-agentow-ai",
+      "title": "Dla agentów AI",
+      "file": "dla-agentow-ai.html"
+    },
+    {
+      "id": 1017,
+      "slug": "wiedza",
+      "title": "Wiedza",
+      "file": "wiedza.html"
+    },
+    {
+      "id": 1018,
+      "slug": "komentarz-rynkowy",
+      "title": "Komentarz rynkowy",
+      "query": "komentarz-rynkowy",
+      "file": "komentarz-rynkowy.html"
+    },
+    {
+      "id": 1019,
+      "slug": "o-nas",
+      "title": "O nas",
+      "file": "o-nas.html"
+    },
+    {
+      "id": 1020,
+      "slug": "dokumenty",
+      "title": "Dokumenty",
+      "file": "dokumenty.html"
+    },
+    {
+      "id": 1021,
+      "slug": "kontakt",
+      "title": "Kontakt",
+      "file": "kontakt.html"
+    },
+    {
+      "id": 1022,
+      "slug": "polityka-prywatnosci",
+      "title": "Polityka prywatności",
+      "file": "polityka-prywatnosci.html"
+    },
+    {
+      "id": 1023,
+      "slug": "regulamin",
+      "title": "Regulamin serwisu",
+      "file": "regulamin.html"
+    }
   ],
   "categories": [
-    {"id": 31, "slug": "zmiana-sprzedawcy", "name": "Zmiana sprzedawcy"},
-    {"id": 32, "slug": "umowy-i-wypowiedzenia", "name": "Umowy i wypowiedzenia"},
-    {"id": 33, "slug": "ceny-i-rynek", "name": "Ceny i rynek"},
-    {"id": 34, "slug": "biometan-i-raportowanie", "name": "Biometan i raportowanie (CSRD/ETS)"},
-    {"id": 35, "slug": "sprzedaz-rezerwowa", "name": "Sprzedaż rezerwowa"},
-    {"id": 36, "slug": "komentarz-rynkowy", "name": "Komentarz rynkowy"}
+    {
+      "id": 31,
+      "slug": "zmiana-sprzedawcy",
+      "name": "Zmiana sprzedawcy"
+    },
+    {
+      "id": 32,
+      "slug": "umowy-i-wypowiedzenia",
+      "name": "Umowy i wypowiedzenia"
+    },
+    {
+      "id": 33,
+      "slug": "ceny-i-rynek",
+      "name": "Ceny i rynek"
+    },
+    {
+      "id": 34,
+      "slug": "biometan-i-raportowanie",
+      "name": "Biometan i raportowanie (CSRD/ETS)"
+    },
+    {
+      "id": 35,
+      "slug": "sprzedaz-rezerwowa",
+      "name": "Sprzedaż rezerwowa"
+    },
+    {
+      "id": 36,
+      "slug": "komentarz-rynkowy",
+      "name": "Komentarz rynkowy"
+    }
   ],
   "posts": [
-    {"id": 2001, "slug": "komentarz-rynkowy-szablon-1", "title": "[[Tytuł komentarza rynkowego]]: notowania TGE i decyzje URE w tygodniu [[nr]]", "category": "komentarz-rynkowy", "date": "2026-09-08 09:00:00", "excerpt": "[[Jedno zdanie streszczenia komentarza: co się zmieniło i co to znaczy dla odbiorcy przemysłowego.]]"},
-    {"id": 2002, "slug": "komentarz-rynkowy-szablon-2", "title": "[[Tytuł komentarza rynkowego]]: co zmienia [[wydarzenie]] dla umów na gaz", "category": "komentarz-rynkowy", "date": "2026-09-01 09:00:00", "excerpt": "[[Jedno zdanie streszczenia komentarza.]]"}
+    {
+      "id": 2101,
+      "slug": "jak-zmienic-sprzedawce-gazu-w-firmie",
+      "title": "Jak zmienić sprzedawcę gazu w firmie: kolejność kroków i terminy",
+      "category": "zmiana-sprzedawcy",
+      "date": "2026-09-10 09:00:00",
+      "excerpt": "Zmiana sprzedawcy gazu w firmie to cztery kroki: nowa umowa, pełnomocnictwo, wypowiedzenie w terminie, zgłoszenie do operatora. Gaz płynie bez przerwy.",
+      "file": "jak-zmienic-sprzedawce-gazu-w-firmie.html"
+    },
+    {
+      "id": 2001,
+      "slug": "komentarz-rynkowy-szablon-1",
+      "title": "Komentarz rynkowy: tydzień [[nr tygodnia]] 2026",
+      "category": "komentarz-rynkowy",
+      "date": "2026-09-08 09:00:00",
+      "excerpt": "Co zmieniło się na rynku gazu w tym tygodniu i co to znaczy dla umowy odbiorcy przemysłowego. Szablon wpisu; liczby uzupełnia autor.",
+      "file": "komentarz-rynkowy-szablon-1.html"
+    },
+    {
+      "id": 2102,
+      "slug": "okres-wypowiedzenia-i-klauzula-prolongacyjna",
+      "title": "Okres wypowiedzenia umowy na gaz i klauzula prolongacyjna: jak policzyć termin",
+      "category": "umowy-i-wypowiedzenia",
+      "date": "2026-09-07 09:00:00",
+      "excerpt": "Okres wypowiedzenia mówi, kiedy umowa się kończy po złożeniu oświadczenia. Klauzula prolongacyjna mówi, do kiedy trzeba się sprzeciwić przedłużeniu. To dwa różne terminy.",
+      "file": "okres-wypowiedzenia-i-klauzula-prolongacyjna.html"
+    },
+    {
+      "id": 2103,
+      "slug": "sprzedaz-rezerwowa-gazu-kiedy-grozi-i-ile-kosztuje",
+      "title": "Sprzedaż rezerwowa gazu: kiedy grozi firmie i ile kosztuje",
+      "category": "sprzedaz-rezerwowa",
+      "date": "2026-09-03 09:00:00",
+      "excerpt": "Sprzedaż rezerwowa uruchamia się, gdy Twój sprzedawca przestaje sprzedawać gaz albo umowa wygasa bez zgłoszenia nowej. Dla firm cena nie jest taryfowa.",
+      "file": "sprzedaz-rezerwowa-gazu-kiedy-grozi-i-ile-kosztuje.html"
+    },
+    {
+      "id": 2002,
+      "slug": "komentarz-rynkowy-szablon-2",
+      "title": "Komentarz rynkowy: tydzień [[nr tygodnia]] 2026 (drugi szablon)",
+      "category": "komentarz-rynkowy",
+      "date": "2026-09-01 09:00:00",
+      "excerpt": "Szablon komentarza rynkowego z sekcją o zmianach w przepisach. Liczby i treść uzupełnia autor.",
+      "file": "komentarz-rynkowy-szablon-2.html"
+    },
+    {
+      "id": 2104,
+      "slug": "cena-stala-czy-indeksowana-do-tge",
+      "title": "Cena stała czy indeksowana do TGE: który model wybrać dla firmy",
+      "category": "ceny-i-rynek",
+      "date": "2026-08-27 09:00:00",
+      "excerpt": "Cena stała daje przewidywalny budżet, indeksowana daje cenę rynkową plus stałą marżę. Wybór zależy od tego, kto w firmie i jak często podejmuje decyzję o cenie.",
+      "file": "cena-stala-czy-indeksowana-do-tge.html"
+    },
+    {
+      "id": 2105,
+      "slug": "art-4j-ust-3b-prawa-energetycznego-msp",
+      "title": "Art. 4j ust. 3b Prawa energetycznego: co zmienia dla MŚP przy wypowiedzeniu umowy na gaz",
+      "category": "umowy-i-wypowiedzenia",
+      "date": "2026-08-20 09:00:00",
+      "excerpt": "Od 21 lipca 2026 r. sprzedawca musi wskazać w umowie na czas oznaczony z MŚP sposób wyliczenia strat, którymi może obciążyć firmę za wcześniejsze rozwiązanie.",
+      "file": "art-4j-ust-3b-prawa-energetycznego-msp.html"
+    }
   ],
   "blocks": [
-    {"id": 9001, "slug": "zastrzezenie-cen", "title": "Zastrzeżenie cen", "file": "zastrzezenie-cen.html", "sync": true},
-    {"id": 9002, "slug": "cta-wgraj-fakture", "title": "CTA: wgraj fakturę", "file": "cta-wgraj-fakture.html", "sync": true},
-    {"id": 9003, "slug": "slot-upload-faktury", "title": "Slot: upload faktury", "file": "slot-upload-faktury.html", "sync": true},
-    {"id": 9004, "slug": "slot-tabela-cen", "title": "Slot: tabela cen", "file": "slot-tabela-cen.html", "sync": true},
-    {"id": 9005, "slug": "slot-kalkulator-wypowiedzenia", "title": "Slot: kalkulator wypowiedzenia", "file": "slot-kalkulator-wypowiedzenia.html", "sync": true},
-    {"id": 9006, "slug": "slot-analiza-umowy", "title": "Slot: analiza umowy", "file": "slot-analiza-umowy.html", "sync": true},
-    {"id": 9007, "slug": "slot-formularz-doradcy", "title": "Slot: formularz doradcy", "file": "slot-formularz-doradcy.html", "sync": true},
-    {"id": 9008, "slug": "wzorzec-segmenty", "title": "Wzorzec: segmenty", "file": "wzorzec-segmenty.html", "sync": true},
-    {"id": 9009, "slug": "pasek-zaufania", "title": "Pasek zaufania", "file": "pasek-zaufania.html", "sync": true},
-    {"id": 9010, "slug": "faq-produkt", "title": "FAQ: produkt", "file": "faq-produkt.html", "sync": true}
+    {
+      "id": 9001,
+      "slug": "zastrzezenie-cen",
+      "title": "Zastrzeżenie cen",
+      "file": "zastrzezenie-cen.html",
+      "sync": true
+    },
+    {
+      "id": 9002,
+      "slug": "cta-wgraj-fakture",
+      "title": "CTA: wgraj fakturę",
+      "file": "cta-wgraj-fakture.html",
+      "sync": true
+    },
+    {
+      "id": 9003,
+      "slug": "slot-upload-faktury",
+      "title": "Slot: upload faktury",
+      "file": "slot-upload-faktury.html",
+      "sync": true
+    },
+    {
+      "id": 9004,
+      "slug": "slot-tabela-cen",
+      "title": "Slot: tabela cen",
+      "file": "slot-tabela-cen.html",
+      "sync": true
+    },
+    {
+      "id": 9005,
+      "slug": "slot-kalkulator-wypowiedzenia",
+      "title": "Slot: kalkulator wypowiedzenia",
+      "file": "slot-kalkulator-wypowiedzenia.html",
+      "sync": true
+    },
+    {
+      "id": 9006,
+      "slug": "slot-analiza-umowy",
+      "title": "Slot: analiza umowy",
+      "file": "slot-analiza-umowy.html",
+      "sync": true
+    },
+    {
+      "id": 9007,
+      "slug": "slot-formularz-doradcy",
+      "title": "Slot: formularz doradcy",
+      "file": "slot-formularz-doradcy.html",
+      "sync": true
+    },
+    {
+      "id": 9008,
+      "slug": "wzorzec-segmenty",
+      "title": "Wzorzec: segmenty",
+      "file": "wzorzec-segmenty.html",
+      "sync": true
+    },
+    {
+      "id": 9009,
+      "slug": "pasek-zaufania",
+      "title": "Pasek zaufania",
+      "file": "pasek-zaufania.html",
+      "sync": true
+    },
+    {
+      "id": 9010,
+      "slug": "faq-produkt",
+      "title": "FAQ: produkt",
+      "file": "faq-produkt.html",
+      "sync": true
+    }
   ]
 }

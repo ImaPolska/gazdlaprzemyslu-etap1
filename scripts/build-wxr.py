@@ -95,14 +95,9 @@ def post_content(direction):
         items.append({'id': p['id'], 'title': p['title'], 'slug': p['slug'], 'type': 'page', 'status': 'publish',
                       'content': content, 'parent': parent, 'date': NOW, 'menu_order': p.get('menu_order', 0)})
 
-    # 3. Wpisy (komentarz rynkowy – szablony).
+    # 3. Wpisy: artykuły bazy wiedzy i szablony komentarzy (treść z content/posts/<file>, generowana przez build-pages.py).
     for post in MANIFEST['posts']:
-        body = ('<!-- wp:paragraph {"fontSize":"m"} -->\n<p class="has-m-font-size">%s</p>\n<!-- /wp:paragraph -->\n\n'
-                '<!-- wp:paragraph -->\n<p>[[komentarz]]</p>\n<!-- /wp:paragraph -->\n\n'
-                '<!-- wp:heading -->\n<h2 class="wp-block-heading">Co to znaczy dla Twojej umowy</h2>\n<!-- /wp:heading -->\n\n'
-                '<!-- wp:paragraph -->\n<p>[[komentarz]]</p>\n<!-- /wp:paragraph -->\n\n'
-                '<!-- wp:paragraph {"className":"gdp-tekst-pomocniczy"} -->\n<p class="gdp-tekst-pomocniczy">Autor: [[imię i nazwisko, stanowisko]] · Ostatnia aktualizacja: [[data]]</p>\n<!-- /wp:paragraph -->'
-                ) % escape_html(post['excerpt'])
+        body = read(os.path.join(CONTENT, 'posts', post['file']))
         items.append({'id': post['id'], 'title': post['title'], 'slug': post['slug'], 'type': 'post', 'status': 'publish',
                       'content': body, 'excerpt': post['excerpt'], 'parent': 0, 'date': post['date'], 'category': post['category']})
     return items
@@ -111,7 +106,7 @@ def post_content(direction):
 def item_xml(it):
     cats = {c['slug']: c for c in MANIFEST['categories']}
     dt = datetime.strptime(it['date'], '%Y-%m-%d %H:%M:%S')
-    link = SITE_URL + '/' + it['slug'] + '/'
+    link = SITE_URL + ('/wiedza/' if it['type'] == 'post' else '/') + it['slug'] + '/'
     xml = ['\t<item>',
            '\t\t<title>%s</title>' % cdata(it['title']),
            '\t\t<link>%s</link>' % link,

@@ -12,7 +12,29 @@ import sys
 
 from playwright.sync_api import sync_playwright
 
-PAGES = {'start': '/', 'cena-stala': '/oferta/cena-stala/'}
+
+
+def _pages():
+    """Mapa nazwa -> ścieżka z content/pages.json (strony wg hierarchii, wpisy pod /wiedza/)."""
+    import json
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    d = json.load(open(os.path.join(root, 'content', 'pages.json'), encoding='utf-8'))
+    by_slug = {p['slug']: p for p in d['pages']}
+    out = {'start': '/'}
+    for p in d['pages']:
+        if p['slug'] == 'start':
+            continue
+        parts, parent = [p['slug']], p.get('parent')
+        while parent:
+            parts.insert(0, parent)
+            parent = by_slug[parent].get('parent')
+        out[p['slug']] = '/' + '/'.join(parts) + '/'
+    for post in d['posts']:
+        out[post['slug']] = '/wiedza/%s/' % post['slug']
+    return out
+
+
+PAGES = _pages()
 VIEWPORTS = {'desktop': (1440, 900), 'mobile': (360, 800)}
 
 

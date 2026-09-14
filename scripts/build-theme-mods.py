@@ -199,7 +199,7 @@ def build(direction):
         'narrowContainerWidth': 760,
         'contentAreaSpacing': 'none',
         'single_page_hero_enabled': 'no',
-        # Archiwum /wiedza/ nie ma treści strony, więc h1 dostarcza hero Blocksy (tylko tytuł).
+        # Archiwa kategorii (/category/<slug>/) nie mają treści strony, więc h1 dostarcza hero Blocksy (tylko tytuł).
         'blog_hero_enabled': 'yes',
         'blog_hero_section': 'type-1',
         'blog_hero_alignment': 'left',

@@ -30,7 +30,8 @@ def blueprint(direction, base, debug, password, landing='/'):
         {'step': 'setSiteOptions', 'options': {
             'blogname': 'Gaz dla Przemysłu',
             'blogdescription': 'PBM Sp. z o.o., Grupa IMA Polska',
-            'permalink_structure': '/%postname%/',
+            'permalink_structure': '/wiedza/%postname%/',
+            'category_base': 'category',
             'timezone_string': 'Europe/Warsaw',
             'date_format': 'j.m.Y',
             'time_format': 'H:i',

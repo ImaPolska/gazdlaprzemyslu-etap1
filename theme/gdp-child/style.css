@@ -115,9 +115,10 @@ h1, h2, h3, h4, h5, h6, .wp-block-post-title, .ct-header .site-title {
 	border: 1px solid var(--gdp-line);
 	border-radius: var(--gdp-radius-card);
 	padding: var(--wp--preset--spacing--40);
-	height: 100%;
 	box-sizing: border-box;
 }
+/* Pełna wysokość tylko dla kart będących kolumnami (wyrównanie w rzędzie); karta-grupa w kolumnie ma wysokość treści. */
+.wp-block-column.gdp-karta { height: 100%; }
 .gdp-karta-wyrozniona {
 	border-color: var(--gdp-primary);
 	border-width: 2px;
@@ -340,13 +341,14 @@ h1, h2, h3, h4, h5, h6, .wp-block-post-title, .ct-header .site-title {
 /* -------------------------------------------------------------------------
    3. Nagłówek: sticky z redukcją wysokości (Blocksy free nie ma sticky; realizuje motyw potomny)
    ------------------------------------------------------------------------- */
-.ct-header {
+.ct-header,
+#header.ct-header { /* Blocksy ustawia #header { position: relative } – potrzebna wyższa specyficzność */
 	position: sticky;
 	top: 0;
 	z-index: 90;
 }
-.admin-bar .ct-header { top: 32px; }
-@media (max-width: 782px) { .admin-bar .ct-header { top: 46px; } }
+.admin-bar #header.ct-header { top: 32px; }
+@media (max-width: 782px) { .admin-bar #header.ct-header { top: 46px; } }
 #header [data-row] > div {
 	transition: min-height 0.2s ease;
 }
@@ -389,3 +391,10 @@ html.gdp-scrolled .ct-header { box-shadow: 0 1px 0 var(--gdp-line), 0 6px 20px r
 [data-row="top"] .ct-header-text a,
 .ct-header [data-row="top"] .ct-header-text a { color: inherit; text-decoration: underline; text-underline-offset: 0.15em; }
 [data-row="top"] .ct-header-text a:hover { color: var(--wp--preset--color--secondary); }
+
+/* -------------------------------------------------------------------------
+   9. Wpisy: odstęp nad nagłówkiem Blocksy (hero type-1) i kotwice spisu treści
+      przesunięte pod przyklejony nagłówek.
+   ------------------------------------------------------------------------- */
+.single-post .hero-section[data-type="type-1"] { padding-top: clamp(1.5rem, 3vw, 2.5rem); }
+[id] { scroll-margin-top: 90px; }

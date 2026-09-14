@@ -26,6 +26,21 @@ Naprawiono w trakcie QA
 - Język instalacji pl_PL (`setSiteLanguage`) + polskie etykiety Blocksy filtrem `gettext_blocksy`.
 - Test publicznych linków Playground dla A/B/C: `docs/verify/public-links.md`.
 
+## 2026-09-14 – P1.2 w toku: pełna treść stron i artykuły (kierunek A)
+Dodano
+- Pełna treść 21 stron dotąd zastępczych (oferta ×6, ceny orientacyjne, wgraj fakturę, kalkulator, analiza umowy, dla kogo / przemysł / MŚP, dla doradców, dla agentów AI, wiedza, komentarz rynkowy, o nas, dokumenty, kontakt, polityka prywatności, regulamin) – każda jako sekwencja sekcji `core/group` (`metadata.name` po polsku, `templateLock: contentOnly`), z leadem-odpowiedzią ≤ 60 słów, tabelami z `<thead>`, FAQ (`core/details`), źródłami i CTA.
+- 5 artykułów bazy wiedzy (`/wiedza/<slug>/`): jak zmienić sprzedawcę gazu w firmie; okres wypowiedzenia i klauzula prolongacyjna; sprzedaż rezerwowa gazu; cena stała czy indeksowana do TGE; art. 4j ust. 3b PE dla MŚP – każdy z leadem ≤ 60 słów, spisem treści z kotwicami, tabelami, sekcją „Źródła”, datą aktualizacji `[[data]]`, autorem `[[ ]]`, CTA. 2 szablony komentarza rynkowego przebudowane (tabela notowań, decyzje, „Co to znaczy dla Twojej umowy”, zastrzeżenie cen).
+- Biblioteka `scripts/gdp_blocks.py`, źródła `content/src/*.py`, generator `scripts/build-pages.py` (w `build-all.sh` przed WXR); `screenshot.py` czyta adresy z manifestu; `verify-http.py` sprawdza wpisy pod `/wiedza/`.
+- Użytkownik `autor` z nazwą `[[Imię i nazwisko autora]]` jako autor wpisów (D25).
+Zmieniono
+- `permalink_structure = /wiedza/%postname%/`, `/wiedza/` zwykłą stroną, `category_base = category` (D21).
+- `.gdp-karta`: pełna wysokość tylko dla kart-kolumn (D23); tabele 4+ kolumn `alignwide`.
+Naprawiono
+- Przyklejony nagłówek nie działał (Blocksy `#header { position: relative }` wygrywało ze `.ct-header { position: sticky }`), a przy pasku admina reguła `top: 32px` przesuwała nagłówek na treść – podniesiona specyficzność (`#header.ct-header`).
+- Wpisy: odstęp nad tytułem w hero Blocksy; `scroll-margin-top` dla kotwic spisu treści pod przyklejonym nagłówkiem.
+- `verify-editor.py`: czeka na `domcontentloaded` zamiast `networkidle` (edytor cyklicznie odpytuje REST, więc test nigdy nie kończył się).
+- Decyzje D21–D25; `docs/open-items.md` przegenerowane (118 unikalnych placeholderów).
+
 ## 2026-09-14 – publikacja
 - Repozytorium publiczne `ImaPolska/gazdlaprzemyslu-etap1`; blueprinty A/B/C przebudowane na adresy `raw.githubusercontent.com` tagów `etap1-A/B/C`.
 - Decyzja zleceniodawcy: kierunek A (D19).

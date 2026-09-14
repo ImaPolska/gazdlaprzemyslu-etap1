@@ -8,9 +8,9 @@ ap = argparse.ArgumentParser(); ap.add_argument('--base', default='http://127.0.
 a = ap.parse_args(); bad = 0
 with sync_playwright() as p:
     b = p.chromium.launch(); ctx = b.new_context(viewport={'width': 1440, 'height': 900}); page = ctx.new_page()
-    page.goto(a.base + '/', wait_until='networkidle', timeout=120000)  # auto-login
+    page.goto(a.base + '/', wait_until='domcontentloaded', timeout=120000)  # auto-login
     for pid in a.ids.split(','):
-        page.goto('%s/wp-admin/post.php?post=%s&action=edit' % (a.base, pid), wait_until='networkidle', timeout=180000)
+        page.goto('%s/wp-admin/post.php?post=%s&action=edit' % (a.base, pid), wait_until='domcontentloaded', timeout=180000)  # edytor odpytuje REST cyklicznie, networkidle nie nastąpi
         page.wait_for_selector('iframe[name="editor-canvas"], .block-editor-block-list__layout', timeout=120000)
         page.wait_for_timeout(4000)
         # Zamknij ewentualny modal powitalny.

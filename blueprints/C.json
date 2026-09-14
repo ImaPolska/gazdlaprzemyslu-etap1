@@ -33,7 +33,7 @@
       "step": "installTheme",
       "themeData": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-C/dist/gdp-child-C.zip"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1-rc1/dist/gdp-child-C.zip"
       },
       "options": {
         "activate": true
@@ -44,7 +44,8 @@
       "options": {
         "blogname": "Gaz dla Przemysłu",
         "blogdescription": "PBM Sp. z o.o., Grupa IMA Polska",
-        "permalink_structure": "/%postname%/",
+        "permalink_structure": "/wiedza/%postname%/",
+        "category_base": "category",
         "timezone_string": "Europe/Warsaw",
         "date_format": "j.m.Y",
         "time_format": "H:i",
@@ -71,7 +72,7 @@
       "path": "/wordpress/gdp-config/theme_mods.json",
       "data": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-C/config/theme_mods_C.json"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1-rc1/config/theme_mods_C.json"
       }
     },
     {
@@ -79,7 +80,7 @@
       "path": "/wordpress/gdp-config/menus.json",
       "data": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-C/config/menus.json"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1-rc1/config/menus.json"
       }
     },
     {
@@ -87,7 +88,7 @@
       "path": "/wordpress/gdp-config/footer.json",
       "data": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-C/config/footer.json"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1-rc1/config/footer.json"
       }
     },
     {
@@ -95,7 +96,7 @@
       "path": "/wordpress/gdp-config/apply-theme-mods.php",
       "data": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-C/scripts/apply-theme-mods.php"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1-rc1/scripts/apply-theme-mods.php"
       }
     },
     {
@@ -103,7 +104,7 @@
       "path": "/wordpress/gdp-config/apply-config.php",
       "data": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-C/scripts/apply-config.php"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1-rc1/scripts/apply-config.php"
       }
     },
     {
@@ -114,7 +115,7 @@
       "step": "importWxr",
       "file": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-C/content/site.C.wxr"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1-rc1/content/site.C.wxr"
       },
       "importer": "default"
     },

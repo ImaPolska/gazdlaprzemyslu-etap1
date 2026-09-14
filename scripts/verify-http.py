@@ -34,7 +34,7 @@ def sitemap_urls():
     for c in d['categories']:
         urls.append('/category/%s/' % c['slug'])
     for post in d['posts']:
-        urls.append('/%s/' % post['slug'])
+        urls.append('/wiedza/%s/' % post['slug'])
     return urls
 
 

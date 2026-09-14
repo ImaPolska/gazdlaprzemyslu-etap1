@@ -6,7 +6,7 @@
  *    w post_content stron, wpisów, wzorców i w treści widgetów.
  * 2. Tworzy menu z config/menus.json i przypisuje lokalizacje Blocksy.
  * 3. Wstawia kolumny stopki jako widgety blokowe (config/footer.json).
- * 4. Ustawia stronę główną (get_page_by_path('start')) i stronę wpisów (/wiedza/).
+ * 4. Ustawia stronę główną (get_page_by_path('start')); wpisy pod /wiedza/<slug>/, /wiedza/ to zwykła strona.
  *
  * Pliki JSON są zapisywane przez blueprint do katalogu GDP_CONFIG_DIR (domyślnie /wordpress/gdp-config).
  * Skrypt jest idempotentny: ponowne uruchomienie nie duplikuje menu ani widgetów.
@@ -163,21 +163,43 @@ if (file_exists($footer_file)) {
 // 4. Strona główna i strona wpisów
 // ---------------------------------------------------------------------------
 $front = get_page_by_path('start');
-$blog  = get_page_by_path('wiedza');
 if ($front) {
 	update_option('show_on_front', 'page');
 	update_option('page_on_front', $front->ID);
 	$log['page_on_front'] = $front->ID;
 }
-if ($blog) {
-	update_option('page_for_posts', $blog->ID);
-	$log['page_for_posts'] = $blog->ID;
-}
-update_option('permalink_structure', '/%postname%/');
+// /wiedza/ jest zwykłą stroną (hub bazy wiedzy z treścią), wpisy mają adresy /wiedza/<slug>/ (D21).
+update_option('page_for_posts', 0);
+update_option('permalink_structure', '/wiedza/%postname%/');
+update_option('category_base', 'category'); // jawnie, żeby archiwa były pod /category/<slug>/, nie /wiedza/category/
 update_option('blog_public', 0);
 update_option('timezone_string', 'Europe/Warsaw');
 update_option('date_format', 'j.m.Y');
 update_option('WPLANG', 'pl_PL');
+
+// ---------------------------------------------------------------------------
+// 5. Autor wpisów: importer Playground przypisuje treść bieżącemu użytkownikowi (admin).
+//    Wpisy dostają dedykowanego użytkownika „autor” (rola Author) z nazwą-placeholderem (D25),
+//    żeby meta Blocksy i blok Autor w Query Loop pokazywały [[ ]], a nie „admin”.
+// ---------------------------------------------------------------------------
+$autor_id = username_exists('autor');
+if (!$autor_id) {
+	$autor_id = wp_insert_user([
+		'user_login'   => 'autor',
+		'user_pass'    => wp_generate_password(24),
+		'user_email'   => 'autor@example.invalid',
+		'display_name' => '[[Imię i nazwisko autora]]',
+		'role'         => 'author',
+	]);
+}
+if ($autor_id && !is_wp_error($autor_id)) {
+	$moved = 0;
+	foreach (get_posts(['post_type' => 'post', 'post_status' => 'any', 'numberposts' => -1, 'fields' => 'ids']) as $pid) {
+		wp_update_post(['ID' => $pid, 'post_author' => $autor_id]);
+		$moved++;
+	}
+	$log['posts_reassigned_to_autor'] = $moved;
+}
 
 flush_rewrite_rules();
 delete_transient('blocksy_dynamic_styles_descriptor');
