@@ -42,15 +42,21 @@ Logowanie: Playground loguje automatycznie jako `admin`; konto redakcyjne `redak
 
 Aktualny podgląd (kierunek A, pełna treść stron i artykułów, tag `etap1-v0.1-rc1`):
 
-**https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1-rc1/blueprints/A.json**
+**https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2FImaPolska%2Fgazdlaprzemyslu-etap1%2Fetap1-v0.1-rc1%2Fblueprints%2FA.json**
+
+Do skopiowania (parametr `blueprint-url` jest zakodowany, żeby komunikatory i edytory nie „linkowały” zagnieżdżonego adresu – wtedy Playground dostaje `[url](url)` i zgłasza `BlueprintFetchError`):
+
+```
+https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2FImaPolska%2Fgazdlaprzemyslu-etap1%2Fetap1-v0.1-rc1%2Fblueprints%2FA.json
+```
 
 Ładowanie trwa 1–2 minuty (Playground pobiera WordPress, Blocksy i importuje treść). Playground loguje automatycznie jako `admin`; konto redakcyjne do testu edycji: `redaktor`, hasło w raporcie punktu kontrolnego.
 
 Kierunki z P1.1 (tylko strona główna i `/oferta/cena-stala/`):
 
-- A – https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-A/blueprints/A.json
-- B – https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-B/blueprints/B.json
-- C – https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-C/blueprints/C.json
+- A – https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2FImaPolska%2Fgazdlaprzemyslu-etap1%2Fetap1-A%2Fblueprints%2FA.json
+- B – https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2FImaPolska%2Fgazdlaprzemyslu-etap1%2Fetap1-B%2Fblueprints%2FB.json
+- C – https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2FImaPolska%2Fgazdlaprzemyslu-etap1%2Fetap1-C%2Fblueprints%2FC.json
 
 Schemat ogólny: blueprint musi leżeć pod publicznym URL z CORS, więc każdy podgląd to osobny tag w GitHub (`https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/<tag>/blueprints/<kierunek>.json`); adres bazowy tagu jest w `config/base-url.txt`, blueprinty przebudowuje `scripts/build-all.sh`. Tagi nie są przesuwane (D26).
 
