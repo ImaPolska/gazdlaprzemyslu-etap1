@@ -36,7 +36,7 @@
       "step": "installTheme",
       "themeData": {
         "resource": "url",
-        "url": "https://160b0be17-8080.na112.preview.abacusai.app/dist/gdp-child-A.zip"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1/dist/gdp-child-A.zip"
       },
       "options": {
         "activate": true
@@ -50,7 +50,7 @@
       "step": "importWxr",
       "file": {
         "resource": "url",
-        "url": "https://160b0be17-8080.na112.preview.abacusai.app/content/site.wxr"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1/content/site.wxr"
       },
       "fetchAttachments": true
     },
@@ -59,12 +59,12 @@
       "path": "/wordpress/gdp-setup.php",
       "data": {
         "resource": "url",
-        "url": "https://160b0be17-8080.na112.preview.abacusai.app/scripts/playground-setup.php"
+        "url": "https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1/scripts/playground-setup.php"
       }
     },
     {
       "step": "runPHP",
-      "code": "<?php define('GDP_BASE', 'https://160b0be17-8080.na112.preview.abacusai.app/'); define('GDP_VARIANT', 'A'); require '/wordpress/wp-load.php'; require '/wordpress/gdp-setup.php';"
+      "code": "<?php define('GDP_BASE', 'https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1/'); define('GDP_VARIANT', 'A'); require '/wordpress/wp-load.php'; require '/wordpress/gdp-setup.php';"
     },
     {
       "step": "setSiteOptions",

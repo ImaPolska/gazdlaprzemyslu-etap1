@@ -9,14 +9,16 @@ co widać na stronie, jest odtwarzalne z tego repozytorium.
 
 ## Linki Playground (kierunki wizualne)
 
-Adres bazowy repozytorium (serwer statyczny): `https://160b0be17-8080.na112.preview.abacusai.app`
+Repozytorium: `https://github.com/ImaPolska/gazdlaprzemyslu-etap1` (gałąź `etap1-p1.2-b`). Adres bazowy plików dla blueprintów (tag `etap1-v0.1`): `https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1`
 
 | Kierunek | Tag | Link uruchomieniowy |
 |---|---|---|
-| **Główny (P1.2) — pełny prototyp, kierunek B** | `etap1-v0.1` | https://playground.wordpress.net/?blueprint-url=https://160b0be17-8080.na112.preview.abacusai.app/blueprints/main.json |
-| A — Przemysłowy (ostre krawędzie, ceglasty akcent, monospace w liczbach) | `etap1-A` | https://playground.wordpress.net/?blueprint-url=https://160b0be17-8080.na112.preview.abacusai.app/blueprints/A.json |
-| B — Nowoczesny (zaokrąglenia 12 px, ciemne hero, turkusowy akcent) | `etap1-B` | https://playground.wordpress.net/?blueprint-url=https://160b0be17-8080.na112.preview.abacusai.app/blueprints/B.json |
-| C — Ekspercki (serif w nagłówkach, cienkie linie, zielony akcent) | `etap1-C` | https://playground.wordpress.net/?blueprint-url=https://160b0be17-8080.na112.preview.abacusai.app/blueprints/C.json |
+| **Główny (P1.2) — pełny prototyp, kierunek B** | `etap1-v0.1` | https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1/blueprints/main.json |
+| A — Przemysłowy (ostre krawędzie, ceglasty akcent, monospace w liczbach) | `etap1-A` | https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1/blueprints/A.json |
+| B — Nowoczesny (zaokrąglenia 12 px, ciemne hero, turkusowy akcent) | `etap1-B` | https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1/blueprints/B.json |
+| C — Ekspercki (serif w nagłówkach, cienkie linie, zielony akcent) | `etap1-C` | https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1/blueprints/C.json |
+
+Uwaga: wszystkie cztery blueprinty pobierają pliki (ZIP motywu, WXR, skrypt PHP, theme_mods) z tego samego tagu `etap1-v0.1`; tagi `etap1-A/B/C` z P1.1 pozostają punktami kontrolnymi w historii lokalnej.
 
 Uruchomienie trwa ok. 1–2 minuty (pobranie WordPressa, Blocksy, motywu potomnego, import treści).
 Instancja Playground działa w przeglądarce; po zamknięciu karty znika. Link działa tak długo,
