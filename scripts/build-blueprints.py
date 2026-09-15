@@ -2,7 +2,7 @@
 """
 Generuje blueprinty WordPress Playground dla kierunków A/B/C.
 
-    python3 scripts/build-blueprints.py --base https://raw.githubusercontent.com/ORG/REPO/etap1-{d}/ --out blueprints/{d}.json
+    python3 scripts/build-blueprints.py --base https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/<tag>/ --out blueprints/{d}.json
     python3 scripts/build-blueprints.py --base http://127.0.0.1:8777/ --out blueprints/dev/{d}.json [--debug]
 
 {d} w --base i --out jest podmieniane na literę kierunku. --debug dodaje WP_DEBUG/WP_DEBUG_LOG (weryfikacja 13.2).

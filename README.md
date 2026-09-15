@@ -7,7 +7,7 @@ Serwis PBM Sp. z o.o. (Grupa IMA Polska) budowany jako kod: motyw potomny Blocks
 ```
 blueprints/        A.json, B.json, C.json (produkcyjne, czytają artefakty z tagu w GitHub); dev/ – lokalne (ignorowane w git)
 theme/gdp-child/   style.css, functions.php, theme.base.json + variants/{A,B,C}/tokens.json → theme.json, patterns/, assets/
-content/           pages.json (manifest), pages/*.html, blocks/*.html (wp_block), site.{A,B,C}.wxr (generowane)
+content/           pages.json (manifest), src/*.py (źródła treści), pages/*.html, posts/*.html, blocks/*.html (wp_block), site.{A,B,C}.wxr (generowane)
 config/            menus.json, footer.json, theme_mods_{A,B,C}.json (generowane), base-url.txt, blocksy-version.txt
 scripts/           budowa, zastosowanie konfiguracji, weryfikacja (sekcja 13), zrzuty
 docs/              decisions.md, changelog.md, open-items.md, verify/, screens/
@@ -22,7 +22,7 @@ Node ≥ 20 (Playground CLI przez `npx`), Python ≥ 3.11 (`pip install jsonsche
 
 ```bash
 scripts/build-all.sh                         # theme.json + ZIP ×3, WXR ×3, theme mods ×3, blueprinty prod (z config/base-url.txt) i dev, verify-blocks
-scripts/build-all.sh 'https://raw.githubusercontent.com/ORG/REPO/etap1-{d}/'   # blueprinty prod na konkretny tag
+scripts/build-all.sh 'https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/<tag>/'   # blueprinty prod na konkretny tag
 scripts/build-theme-zip.sh A                 # tylko ZIP jednego kierunku
 ```
 
@@ -40,13 +40,21 @@ Logowanie: Playground loguje automatycznie jako `admin`; konto redakcyjne `redak
 
 ## Podgląd publiczny (Playground)
 
-Blueprint musi być pod publicznym URL z CORS. Na tagu `etap1-X`:
+Aktualny podgląd (kierunek A, pełna treść stron i artykułów, tag `etap1-v0.1-rc1`):
 
-```
-https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ORG/REPO/etap1-X/blueprints/X.json
-```
+**https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-v0.1-rc1/blueprints/A.json**
 
-Blueprint instaluje Blocksy z wordpress.org, ZIP motywu potomnego z `dist/`, ustawia język pl_PL, opcje, użytkownika `redaktor`, theme mods (Customizer) z `config/`, importuje WXR, odtwarza menu i stopkę, ustawia stronę główną (`start`) i stronę wpisów (`wiedza`).
+Ładowanie trwa 1–2 minuty (Playground pobiera WordPress, Blocksy i importuje treść). Playground loguje automatycznie jako `admin`; konto redakcyjne do testu edycji: `redaktor`, hasło w raporcie punktu kontrolnego.
+
+Kierunki z P1.1 (tylko strona główna i `/oferta/cena-stala/`):
+
+- A – https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-A/blueprints/A.json
+- B – https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-B/blueprints/B.json
+- C – https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/etap1-C/blueprints/C.json
+
+Schemat ogólny: blueprint musi leżeć pod publicznym URL z CORS, więc każdy podgląd to osobny tag w GitHub (`https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ImaPolska/gazdlaprzemyslu-etap1/<tag>/blueprints/<kierunek>.json`); adres bazowy tagu jest w `config/base-url.txt`, blueprinty przebudowuje `scripts/build-all.sh`. Tagi nie są przesuwane (D26).
+
+Blueprint instaluje Blocksy z wordpress.org, ZIP motywu potomnego z `dist/`, ustawia język pl_PL, opcje i strukturę adresów (`/wiedza/%postname%/`), użytkownika `redaktor`, theme mods (Customizer) z `config/`, importuje WXR, odtwarza menu i stopkę, ustawia stronę główną (`start`) i autora wpisów (`autor`).
 
 ## Weryfikacja (sekcja 13)
 
